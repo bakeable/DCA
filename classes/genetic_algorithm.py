@@ -40,25 +40,42 @@ class GeneticAlgorithm:
         # Return chromosome
         return chromosomes
 
-    def create_initial_population(self, size=None):
+    def create_initial_population(self, size=None, feasible=None, process=None):
         # Set population size
         self.population_size = self.population_size if size is None else size
 
         # Create random chromosomes
-        for index in np.arange(size):
+        index = 0
+        while len(self.population) < self.population_size:
             # Create random chromosome
             chromosome = self.create_random_chromosome()
 
-            # Add to population
-            self.population.append((index, chromosome, None, None))
+            # Create item
+            item = (index, chromosome, None, None)
 
-    def create_next_population(self, fittest_size=2, children_size=2):
+            # Already process if available
+            if process is not None:
+                obj_value, feasibility = process(chromosome)
+                item = (index, chromosome, obj_value, feasibility)
+
+            # Add only feasible solutions
+            if feasible and item[3] == True or feasible != True:
+                # Add to population
+                self.population.append(item)
+
+                # Increment index
+                index = index + 1
+
+    def create_next_population(self, fittest_size=3, children_size=4):
         # Select fittest chromosomes
         fittest = self.select_fittest(fittest_size)
         fittest_chromosomes = list(map(self.get_chromosomes, fittest))
 
         # Create children from fittest chromosomes
-        child_chromosomes = self.create_children(fittest_chromosomes, children_size)
+        if len(fittest) > 0:
+            child_chromosomes = self.create_children(fittest_chromosomes, children_size)
+        else:
+            child_chromosomes = []
 
         # Create random chromosomes
         random_size = self.population_size - fittest_size - children_size
@@ -110,6 +127,14 @@ class GeneticAlgorithm:
         # Return
         return str_chromosome in str_chromosomes
 
+    def get_feasible_solutions(self):
+        # Filter population by feasible solutions
+        return list(filter(lambda x: x[3] == True, self.population))
+
+    def contains_feasible_solution(self):
+        # If len > 0, it contains at least one feasible solution
+        return len(self.get_feasible_solutions()) > 0
+
     def assess_population(self, process):
         for index, chromosome, obj_value, feasibility in self.population:
             if obj_value is None and feasibility is None:
@@ -120,11 +145,14 @@ class GeneticAlgorithm:
                 self.update(index, chromosome, obj_value, feasibility)
 
     def select_fittest(self, size):
+        # Filter population
+        filtered_population = filter(lambda x: x[3] == True, self.population)
+
         # Sort population
-        sorted_population = sorted(self.population, key=lambda tup: tup[2])
+        sorted_population = sorted(filtered_population, key=lambda tup: tup[2])
 
         # Return fittest
-        return sorted_population[:size]
+        return sorted_population[:min(size, len(sorted_population))]
 
     def create_children(self, chromosomes, size):
         children = []
@@ -146,13 +174,13 @@ class GeneticAlgorithm:
                 cross_aisles.append(chromosomes[r[j]][self.N+j-1])
 
             # Mutate
-            aisles_mutation = np.random.randint(-1, 1, size=self.N)
+            aisles_mutation = np.random.randint(-2, 2, size=self.N)
             aisles = np.array(aisles)
             aisles = aisles + aisles_mutation
             aisles[aisles < 1] = 1
             aisles[aisles > 30] = 30
 
-            cross_aisles_mutation = np.random.randint(-1, 1, size=self.N)
+            cross_aisles_mutation = np.random.randint(-2, 2, size=self.N)
             cross_aisles = np.array(cross_aisles)
             cross_aisles = cross_aisles + cross_aisles_mutation
             cross_aisles[cross_aisles < 2] = 2

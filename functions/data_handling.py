@@ -1,5 +1,7 @@
 import pandas as pd
 import pathlib
+import csv
+import numpy as np
 
 # Directory path
 directory = str(pathlib.Path().resolve())
@@ -29,3 +31,42 @@ except Exception:
 
 def lookup_travel_distance(n, k, m):
     return df.loc[(n, k, m)]["distance"]
+
+
+def read_instance(filename):
+    # Import csv
+    path = directory + "/" + filename
+    with open(path, newline='') as f:
+        reader = csv.reader(f)
+
+        # Width and height
+        W = int(next(reader)[0])
+        H = int(next(reader)[0])
+
+        # Number of picking areas
+        N = int(next(reader)[0])
+
+        # Aisle sizes
+        w_i = int(next(reader)[0])
+        v_i = int(next(reader)[0])
+
+        # Storage capacities
+        S = [int(x) for x in next(reader)]
+
+        # Replenishment
+        alpha = [float(x) for x in next(reader)]
+
+        # Order size distributions
+        u = []
+        for i in np.arange(N):
+            u.append([float(x) for x in next(reader)])
+
+    # Calculate mean order size per picking area
+    mean_u = []
+    for dist in u:
+        number_items = np.arange(1, len(dist)+1)
+        mean_u.append(round(np.inner(dist, number_items)))
+
+    # Return
+    return W, H, N, w_i, v_i, S, alpha, u, mean_u
+
