@@ -5,7 +5,7 @@ from matplotlib.patches import Rectangle
 
 
 class PickingArea:
-    def __init__(self, s_i, n, k, m=1):
+    def __init__(self, s_i, n, k, m, alpha):
         # Set storage capacity
         self.s_i = s_i
 
@@ -13,6 +13,7 @@ class PickingArea:
         self.n = n
         self.k = k
         self.m = m
+        self.alpha = alpha
 
         # Set position
         self.x = 0
@@ -23,20 +24,21 @@ class PickingArea:
         self.h = self.s_i / self.n + v_i * self.k
 
         # Instantiate metrics
-        self.travel_distance = 0
+        self.travel_distance = (1 + self.alpha) * lookup_travel_distance(self.n, self.k, self.m)
 
-    def set_parameters(self, n=None, k=None, m=None):
+    def set_parameters(self, n=None, k=None, m=None, alpha=None):
         # Set parameters
         self.n = self.n if n is None else n
         self.k = self.k if k is None else k
         self.m = self.m if m is None else m
+        self.alpha = self.alpha if alpha is None else alpha
 
         # Calculate width and height
         self.w = w_i * self.n
         self.h = self.s_i / self.n + v_i * self.k
 
         # Get travel distance from lookup
-        self.travel_distance = lookup_travel_distance(self.n, self.k, self.m)
+        self.travel_distance = (1 + self.alpha) * lookup_travel_distance(self.n, self.k, self.m)
 
     def set_position(self, x, y):
         # Set position

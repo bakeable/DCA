@@ -1,24 +1,32 @@
 import numpy as np
+from functions import read_instance
 from classes import Warehouse, GeneticAlgorithm
-from constants import W, H
+
+# Read variables from instance
+W, H, N, w_i, v_i, S, alpha, u, mean_u = read_instance("data/inst1.csv")
 
 # Instantiate warehouse
-N = 4
-storage_capacities = [400, 500, 500, 400]
-order_sizes = [25, 12, 8, 12]
-warehouse = Warehouse(W, H, storage_capacities, order_sizes, animate=False)
+warehouse = Warehouse(W, H, S, mean_u, alpha, animate=False)
 
 # Instantiate genetic algorithm
 algorithm = GeneticAlgorithm(N, warehouse.n_max, warehouse.k_max)
-algorithm.create_initial_population(10)
-algorithm.assess_population(warehouse.process)
 
+# Start with all feasible solutions
+algorithm.create_initial_population(10, feasible=True, process=warehouse.process)
+print(algorithm.population)
+
+# Iterate
 for i in np.arange(20):
     algorithm.create_next_population()
     algorithm.assess_population(warehouse.process)
-    print(algorithm.population)
 
+# Draw the final best solution
 warehouse.animate = True
-warehouse.process([3, 2, 4, 1, 6, 17, 19, 8, 5, 7, 4, 4])
+warehouse.process(algorithm.select_fittest(1)[0][1])
+warehouse.draw()
 
-print(warehouse.total_travel_distance, warehouse.feasible)
+# Return results
+if warehouse.feasible:
+    print("Final solution is feasible and has a distance of", warehouse.total_travel_distance)
+else:
+    print("Final solution is infeasible")

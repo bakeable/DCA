@@ -5,7 +5,7 @@ from .empty_maximal_space import EmptyMaximalSpace
 from constants import w_i, v_i
 
 class Warehouse:
-    def __init__(self, width, height, storage_capacities=[], order_sizes=[], animate=False):
+    def __init__(self, width, height, storage_capacities=[], order_sizes=[], replenishments=[], animate=False):
         # Set variables
         self.W = width
         self.H = height
@@ -13,6 +13,7 @@ class Warehouse:
         # Given storage capacities and order sizes
         self.storage_capacities = storage_capacities
         self.order_sizes = order_sizes
+        self.replenishments = replenishments
 
         # Maximum number of aisles and cross_aisles
         self.n_max = min(30, round(width/w_i))
@@ -71,9 +72,10 @@ class Warehouse:
             k = cross_aisles[index]
             s_i = self.storage_capacities[index]
             m = self.order_sizes[index]
+            alpha = self.replenishments[index]
 
             # Create picking area
-            picking_area = PickingArea(s_i, n, k, m)
+            picking_area = PickingArea(s_i, n, k, m, alpha)
 
             # Insert picking area
             self.insert_picking_area(picking_area)
@@ -123,7 +125,8 @@ class Warehouse:
         self.update_ems_list(picking_area.x, picking_area.y, picking_area.w, picking_area.h)
 
         # Update metrics
-        self.total_travel_distance = self.total_travel_distance + picking_area.y + picking_area.get_travel_distance()
+        # U_i = 2y(1+alpha)
+        self.total_travel_distance = self.total_travel_distance + 2*picking_area.y*(1 + picking_area.alpha) + picking_area.get_travel_distance()
         self.number_of_picking_areas = self.number_of_picking_areas + 1
 
     def update_ems_list(self, x, y, w, h):
@@ -138,20 +141,15 @@ class Warehouse:
 
             # If there are no corner points within the EMS, keep the old EMS
             if len(contained_corners) == 0:
-                # Check if top border splits EMS
-                if corners[2][0] == EMS.x and corners[3][0] == EMS.x + EMS.w:
-                    # Create new EMS
-                    EMS_1 = EmptyMaximalSpace(corners[2][0], corners[2][1], EMS.w, EMS.h - corners[2][1])
+                # Get overlapping borders
+                overlapping_borders = EMS.get_overlapping_borders(corners)
+                if len(overlapping_borders) > 0:
+                    # Split EMS
+                    new_EMSs = EMS.split_by_borders(overlapping_borders)
 
-                    # Append to list
-                    new_EMS_list.append(EMS_1)
-                # Check if right border splits EMS
-                elif corners[1][1] == EMS.y and corners[3][1] == EMS.y + EMS.h:
-                    # Create new EMS
-                    EMS_1 = EmptyMaximalSpace(corners[1][0], corners[1][1], EMS.w - (corners[1][x] - EMS.x), EMS.h)
-
-                    # Append to list
-                    new_EMS_list.append(EMS_1)
+                    # Add to list
+                    for new_EMS in new_EMSs:
+                        new_EMS_list.append(new_EMS)
                 else:
                     # Append to new list
                     new_EMS_list.append(EMS)
@@ -159,21 +157,20 @@ class Warehouse:
             # If there is one corner point within the EMS, it will be split into  two
             if len(contained_corners) == 1:
                 # Split EMS into two new EMS
-                EMS_1, EMS_2 = EMS.split_in_two(contained_corners[0])
+                new_EMSs = EMS.split_in_two(contained_corners[0])
 
                 # Add to list
-                new_EMS_list.append(EMS_1)
-                new_EMS_list.append(EMS_2)
+                for new_EMS in new_EMSs:
+                    new_EMS_list.append(new_EMS)
 
             # If there are two corner points within the EMS, it will be split into three
             if len(contained_corners) == 2:
                 # Split EMS into three new EMS
-                EMS_1, EMS_2, EMS_3 = EMS.split_in_three(contained_corners[0], contained_corners[1])
+                new_EMSs = EMS.split_in_three(contained_corners[0], contained_corners[1])
 
                 # Add to list
-                new_EMS_list.append(EMS_1)
-                new_EMS_list.append(EMS_2)
-                new_EMS_list.append(EMS_3)
+                for new_EMS in new_EMSs:
+                    new_EMS_list.append(new_EMS)
 
         reduced_EMS_list = []
         child_index = 0
