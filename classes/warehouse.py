@@ -1,15 +1,11 @@
-import math
-import numpy as np
 from matplotlib import pyplot as plt
 import imageio
 from .picking_area import PickingArea
 from .empty_maximal_space import EmptyMaximalSpace
-from matplotlib.patches import Rectangle
-
+from constants import w_i, v_i
 
 class Warehouse:
-    def __init__(self, width, height, storage_capacities=[], order_sizes=[], replenishments=[], w_i=1, v_i=1,
-                 animate=False):
+    def __init__(self, width, height, storage_capacities=[], order_sizes=[], animate=False):
         # Set variables
         self.W = width
         self.H = height
@@ -17,17 +13,10 @@ class Warehouse:
         # Given storage capacities and order sizes
         self.storage_capacities = storage_capacities
         self.order_sizes = order_sizes
-        self.replenishments = replenishments
 
         # Maximum number of aisles and cross_aisles
-        self.n_max = min(30, round(width / w_i))
-        self.k_max = min(10, round(height / v_i))
-        self.k_min = 2
-        self.n_min = np.ceil(np.array(storage_capacities) / (self.H - v_i * 2))
-
-        # Aisle sizes
-        self.w_i = w_i
-        self.v_i = v_i
+        self.n_max = min(30, round(width/w_i))
+        self.k_max = min(10, round(height/v_i))
 
         # First EMS is complete warehouse
         self.EMS_list = [EmptyMaximalSpace(0, 0, width, height)]
@@ -45,7 +34,6 @@ class Warehouse:
 
         # Animation
         self.animate = animate
-        self.animation_filename = 'animation/finished/' + self.chromosome + '.gif'
         self.frame = 0
         self.frame_files = []
 
@@ -71,86 +59,71 @@ class Warehouse:
 
         # Determine order
         order = chromosome[:N]
-        aisles = chromosome[N:(2 * N)]
-        cross_aisles = chromosome[(2 * N):(3 * N)]
+        aisles = chromosome[N:2 * N]
+        cross_aisles = chromosome[2 * N:3 * N]
 
-        # np.argsort converts the goncalves order to an array of indexes
-        for index in np.argsort(order):
-            # Get number from index
-            number = index + 1
+        for number in order:
+            # Get index
+            index = number - 1
 
-            # Get number of aisles, cross-aisles, storage capacity, order distribution and replenishment constant
+            # Get number of aisles
             n = aisles[index]
             k = cross_aisles[index]
             s_i = self.storage_capacities[index]
             m = self.order_sizes[index]
-            alpha = self.replenishments[index]
 
             # Create picking area
-            picking_area = PickingArea(s_i, n, k, m, alpha, self.w_i, self.v_i, number)
+            picking_area = PickingArea(s_i, n, k, m)
 
             # Insert picking area
             self.insert_picking_area(picking_area)
 
-            # If we choose to animate the placement, we set animate to True
             if self.animate:
                 # Draw animation frame
                 self.draw(True)
 
-        # If we choose to animate the placement, we set animate to True
         if self.animate:
             # Create animation
             self.create_animation()
 
         # Return travel distance and feasibility
-        return round(self.total_travel_distance, 2), self.feasible
+        return self.total_travel_distance, self.feasible
 
-    def determine_ems(self, picking_area):
-        best_EMS = EmptyMaximalSpace(0, 0, math.inf, math.inf, in_warehouse=False)
+    def determine_placement(self, picking_area):
+        placement = (2*self.W, 2*self.H)
         for EMS in self.EMS_list:
             # Check if it fits
             width_fits = picking_area.w <= EMS.w
             height_fits = picking_area.h <= EMS.h
 
             # Check if it fits
-            if width_fits and height_fits and (EMS.y < best_EMS.y or not best_EMS.in_warehouse):
-                best_EMS = EMS
+            if width_fits and height_fits and placement[1] > EMS.y:
+                placement = (EMS.x, EMS.y)
 
-        return best_EMS
+        return placement
 
-    def insert_picking_area(self, picking_area):
-        # Get best EMS
-        EMS = self.determine_ems(picking_area)
-
-        # Get position
-        x, y = EMS.x, EMS.y
+    def insert_picking_area(self, picking_area, position=None):
+        # Determine position
+        if position is None:
+            x, y = self.determine_placement(picking_area)
+        else:
+            x, y = position
 
         # Set position
         picking_area.set_position(x, y)
 
-        # Set EMS in which picking area will be fitted
-        picking_area.EMS = EMS
-
-        # Picking area is feasible if EMS is contained in the warehouse
-        picking_area.feasible = EMS.in_warehouse
+        # Check if position is feasible
         if self.feasible:
-            self.feasible = picking_area.feasible
+            self.feasible = picking_area.is_feasible(self.W, self.H)
 
         # Append to list of picking areas
         self.PA_list.append(picking_area)
 
-        # Ignore PA if it is infeasible
-        if picking_area.feasible:
-            # Update EMS list
-            self.update_ems_list(picking_area.x, picking_area.y, picking_area.w, picking_area.h)
-        else:
-            # Save EMS options to determine possible new strategies
-            picking_area.EMS_options = self.EMS_list
+        # Update EMS list
+        self.update_ems_list(picking_area.x, picking_area.y, picking_area.w, picking_area.h)
 
         # Update metrics
-        # U_i = 2y(1+alpha)
-        self.total_travel_distance = self.total_travel_distance + 2 * picking_area.y * (
-                1 + picking_area.alpha) + picking_area.get_travel_distance()
+        self.total_travel_distance = self.total_travel_distance + picking_area.y + picking_area.get_travel_distance()
         self.number_of_picking_areas = self.number_of_picking_areas + 1
 
     def update_ems_list(self, x, y, w, h):
@@ -160,45 +133,47 @@ class Warehouse:
 
         new_EMS_list = []
         for EMS in self.EMS_list:
-            new_EMSs = []
             # Count number of corner points within EMS
             contained_corners = EMS.get_contained_corners(corners)
 
             # If there are no corner points within the EMS, keep the old EMS
             if len(contained_corners) == 0:
-                # Get overlapping borders
-                overlapping_borders = EMS.get_overlapping_borders(corners)
-                if len(overlapping_borders) > 0:
-                    # Split EMS
-                    new_EMSs = EMS.split_by_borders(overlapping_borders)
+                # Check if top border splits EMS
+                if corners[2][0] == EMS.x and corners[3][0] == EMS.x + EMS.w:
+                    # Create new EMS
+                    EMS_1 = EmptyMaximalSpace(corners[2][0], corners[2][1], EMS.w, EMS.h - corners[2][1])
 
-                    # Add to list
-                    for new_EMS in new_EMSs:
-                        new_EMS_list.append(new_EMS)
+                    # Append to list
+                    new_EMS_list.append(EMS_1)
+                # Check if right border splits EMS
+                elif corners[1][1] == EMS.y and corners[3][1] == EMS.y + EMS.h:
+                    # Create new EMS
+                    EMS_1 = EmptyMaximalSpace(corners[1][0], corners[1][1], EMS.w - (corners[1][x] - EMS.x), EMS.h)
 
-                # Check if EMS is not equal to PA
-                elif not EMS.is_equal_to(x, y, w, h):
-
+                    # Append to list
+                    new_EMS_list.append(EMS_1)
+                else:
                     # Append to new list
                     new_EMS_list.append(EMS)
 
             # If there is one corner point within the EMS, it will be split into  two
             if len(contained_corners) == 1:
                 # Split EMS into two new EMS
-                new_EMSs = EMS.split_in_two(contained_corners[0])
+                EMS_1, EMS_2 = EMS.split_in_two(contained_corners[0])
 
                 # Add to list
-                for new_EMS in new_EMSs:
-                    new_EMS_list.append(new_EMS)
+                new_EMS_list.append(EMS_1)
+                new_EMS_list.append(EMS_2)
 
             # If there are two corner points within the EMS, it will be split into three
             if len(contained_corners) == 2:
                 # Split EMS into three new EMS
-                new_EMSs = EMS.split_in_three(contained_corners[0], contained_corners[1])
+                EMS_1, EMS_2, EMS_3 = EMS.split_in_three(contained_corners[0], contained_corners[1])
 
                 # Add to list
-                for new_EMS in new_EMSs:
-                    new_EMS_list.append(new_EMS)
+                new_EMS_list.append(EMS_1)
+                new_EMS_list.append(EMS_2)
+                new_EMS_list.append(EMS_3)
 
         reduced_EMS_list = []
         child_index = 0
@@ -235,43 +210,16 @@ class Warehouse:
         # Return list
         return self.EMS_list
 
-    def get_PA_dimensions(self):
-        # Instantiate dimensions
-        dimensions = []
-
-        # Get dimensions
-        for PA in self.PA_list:
-            dimensions.append((PA.x, PA.y, PA.n, PA.k))
-
-        # Return
-        return dimensions
-
-    def draw(self, save=False, filename=None):
+    def draw(self, save=False):
         # Create figure
         plt.figure()
 
         # Set warehouse sizes
         plt.xlim([0, self.W])
-        plt.ylim([-.1*self.H, self.H])
+        plt.ylim([0, self.H])
 
         # Get axis
         ax = plt.gca()
-
-        # Hide axis labels
-        ax.get_xaxis().set_visible(False)
-        ax.get_yaxis().set_visible(False)
-
-        # Draw docking doors
-        docking_doors = Rectangle((0, -.1*self.H), self.W, .1*self.H, color="black", fill=True, alpha=.05)
-
-        # Annotate
-        ax.add_artist(docking_doors)
-        rx, ry = docking_doors.get_xy()
-        cx = rx + docking_doors.get_width() / 2
-        cy = ry + docking_doors.get_height() / 2
-
-        # Place annotation of docking doors
-        ax.annotate("Dock doors", (cx, cy), color="black", weight="bold", fontsize=10, ha='center', va='center')
 
         # Plot EMSs
         for EMS in self.EMS_list:
@@ -280,41 +228,27 @@ class Warehouse:
 
         # Plot picking areas
         for PA in self.PA_list:
-            # Get rectangle
-            rectangle = PA.get_rectangle()
-
-            # Annotate
-            ax.add_artist(rectangle)
-            rx, ry = rectangle.get_xy()
-            cx = rx + rectangle.get_width() / 2
-            cy = ry + rectangle.get_height() / 2
-
-            # Content
-            content = PA.name + "\nn_" + str(PA.number) + "=" + str(round(PA.n)) + "\nk_" + str(PA.number) + "=" + str(round(PA.k))
-
-            # Place annotation
-            ax.annotate(content, (cx, cy), color="black", weight="bold", fontsize=10, ha='center', va='center')
+            # Draw rectangle
+            ax.add_patch(PA.get_rectangle())
 
         if save is False:
             # Show plot
             plt.show()
         else:
             # Create file name and append it to a list
-            if filename is None:
-                # Create frame
-                filename = f'animation/frames/{self.frame}.png'
-                self.frame_files.append(filename)
-
-                # Increment frame
-                self.frame = self.frame + 1
+            filename = f'animation/frames/{self.frame}.png'
+            self.frame_files.append(filename)
 
             # Save frame
             plt.savefig(filename)
             plt.close()
 
+            # Increment frame
+            self.frame = self.frame + 1
+
     def create_animation(self, fps=2):
         # Build gif
-        with imageio.get_writer(self.animation_filename, mode='I', fps=fps) as writer:
+        with imageio.get_writer('animation/finished/' + self.chromosome + '.gif', mode='I', fps=fps) as writer:
             for filename in self.frame_files:
                 image = imageio.imread(filename)
                 writer.append_data(image)

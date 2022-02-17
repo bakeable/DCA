@@ -1,30 +1,24 @@
-from classes import GeneticAlgorithm
-from functions import create_instances
-from pathlib import Path
+import numpy as np
+from classes import Warehouse, GeneticAlgorithm
+from constants import W, H
 
-# Create some random instances
-create_instances(50)
+# Instantiate warehouse
+N = 4
+storage_capacities = [400, 500, 500, 400]
+order_sizes = [25, 12, 8, 12]
+warehouse = Warehouse(W, H, storage_capacities, order_sizes, animate=False)
 
-# Get all instances
-instances = []
-directory = str(Path().resolve())
-pathlist = Path(directory + "/input").glob("*.csv")
-for path in pathlist:
-    # Convert to string
-    path_in_str = str(path)
+# Instantiate genetic algorithm
+algorithm = GeneticAlgorithm(N, warehouse.n_max, warehouse.k_max)
+algorithm.create_initial_population(10)
+algorithm.assess_population(warehouse.process)
 
-    # Get instance
-    instances.append(int(path_in_str.split("inst").pop().split(".csv").pop(0)))
+for i in np.arange(20):
+    algorithm.create_next_population()
+    algorithm.assess_population(warehouse.process)
+    print(algorithm.population)
 
-# Sort instances
-instances = sorted(instances)
+warehouse.animate = True
+warehouse.process([3, 2, 4, 1, 6, 17, 19, 8, 5, 7, 4, 4])
 
-# Run all instances
-for instance in instances:
-    # Instantiate genetic algorithm
-    algorithm = GeneticAlgorithm()
-
-    # Run instance
-    print("\r\n\r\nRunning instance", instance)
-    algorithm.run(instance, log_to_console=True)
-
+print(warehouse.total_travel_distance, warehouse.feasible)

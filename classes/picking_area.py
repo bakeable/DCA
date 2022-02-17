@@ -1,10 +1,11 @@
 from functions import lookup_travel_distance
+from constants import w_i, v_i
 from matplotlib.patches import Rectangle
-import math
-from random import random
+
+
 
 class PickingArea:
-    def __init__(self, s_i, n, k, m, alpha, w_i, v_i, number):
+    def __init__(self, s_i, n, k, m=1):
         # Set storage capacity
         self.s_i = s_i
 
@@ -12,60 +13,41 @@ class PickingArea:
         self.n = n
         self.k = k
         self.m = m
-        self.alpha = alpha
-        self.w_i = w_i
-        self.v_i = v_i
 
         # Set position
         self.x = 0
         self.y = 0
 
-        # Set name and number
-        self.name = "PA " + str(number)
-        self.number = number
-
-        # Assume feasible
-        self.feasible = True
-
         # Calculate width and height
-        self.w = self.w_i * self.n
-        self.h = self.s_i / self.n + self.v_i * self.k
+        self.w = w_i * self.n
+        self.h = self.s_i / self.n + v_i * self.k
 
         # Instantiate metrics
-        self.travel_distance = (1 + self.alpha) * lookup_travel_distance(self.n, self.k, self.m)
-        self.EMS = None
-        self.EMS_options = []
+        self.travel_distance = 0
 
-    def set_parameters(self, n=None, k=None, m=None, alpha=None):
+    def set_parameters(self, n=None, k=None, m=None):
         # Set parameters
         self.n = self.n if n is None else n
         self.k = self.k if k is None else k
         self.m = self.m if m is None else m
-        self.alpha = self.alpha if alpha is None else alpha
 
         # Calculate width and height
-        self.w = self.w_i * self.n
-        self.h = self.s_i / self.n + self.v_i * self.k
+        self.w = w_i * self.n
+        self.h = self.s_i / self.n + v_i * self.k
 
         # Get travel distance from lookup
-        self.travel_distance = (1 + self.alpha) * lookup_travel_distance(self.n, self.k, self.m)
+        self.travel_distance = lookup_travel_distance(self.n, self.k, self.m)
 
     def set_position(self, x, y):
         # Set position
         self.x = x
         self.y = y
 
-    def get_dimensions(self):
-        return self.x, self.y, self.w, self.h
-
     def is_feasible(self, width, height):
         if self.x + self.w > width or self.y + self.h > height or self.x < 0 or self.y < 0:
-            self.feasible = False
+            return False
         else:
-            self.feasible = True
-
-        # Return
-        return self.feasible
+            return True
 
     def get_travel_distance(self, n=None, k=None, m=None):
         # Set parameters
@@ -75,8 +57,4 @@ class PickingArea:
         return self.travel_distance
 
     def get_rectangle(self):
-        # Determine color
-        color = (random()/2, random(), random()) if self.feasible else "red"
-
-        # Create rectangle
-        return Rectangle((self.x, self.y), self.w, self.h, color=color, fill=True, alpha=.5)
+        return Rectangle((self.x, self.y), self.w, self.h, color="red", fill=True, alpha=.5)
