@@ -4,6 +4,7 @@ from matplotlib import pyplot as plt
 import imageio
 from .picking_area import PickingArea
 from .empty_maximal_space import EmptyMaximalSpace
+from matplotlib.patches import Rectangle
 
 
 class Warehouse:
@@ -247,10 +248,26 @@ class Warehouse:
 
         # Set warehouse sizes
         plt.xlim([0, self.W])
-        plt.ylim([0, self.H])
+        plt.ylim([-.1*self.H, self.H])
 
         # Get axis
         ax = plt.gca()
+
+        # Hide axis labels
+        ax.get_xaxis().set_visible(False)
+        ax.get_yaxis().set_visible(False)
+
+        # Draw docking doors
+        docking_doors = Rectangle((0, -.1*self.H), self.W, .1*self.H, color="black", fill=True, alpha=.05)
+
+        # Annotate
+        ax.add_artist(docking_doors)
+        rx, ry = docking_doors.get_xy()
+        cx = rx + docking_doors.get_width() / 2
+        cy = ry + docking_doors.get_height() / 2
+
+        # Place annotation of docking doors
+        ax.annotate("Dock doors", (cx, cy), color="black", weight="bold", fontsize=10, ha='center', va='center')
 
         # Plot EMSs
         for EMS in self.EMS_list:
