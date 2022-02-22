@@ -30,12 +30,27 @@ except Exception:
 
 
 def lookup_travel_distance(n, k, m):
-    return df.loc[(n, k, m)]["distance"]
+    if isinstance(m, list):
+        # Calculate average travel distance based on distribution of order sizes
+        order_sizes = np.arange(1, len(m)+1)
+        m = np.array(m)
+
+        # Calculate expected travel distance
+        expected_travel_distance = 0
+        i = 0
+        for size in order_sizes[m > 0]:
+            expected_travel_distance = expected_travel_distance + m[m > 0][i] * df.loc[(n, k, size)]["distance"]
+            i = i + 1
+
+        # Return expected travel distance
+        return expected_travel_distance
+    else:
+        return df.loc[(n, k, m)]["distance"]
 
 
-def read_instance(filename):
+def read_instance(instance):
     # Import csv
-    path = directory + "/" + filename
+    path = directory + "/input/inst" + str(instance) + ".csv"
     with open(path, newline='') as f:
         reader = csv.reader(f)
 
@@ -69,4 +84,26 @@ def read_instance(filename):
 
     # Return
     return W, H, N, w_i, v_i, S, alpha, u, mean_u
+
+
+def write_instance(instance, obj_value, coordinates):
+    # Write lines
+    f = open('output/sol' + str(instance) + '.csv', 'w')
+
+    # Write group number
+    f.write("A4\n")
+
+    # Write instance number
+    f.write(str(instance) + "\n")
+
+    # Write objective value
+    f.write(str(round(obj_value, 2)) + "\n")
+
+    # Write coordinates
+    for coordinate in coordinates:
+        f.write(",".join(str(x) for x in coordinate) + "\n")
+
+    # Close CSV file
+    f.close()
+
 

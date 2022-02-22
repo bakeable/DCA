@@ -2,12 +2,15 @@ from matplotlib.patches import Rectangle
 
 
 class EmptyMaximalSpace:
-    def __init__(self, x, y, w, h):
+    def __init__(self, x, y, w, h, in_warehouse=True):
         # Set parameters
         self.x = x
         self.y = y
         self.w = w
         self.h = h
+
+        # Feasibility
+        self.in_warehouse = in_warehouse
 
         # Set border coordinates
         self.left_border = x
@@ -52,7 +55,7 @@ class EmptyMaximalSpace:
 
         # Left border
         if upper_left_y >= self.y + self.h and lower_left_y <= self.y and self.x < upper_left_x < self.x + self.w:
-            overlapping_borders.append((lower_left_x, "right"))
+            overlapping_borders.append((lower_left_x, "left"))
 
         # Right border
         if upper_right_y >= self.y + self.h and lower_right_y <= self.y and self.x < upper_right_x < self.x + self.w:
@@ -69,6 +72,10 @@ class EmptyMaximalSpace:
         # Return
         return overlapping_borders
 
+    def is_equal_to(self, x, y, w, h):
+        # If we have 4 equal dimensions, it is equal
+        return self.x == x and self.y == y and self.w == w and self.h == h
+
     def split_in_two(self, corner):
         EMSs = []
 
@@ -80,7 +87,6 @@ class EmptyMaximalSpace:
         rel_corner_y = corner_y - self.y
 
         # Create new empty maximal spaces
-        EMS_1, EMS_2 = None, None
         if corner_type == "upper-right":
             EMSs.append(EmptyMaximalSpace(corner_x, self.y, self.w - rel_corner_x, self.h))
             EMSs.append(EmptyMaximalSpace(self.x, corner_y, self.w, self.h - rel_corner_y))
@@ -88,7 +94,7 @@ class EmptyMaximalSpace:
             EMSs.append(EmptyMaximalSpace(self.x, self.y, self.w, rel_corner_y))
             EMSs.append(EmptyMaximalSpace(corner_x, self.y, self.w - rel_corner_x, self.h))
         elif corner_type == "upper-left":
-            EMSs.append(EmptyMaximalSpace(self.x, self.y, self.w - rel_corner_x, self.h))
+            EMSs.append(EmptyMaximalSpace(self.x, self.y, rel_corner_x, self.h))
             EMSs.append(EmptyMaximalSpace(self.x, corner_y, self.w, self.h - rel_corner_y))
         else:
             EMSs.append(EmptyMaximalSpace(self.x, self.y, rel_corner_x, self.h))
