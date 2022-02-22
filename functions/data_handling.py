@@ -101,7 +101,8 @@ def write_instance(instance, obj_value, coordinates):
 
     # Write coordinates
     for coordinate in coordinates:
-        f.write(",".join(str(x) for x in coordinate) + "\n")
+        x, y, n, k = coordinate
+        f.write(str('%.2f' % x) + "," + str('%.2f' % y) + "," + str(int(n)) + "," + str(int(k)) + "\n")
 
     # Close CSV file
     f.close()
