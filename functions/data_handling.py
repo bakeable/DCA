@@ -32,6 +32,10 @@ except Exception:
 
 
 def lookup_travel_distance(n, k, m):
+    # Failsafe
+    if n < 1 or n > 30 or k < 2 or k > 10:
+        return math.inf
+
     if isinstance(m, list):
         # Calculate average travel distance based on distribution of order sizes
         order_sizes = np.arange(1, len(m) + 1)

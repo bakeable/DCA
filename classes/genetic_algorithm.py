@@ -320,7 +320,7 @@ class GeneticAlgorithm:
         # Change a single aisle
         if .4 < mutation < .8:
             index = randrange(self.N - 1)
-            change = 1 if random() < .99 else -1 # Higher chance of increasing aisles
+            change = 1 if random() < .5 else -1 # Higher chance of increasing aisles
             chromosome[self.N + index] = chromosome[self.N + index] + change
             chromosome[self.N + index] = chromosome[self.N + index] if chromosome[self.N + index] <= self.n_max else self.n_max
             chromosome[self.N + index] = chromosome[self.N + index] if chromosome[self.N + index] >= self.n_min[
@@ -347,8 +347,6 @@ class GeneticAlgorithm:
             aisles = aisles + aisles_mutation
             aisles[aisles < self.n_min] = self.n_min[aisles < self.n_min]
             aisles[aisles > self.n_max] = self.n_max
-            aisles[aisles < 1] = 1
-            aisles[aisles > 30] = 30
             chromosome[self.N:2 * self.N] = aisles
 
         # Randomly mutate cross-aisles
@@ -357,9 +355,18 @@ class GeneticAlgorithm:
             cross_aisles_mutation = np.random.randint(-1, 2, size=self.N)
             cross_aisles = np.array(cross_aisles)
             cross_aisles = cross_aisles + cross_aisles_mutation
-            cross_aisles[cross_aisles < 2] = 2
-            cross_aisles[cross_aisles > 10] = 10
-            chromosome[self.N:2 * self.N] = cross_aisles
+            chromosome[2 * self.N:3 * self.N] = cross_aisles
+
+        # Final check
+        aisles = np.array(chromosome[self.N:2 * self.N])
+        aisles[aisles < 1] = 1
+        aisles[aisles > 30] = 30
+        chromosome[self.N:2 * self.N] = aisles
+        cross_aisles = np.array(chromosome[2 * self.N:3 * self.N])
+        cross_aisles[cross_aisles < 2] = 2
+        cross_aisles[cross_aisles > 10] = 10
+        chromosome[2 * self.N:3 * self.N] = cross_aisles
+
 
         # Return mutated chromosome
         return chromosome
