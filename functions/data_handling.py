@@ -50,7 +50,7 @@ def lookup_travel_distance(n, k, m):
         return df.loc[(n, k, m)]["distance"]
 
 
-def create_instances(number, max_N=20):
+def create_instances(number, max_N=10):
     for index in range(number):
         # Number of picking areas
         N = randrange(4, max_N)

@@ -64,9 +64,9 @@ class GeneticAlgorithm:
             # Increment time from last improvement
             last_improvement = last_improvement + 1
 
-
             # Keep track of improvement
             total_improved = 0
+            prev_fittest_obj_value = self.fittest_obj_value
             print("Starting new set of iterations\r\n")
             for i in tqdm(range(self.iterations)):
                 # Create next population
@@ -82,17 +82,21 @@ class GeneticAlgorithm:
                         last_improvement = 0
 
             if last_improvement == 0:
-                print("\r\nObjective value improved by", total_improved)
+                if total_improved == math.inf:
+                    print("\r\nAt least one feasible solution was found with objective value", self.fittest_obj_value)
+                else:
+                    perc_improved = round((total_improved/prev_fittest_obj_value)*100, 2)
+                    print("\r\nObjective value improved by", round(total_improved, 2), "(-", perc_improved, "%), now given by", self.fittest_obj_value)
             else:
                 print("\r\nObjective value did not improve")
+
+
 
         # Get final solution, this returns None if there is no feasible solution
         solution = self.get_final_solution()
 
         # If we have a solution, report on it
         if solution is not None:
-            # Process solution
-            self.warehouse.process(solution[0])
 
             # Report
             if self.warehouse.feasible:
@@ -110,16 +114,23 @@ class GeneticAlgorithm:
             # Take best infeasible
             solution = self.select_fittest(1, allow_infeasible=True)[0]
 
-            # Process solution
-            self.warehouse.process(solution[0])
+        # Process solution
+        self.warehouse.animate = True
+        self.warehouse.process(solution[0])
+
+        # Draw animation
+        self.warehouse.create_animation(filename=f'output/sol{instance}.gif')
 
         # Draw solution as a PNG
-        self.warehouse.draw(save=True, filename=f'output/sol{instance}.png')
-        self.warehouse.draw()
+        filename = f'output/sol{instance}.png'
+        self.warehouse.draw(save=True, filename=filename)
 
         # Write output
         write_instance(instance, self.warehouse.total_travel_distance if self.warehouse.feasible else math.inf,
                        self.warehouse.get_PA_dimensions())
+
+        # Final
+        print("\r\nFinal solution saved as", filename, "\r\n")
 
     def create_random_chromosome(self):
         # Create random order as done in Goncalves
@@ -307,9 +318,9 @@ class GeneticAlgorithm:
         mutation = random()
 
         # Change a single aisle
-        if .8 < mutation < .9:
+        if .5 < mutation < .8:
             index = randrange(self.N - 1)
-            change = 1 if random() < .75 else -1
+            change = 1 if random() < .9 else -1 # Higher chance of increasing aisles
             chromosome[self.N + index] = chromosome[self.N + index] + change
             chromosome[self.N + index] = chromosome[self.N + index] if chromosome[
                                                                            self.N + index] <= self.n_max else self.n_max
@@ -317,9 +328,9 @@ class GeneticAlgorithm:
                 index] else self.n_min[index]
 
         # Change a single cross-aisle
-        if .9 < mutation:
+        if .7 < mutation:
             index = randrange(self.N - 1)
-            change = 1 if random() < .25 else -1
+            change = 1 if random() < .1 else -1  # Higher chance of reducing cross-aisles
             chromosome[2 * self.N + index] = chromosome[2 * self.N + index] + change
             chromosome[2 * self.N + index] = chromosome[2 * self.N + index] if chromosome[
                                                                                    2 * self.N + index] <= 10 else 10
@@ -327,7 +338,7 @@ class GeneticAlgorithm:
                                                                                    2 * self.N + index] >= 2 else 2
 
         # Randomly mutate order
-        if .2 < mutation < .8:
+        if .2 < mutation < .5:
             order = np.random.random_sample(self.N)
             chromosome[:self.N] = order
 

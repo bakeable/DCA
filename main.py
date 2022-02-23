@@ -1,10 +1,9 @@
 from classes import GeneticAlgorithm
 from functions import create_instances
-import os
 from pathlib import Path
 
 # Create some random instances
-create_instances(10)
+create_instances(20)
 
 # Directory path
 directory = str(Path().resolve())
@@ -20,6 +19,6 @@ for path in pathlist:
     algorithm = GeneticAlgorithm()
 
     # Run instance
-    print("Running instance", instance)
+    print("\r\n\r\nRunning instance", instance)
     algorithm.run(instance)
 
