@@ -1,10 +1,25 @@
-import numpy as np
-from functions import read_instance, write_instance
-from classes import Warehouse, GeneticAlgorithm
-import math
+from classes import GeneticAlgorithm
+from functions import create_instances
+import os
+from pathlib import Path
 
+# Create some random instances
+create_instances(10)
 
+# Directory path
+directory = str(Path().resolve())
+pathlist = Path(directory + "/input").glob("*.csv")
+for path in pathlist:
+    # Convert to string
+    path_in_str = str(path)
 
-# Instantiate genetic algorithm
-algorithm = GeneticAlgorithm()
-algorithm.run(2)
+    # Get instance
+    instance = int(path_in_str.split("inst").pop().split(".csv").pop(0))
+
+    # Instantiate genetic algorithm
+    algorithm = GeneticAlgorithm()
+
+    # Run instance
+    print("Running instance", instance)
+    algorithm.run(instance)
+

@@ -2,6 +2,8 @@ import pandas as pd
 import pathlib
 import csv
 import numpy as np
+import math
+from random import randrange, random
 
 # Directory path
 directory = str(pathlib.Path().resolve())
@@ -32,7 +34,7 @@ except Exception:
 def lookup_travel_distance(n, k, m):
     if isinstance(m, list):
         # Calculate average travel distance based on distribution of order sizes
-        order_sizes = np.arange(1, len(m)+1)
+        order_sizes = np.arange(1, len(m) + 1)
         m = np.array(m)
 
         # Calculate expected travel distance
@@ -46,6 +48,86 @@ def lookup_travel_distance(n, k, m):
         return expected_travel_distance
     else:
         return df.loc[(n, k, m)]["distance"]
+
+
+def create_instances(number, max_N=20):
+    for index in range(number):
+        # Number of picking areas
+        N = randrange(4, max_N)
+
+        # Aisle sizes
+        w_i = randrange(1, 10)
+        v_i = randrange(1, 10)
+
+        # Storage capacities
+        S = np.random.randint(100, 1000, size=N)
+
+        # Replenishment
+        alpha = [5 * random() for x in range(N)]
+
+        # Order size distributions
+        u = []
+        for i in np.arange(N):
+            array = np.random.randint(100, size=30)
+            dist = array / sum(array)
+            u.append(dist)
+
+        # Calculate mean order size per picking area
+        mean_u = []
+        for dist in u:
+            number_items = np.arange(1, len(dist) + 1)
+            mean_u.append(round(np.inner(dist, number_items)))
+
+        # Surface
+        surface = 0
+        for s_i in S:
+            # Random number of aisles
+            n = randrange(1, 5 * N)
+
+            # Calculate width and height
+            w = w_i * n
+            h = s_i / n + v_i * 2
+
+            # Add to surface
+            surface = surface + w * h
+
+        # Add a random percentage to required surface
+        surface = (1 + random()) * surface
+
+        # Width and height
+        W = randrange(round(math.sqrt(surface) / 3), round(3 * math.sqrt(surface)))
+        H = math.ceil(surface / W)
+
+        # Write lines
+        f = open('input/inst' + str(3 + index) + '.csv', 'w')
+
+        # Write W
+        f.write(str(W) + "\n")
+
+        # Write H
+        f.write(str(H) + "\n")
+
+        # Write N
+        f.write(str(N) + "\n")
+
+        # Write w_i
+        f.write(str(w_i) + "\n")
+
+        # Write v_i
+        f.write(str(v_i) + "\n")
+
+        # Write S
+        f.write(",".join(str(s_i) for s_i in S) + "\n")
+
+        # Write alpha
+        f.write(",".join(str(a) for a in alpha) + "\n")
+
+        # Write distributio
+        for u_i in u:
+            f.write(",".join(str(x) for x in u_i) + "\n")
+
+        # Close CSV file
+        f.close()
 
 
 def read_instance(instance):
@@ -79,7 +161,7 @@ def read_instance(instance):
     # Calculate mean order size per picking area
     mean_u = []
     for dist in u:
-        number_items = np.arange(1, len(dist)+1)
+        number_items = np.arange(1, len(dist) + 1)
         mean_u.append(round(np.inner(dist, number_items)))
 
     # Return
@@ -105,5 +187,3 @@ def write_instance(instance, obj_value, coordinates):
 
     # Close CSV file
     f.close()
-
-

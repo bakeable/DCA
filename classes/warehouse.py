@@ -72,11 +72,12 @@ class Warehouse:
         aisles = chromosome[N:(2 * N)]
         cross_aisles = chromosome[(2 * N):(3 * N)]
 
-        for number in order:
-            # Get index
-            index = number - 1
+        # np.argsort converts the goncalves order to an array of indexes
+        for index in np.argsort(order):
+            # Get number from index
+            number = index + 1
 
-            # Get number of aisles
+            # Get number of aisles, cross-aisles, storage capacity, order distribution and replenishment constant
             n = aisles[index]
             k = cross_aisles[index]
             s_i = self.storage_capacities[index]
@@ -89,10 +90,12 @@ class Warehouse:
             # Insert picking area
             self.insert_picking_area(picking_area)
 
+            # If we choose to animate the placement, we set animate to True
             if self.animate:
                 # Draw animation frame
                 self.draw(True)
 
+        # If we choose to animate the placement, we set animate to True
         if self.animate:
             # Create animation
             self.create_animation()
@@ -269,7 +272,7 @@ class Warehouse:
             cy = ry + rectangle.get_height() / 2
 
             # Content
-            content = PA.name + "\nn_" + str(PA.number) + "=" + str(PA.n) + "\nk_" + str(PA.number) + "=" + str(PA.k)
+            content = PA.name + "\nn_" + str(PA.number) + "=" + str(round(PA.n)) + "\nk_" + str(PA.number) + "=" + str(round(PA.k))
 
             # Place annotation
             ax.annotate(content, (cx, cy), color="black", weight="bold", fontsize=10, ha='center', va='center')

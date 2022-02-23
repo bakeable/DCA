@@ -1,13 +1,21 @@
 import math
-from random import random
+from random import random, randrange
 import numpy as np
 from classes import Warehouse
 from functions import read_instance, write_instance
 from tqdm import tqdm
 
 
+def get_chromosomes(tup):
+    return tup[0]
+
+
+def get_chromosomes_as_string(tup):
+    return "-".join(str(x) for x in tup[0])
+
+
 class GeneticAlgorithm:
-    def __init__(self, population_size=30, iterations=50, fittest_size=.3, children_size=.3):
+    def __init__(self, population_size=30, iterations=20, fittest_size=.2, children_size=.6):
         # Instantiate warehouse
         self.warehouse = None
 
@@ -47,13 +55,17 @@ class GeneticAlgorithm:
 
         # Add one feasible solution
         if instance == 2:
-            self.population.append(([2, 4, 1, 3, 5, 4, 2, 4, 2, 4, 2, 2, 2, 2, 2], 851.4766715860002, True))
+            self.population.append(([0.4, 0.8, 0.2, 0.6, 0, 4, 2, 4, 2, 4, 2, 2, 2, 2, 2], 851.4766715860002, True))
+            self.population.append(([0.4, 0.8, 0.2, 0.6, 0, 2, 2, 2, 2, 4, 2, 2, 3, 2, 4], 300, True))
 
         # Iterate
         last_improvement = 0
         while last_improvement < 1:
-            improved = False
-            print("Starting new set of iterations")
+            # Increment time from last improvement
+            last_improvement = last_improvement + 1
+
+            # Keep track of improvement
+            print("Starting new set of iterations\r\n")
             for i in tqdm(range(self.iterations)):
                 # Create next population
                 self.create_next_population()
@@ -65,17 +77,13 @@ class GeneticAlgorithm:
                         self.obj_value_decrease = self.fittest_obj_value - fittest[0][1]
                         self.fittest_obj_value = fittest[0][1]
                         last_improvement = 0
-                        improved = True
 
-            if improved:
+            if last_improvement == 0:
                 print("\r\nObjective value improved")
             else:
                 print("\r\nObjective value did not improve")
 
-            # Increment time from last improvement
-            last_improvement = last_improvement + 1
-
-        # Get final solution
+        # Get final solution, this returns None if there is no feasible solution
         solution = self.get_final_solution()
 
         # If we have a solution, report on it
@@ -102,16 +110,17 @@ class GeneticAlgorithm:
             # Process solution
             self.warehouse.process(solution[0])
 
-        # Draw solution
+        # Draw solution as a PNG
         self.warehouse.draw(save=True, filename=f'output/sol{instance}.png')
+        self.warehouse.draw()
 
         # Write output
-        write_instance(instance, self.warehouse.total_travel_distance if self.warehouse.feasible else math.inf, self.warehouse.get_PA_dimensions())
+        write_instance(instance, self.warehouse.total_travel_distance if self.warehouse.feasible else math.inf,
+                       self.warehouse.get_PA_dimensions())
 
     def create_random_chromosome(self):
-        # Create random order
-        order = np.arange(1, self.N + 1)
-        np.random.shuffle(order)
+        # Create random order as done in Goncalves
+        order = np.random.random_sample(self.N)
 
         # Create random number of aisles
         aisles = np.random.randint(1, self.n_max, size=self.N)
@@ -163,11 +172,12 @@ class GeneticAlgorithm:
 
         # Select fittest chromosomes
         fittest = self.select_fittest(int(self.fittest_size * self.population_size))
-        fittest_chromosomes = list(map(self.get_chromosomes, fittest))
+        fittest_chromosomes = list(map(get_chromosomes, fittest))
 
         # Create children from fittest chromosomes
         if len(fittest) > 0:
-            child_chromosomes = self.create_children(fittest_chromosomes, int(self.children_size * self.population_size))
+            child_chromosomes = self.create_children(fittest_chromosomes,
+                                                     int(self.children_size * self.population_size))
         else:
             child_chromosomes = []
 
@@ -217,7 +227,7 @@ class GeneticAlgorithm:
 
     def population_contains(self, chromosome):
         # Stringify each chromosome
-        str_chromosomes = list(map(self.get_chromosomes_as_string, self.population))
+        str_chromosomes = list(map(get_chromosomes_as_string, self.population))
 
         # Stringify chromosome
         str_chromosome = "-".join(str(x) for x in chromosome)
@@ -259,50 +269,87 @@ class GeneticAlgorithm:
     def create_children(self, chromosomes, size):
         children = []
         for i in np.arange(size):
-            # Get division from either
-            r = np.random.randint(0, len(chromosomes), size=2 * self.N + 2)
+            # Get indexes of which two parents we inherit the order
+            mother_index, father_index = np.random.randint(0, len(chromosomes), size=2)
 
-            # First random number decides which order we inherit
-            order = chromosomes[r[0]][:self.N]
-            if random() > .5:
-                np.random.shuffle(order)
+            # Decide on mother and father chromosome
+            mother, father = chromosomes[mother_index], chromosomes[father_index]
 
-            # 2 to N+1 decide which number of aisles we inherit from which chromosome
+            # Take the average of both parents as the new order
+            order = (np.array(mother[:self.N]) + np.array(father[:self.N])) / 2
+
+            # Take the number of aisles from the mother or father with 50/50 chance
             aisles = []
-            for j in np.arange(1, self.N + 1):
-                aisles.append(chromosomes[r[j]][self.N + j - 1])
+            for index in np.arange(self.N, 2 * self.N):
+                aisles.append(mother[index] if random() < .5 else father[index])
 
-            # N+2 to 2N+1 decide number of cross-aisles we inherit
+            # Take the number of cross-aisles from the mother or father with 50/50 chance
             cross_aisles = []
-            for j in np.arange(self.N + 1, 2 * self.N + 1):
-                cross_aisles.append(chromosomes[r[j]][self.N + j - 1])
-
-            # Mutate
-            aisles_mutation = np.random.randint(-1, 1, size=self.N)
-            aisles = np.array(aisles)
-            aisles = aisles + aisles_mutation
-            aisles[aisles < 1] = 1
-            aisles[aisles > 30] = 30
-
-            cross_aisles_mutation = np.random.randint(-1, 1, size=self.N)
-            cross_aisles = np.array(cross_aisles)
-            cross_aisles = cross_aisles + cross_aisles_mutation
-            cross_aisles[cross_aisles < 2] = 2
-            cross_aisles[cross_aisles > 10] = 10
+            for index in np.arange(2 * self.N, 3 * self.N):
+                cross_aisles.append(mother[index] if random() < .5 else father[index])
 
             # Create child
             child = [*order, *aisles, *cross_aisles]
+
+            # Mutate child
+            self.mutate(child)
 
             # Append child
             children.append(child)
 
         return children
 
-    def get_chromosomes(self, tup):
-        return tup[0]
+    def mutate(self, chromosome):
+        # Mutation
+        mutation = random()
 
-    def get_chromosomes_as_string(self, tup):
-        return "-".join(str(x) for x in tup[0])
+        # Change a single aisle
+        if .8 < mutation < .9:
+            index = randrange(self.N - 1)
+            change = 1 if random() < .75 else -1
+            chromosome[self.N + index] = chromosome[self.N + index] + change
+            chromosome[self.N + index] = chromosome[self.N + index] if chromosome[
+                                                                           self.N + index] <= self.n_max else self.n_max
+            chromosome[self.N + index] = chromosome[self.N + index] if chromosome[self.N + index] >= self.n_min[
+                index] else self.n_min[index]
+
+        # Change a single cross-aisle
+        if .9 < mutation:
+            index = randrange(self.N - 1)
+            change = 1 if random() < .25 else -1
+            chromosome[2 * self.N + index] = chromosome[2 * self.N + index] + change
+            chromosome[2 * self.N + index] = chromosome[2 * self.N + index] if chromosome[
+                                                                                   2 * self.N + index] <= 10 else 10
+            chromosome[2 * self.N + index] = chromosome[2 * self.N + index] if chromosome[
+                                                                                   2 * self.N + index] >= 2 else 2
+
+        # Randomly mutate order
+        if .2 < mutation < .8:
+            order = np.random.random_sample(self.N)
+            chromosome[:self.N] = order
+
+        # Randomly mutate aisles
+        if .1 < mutation < .2:
+            aisles = chromosome[self.N:2 * self.N]
+            aisles_mutation = np.random.randint(-1, 2, size=self.N)
+            aisles = np.array(aisles)
+            aisles = aisles + aisles_mutation
+            aisles[aisles < self.n_min] = self.n_min[aisles < self.n_min]
+            aisles[aisles > self.n_max] = self.n_max
+            chromosome[self.N:2 * self.N] = aisles
+
+        # Randomly utate cross-aisles
+        if mutation < .1:
+            cross_aisles = chromosome[2 * self.N:3 * self.N]
+            cross_aisles_mutation = np.random.randint(-1, 2, size=self.N)
+            cross_aisles = np.array(cross_aisles)
+            cross_aisles = cross_aisles + cross_aisles_mutation
+            cross_aisles[cross_aisles < 2] = 2
+            cross_aisles[cross_aisles > 10] = 10
+            chromosome[self.N:2 * self.N] = cross_aisles
+
+        # Return mutated chromosome
+        return chromosome
 
     def get_chromosome(self, index):
         # Get chromosome from population
@@ -320,7 +367,6 @@ class GeneticAlgorithm:
 
     def get_fittest_chromosome(self):
         return self.select_fittest(1)[0][0]
-
 
     def get_final_solution(self):
         fittest = self.select_fittest(1)
