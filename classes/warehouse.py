@@ -102,7 +102,7 @@ class Warehouse:
             self.create_animation()
 
         # Return travel distance and feasibility
-        return self.total_travel_distance, self.feasible
+        return round(self.total_travel_distance, 2), self.feasible
 
     def determine_ems(self, picking_area):
         best_EMS = EmptyMaximalSpace(0, 0, math.inf, math.inf, in_warehouse=False)

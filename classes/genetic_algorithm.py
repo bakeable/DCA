@@ -64,7 +64,9 @@ class GeneticAlgorithm:
             # Increment time from last improvement
             last_improvement = last_improvement + 1
 
+
             # Keep track of improvement
+            total_improved = 0
             print("Starting new set of iterations\r\n")
             for i in tqdm(range(self.iterations)):
                 # Create next population
@@ -75,11 +77,12 @@ class GeneticAlgorithm:
                 if len(fittest) > 0:
                     if self.fittest_obj_value > fittest[0][1]:
                         self.obj_value_decrease = self.fittest_obj_value - fittest[0][1]
+                        total_improved = total_improved + self.obj_value_decrease
                         self.fittest_obj_value = fittest[0][1]
                         last_improvement = 0
 
             if last_improvement == 0:
-                print("\r\nObjective value improved")
+                print("\r\nObjective value improved by", total_improved)
             else:
                 print("\r\nObjective value did not improve")
 
