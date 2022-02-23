@@ -45,6 +45,7 @@ class Warehouse:
 
         # Animation
         self.animate = animate
+        self.animation_filename = 'animation/finished/' + self.chromosome + '.gif'
         self.frame = 0
         self.frame_files = []
 
@@ -311,10 +312,9 @@ class Warehouse:
             plt.savefig(filename)
             plt.close()
 
-    def create_animation(self, fps=2, filename=None):
+    def create_animation(self, fps=2):
         # Build gif
-        filename = filename if filename is not None else 'animation/finished/' + self.chromosome + '.gif'
-        with imageio.get_writer(filename, mode='I', fps=fps) as writer:
+        with imageio.get_writer(self.animation_filename, mode='I', fps=fps) as writer:
             for filename in self.frame_files:
                 image = imageio.imread(filename)
                 writer.append_data(image)

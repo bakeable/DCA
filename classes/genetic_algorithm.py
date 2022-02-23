@@ -15,7 +15,7 @@ def get_chromosomes_as_string(tup):
 
 
 class GeneticAlgorithm:
-    def __init__(self, population_size=30, iterations=20, fittest_size=.2, children_size=.6):
+    def __init__(self, population_size=30, iterations=10, fittest_size=.3, children_size=.3):
         # Instantiate warehouse
         self.warehouse = None
 
@@ -46,17 +46,17 @@ class GeneticAlgorithm:
         self.N = N
         self.n_min, self.k_min, self.n_max, self.k_max = self.warehouse.n_min, self.warehouse.k_min, self.warehouse.n_max, self.warehouse.k_max
 
-    def run(self, instance):
+    def run(self, instance, log_to_console=False):
         # Instantiate
         self.instantiate(instance)
 
         # Create initial population
         self.create_initial_population(min_feasible=0)
 
-        # Add one feasible solution
-        if instance == 2:
-            self.population.append(([0.4, 0.8, 0.2, 0.6, 0, 4, 2, 4, 2, 4, 2, 2, 2, 2, 2], 851.4766715860002, True))
-            self.population.append(([0.4, 0.8, 0.2, 0.6, 0, 2, 2, 2, 2, 4, 2, 2, 3, 2, 4], 300, True))
+        # # Add one feasible solution
+        # if instance == 2:
+        #     self.population.append(([0.4, 0.8, 0.2, 0.6, 0, 4, 2, 4, 2, 4, 2, 2, 2, 2, 2], 851.4766715860002, True))
+        #     self.population.append(([0.4, 0.8, 0.2, 0.6, 0, 2, 2, 2, 2, 4, 2, 2, 3, 2, 4], 300, True))
 
         # Iterate
         last_improvement = 0
@@ -67,7 +67,11 @@ class GeneticAlgorithm:
             # Keep track of improvement
             total_improved = 0
             prev_fittest_obj_value = self.fittest_obj_value
-            print("Starting new set of iterations\r\n")
+
+            # Log
+            if log_to_console:
+                print("Starting new set of iterations\r\n")
+
             for i in tqdm(range(self.iterations)):
                 # Create next population
                 self.create_next_population()
@@ -81,16 +85,16 @@ class GeneticAlgorithm:
                         self.fittest_obj_value = fittest[0][1]
                         last_improvement = 0
 
-            if last_improvement == 0:
-                if total_improved == math.inf:
-                    print("\r\nAt least one feasible solution was found with objective value", self.fittest_obj_value)
+            # Log
+            if log_to_console:
+                if last_improvement == 0:
+                    if total_improved == math.inf:
+                        print("\r\nAt least one feasible solution was found with objective value", self.fittest_obj_value)
+                    else:
+                        perc_improved = round((total_improved/prev_fittest_obj_value)*100, 2)
+                        print("\r\nObjective value improved by", round(total_improved, 2), "(-", perc_improved, "%), now given by", self.fittest_obj_value)
                 else:
-                    perc_improved = round((total_improved/prev_fittest_obj_value)*100, 2)
-                    print("\r\nObjective value improved by", round(total_improved, 2), "(-", perc_improved, "%), now given by", self.fittest_obj_value)
-            else:
-                print("\r\nObjective value did not improve")
-
-
+                    print("\r\nObjective value did not improve")
 
         # Get final solution, this returns None if there is no feasible solution
         solution = self.get_final_solution()
@@ -98,28 +102,23 @@ class GeneticAlgorithm:
         # If we have a solution, report on it
         if solution is not None:
 
-            # Report
-            if self.warehouse.feasible:
+            # Log
+            if log_to_console:
                 print("\r\nA feasible solution was found")
                 print("Optimal chromosome:", solution[0])
                 print("Total distance:", self.warehouse.total_travel_distance)
                 print("PA layout:", self.warehouse.get_PA_dimensions())
-            else:
-                print("\r\nAlgorithm did not find a feasible solution")
 
         else:
-            # Report
-            print("\r\nAlgorithm did not find a feasible solution")
+            # Log
+            if log_to_console:
+                print("\r\nAlgorithm did not find a feasible solution")
 
             # Take best infeasible
             solution = self.select_fittest(1, allow_infeasible=True)[0]
 
         # Process solution
-        self.warehouse.animate = True
         self.warehouse.process(solution[0])
-
-        # Draw animation
-        self.warehouse.create_animation(filename=f'output/sol{instance}.gif')
 
         # Draw solution as a PNG
         filename = f'output/sol{instance}.png'
@@ -129,8 +128,9 @@ class GeneticAlgorithm:
         write_instance(instance, self.warehouse.total_travel_distance if self.warehouse.feasible else math.inf,
                        self.warehouse.get_PA_dimensions())
 
-        # Final
-        print("\r\nFinal solution saved as", filename, "\r\n")
+        # Log final
+        if log_to_console:
+            print("\r\nFinal solution saved as", filename, "\r\n")
 
     def create_random_chromosome(self):
         # Create random order as done in Goncalves
@@ -306,7 +306,7 @@ class GeneticAlgorithm:
             child = [*order, *aisles, *cross_aisles]
 
             # Mutate child
-            self.mutate(child)
+            child = self.mutate(child)
 
             # Append child
             children.append(child)
@@ -318,41 +318,40 @@ class GeneticAlgorithm:
         mutation = random()
 
         # Change a single aisle
-        if .5 < mutation < .8:
+        if .4 < mutation < .8:
             index = randrange(self.N - 1)
-            change = 1 if random() < .9 else -1 # Higher chance of increasing aisles
+            change = 1 if random() < .99 else -1 # Higher chance of increasing aisles
             chromosome[self.N + index] = chromosome[self.N + index] + change
-            chromosome[self.N + index] = chromosome[self.N + index] if chromosome[
-                                                                           self.N + index] <= self.n_max else self.n_max
+            chromosome[self.N + index] = chromosome[self.N + index] if chromosome[self.N + index] <= self.n_max else self.n_max
             chromosome[self.N + index] = chromosome[self.N + index] if chromosome[self.N + index] >= self.n_min[
                 index] else self.n_min[index]
 
         # Change a single cross-aisle
-        if .7 < mutation:
+        if .6 < mutation:
             index = randrange(self.N - 1)
-            change = 1 if random() < .1 else -1  # Higher chance of reducing cross-aisles
+            change = 1 if random() < .50 else -1  # Higher chance of reducing cross-aisles
             chromosome[2 * self.N + index] = chromosome[2 * self.N + index] + change
-            chromosome[2 * self.N + index] = chromosome[2 * self.N + index] if chromosome[
-                                                                                   2 * self.N + index] <= 10 else 10
-            chromosome[2 * self.N + index] = chromosome[2 * self.N + index] if chromosome[
-                                                                                   2 * self.N + index] >= 2 else 2
+            chromosome[2 * self.N + index] = chromosome[2 * self.N + index] if chromosome[2 * self.N + index] <= 10 else 10
+            chromosome[2 * self.N + index] = chromosome[2 * self.N + index] if chromosome[2 * self.N + index] >= 2 else 2
 
         # Randomly mutate order
-        if .2 < mutation < .5:
+        if .2 < mutation < .4:
             order = np.random.random_sample(self.N)
             chromosome[:self.N] = order
 
         # Randomly mutate aisles
         if .1 < mutation < .2:
             aisles = chromosome[self.N:2 * self.N]
-            aisles_mutation = np.random.randint(-1, 2, size=self.N)
+            aisles_mutation = np.random.randint(-1, 4, size=self.N)
             aisles = np.array(aisles)
             aisles = aisles + aisles_mutation
             aisles[aisles < self.n_min] = self.n_min[aisles < self.n_min]
             aisles[aisles > self.n_max] = self.n_max
+            aisles[aisles < 1] = 1
+            aisles[aisles > 30] = 30
             chromosome[self.N:2 * self.N] = aisles
 
-        # Randomly utate cross-aisles
+        # Randomly mutate cross-aisles
         if mutation < .1:
             cross_aisles = chromosome[2 * self.N:3 * self.N]
             cross_aisles_mutation = np.random.randint(-1, 2, size=self.N)
