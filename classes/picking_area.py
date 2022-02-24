@@ -4,7 +4,7 @@ import math
 from random import random
 
 class PickingArea:
-    def __init__(self, s_i, n, k, m, alpha, w_i, v_i, number):
+    def __init__(self, s_i, n, k, m, alpha, w_i, v_i, number, color):
         # Set storage capacity
         self.s_i = s_i
 
@@ -23,6 +23,7 @@ class PickingArea:
         # Set name and number
         self.name = "PA " + str(number)
         self.number = number
+        self.color = color
 
         # Assume feasible
         self.feasible = True
@@ -32,9 +33,10 @@ class PickingArea:
         self.h = self.s_i / self.n + self.v_i * self.k
 
         # Instantiate metrics
-        self.travel_distance = (1 + self.alpha) * lookup_travel_distance(self.n, self.k, self.m)
+        self.travel_distance = 2 * self.y * (1 + self.alpha) + (1 + self.alpha) * lookup_travel_distance(self.n, self.k, self.m)
         self.EMS = None
         self.EMS_options = []
+        self.penalty = 0
 
     def set_parameters(self, n=None, k=None, m=None, alpha=None):
         # Set parameters
@@ -48,7 +50,7 @@ class PickingArea:
         self.h = self.s_i / self.n + self.v_i * self.k
 
         # Get travel distance from lookup
-        self.travel_distance = (1 + self.alpha) * lookup_travel_distance(self.n, self.k, self.m)
+        self.travel_distance = 2 * self.y * (1 + self.alpha) + (1 + self.alpha) * lookup_travel_distance(self.n, self.k, self.m)
 
     def set_position(self, x, y):
         # Set position
@@ -68,15 +70,22 @@ class PickingArea:
         return self.feasible
 
     def get_travel_distance(self, n=None, k=None, m=None):
-        # Set parameters
-        self.set_parameters(n, k, m)
+        if self.feasible:
+            # Set parameters
+            self.set_parameters(n, k, m)
 
-        # Return distance
-        return self.travel_distance
+            # Return distance
+            return self.travel_distance
+        else:
+            # Calculate penalty
+
+
+            # Return penalty plus actual travel distance
+            return self.penalty + self.travel_distance
 
     def get_rectangle(self):
         # Determine color
-        color = (random()/2, random(), random()) if self.feasible else "red"
+        color = self.color if self.feasible else "red"
 
         # Create rectangle
         return Rectangle((self.x, self.y), self.w, self.h, color=color, fill=True, alpha=.5)

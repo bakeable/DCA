@@ -2,6 +2,7 @@ import math
 import numpy as np
 from matplotlib import pyplot as plt
 import imageio
+from random import random
 from .picking_area import PickingArea
 from .empty_maximal_space import EmptyMaximalSpace
 
@@ -33,6 +34,7 @@ class Warehouse:
 
         # Keep a list of PA positions
         self.PA_list = []
+        self.PA_colors = [(random()/2, random(), random()) for x in storage_capacities]
 
         # Metrics
         self.total_travel_distance = 0
@@ -83,9 +85,10 @@ class Warehouse:
             s_i = self.storage_capacities[index]
             m = self.order_sizes[index]
             alpha = self.replenishments[index]
+            color = self.PA_colors[index]
 
             # Create picking area
-            picking_area = PickingArea(s_i, n, k, m, alpha, self.w_i, self.v_i, number)
+            picking_area = PickingArea(s_i, n, k, m, alpha, self.w_i, self.v_i, number, color)
 
             # Insert picking area
             self.insert_picking_area(picking_area)
@@ -145,10 +148,11 @@ class Warehouse:
             # Save EMS options to determine possible new strategies
             picking_area.EMS_options = self.EMS_list
 
+            # Set initial penalty
+            picking_area.penalty = self.H
+
         # Update metrics
-        # U_i = 2y(1+alpha)
-        self.total_travel_distance = self.total_travel_distance + 2 * picking_area.y * (
-                1 + picking_area.alpha) + picking_area.get_travel_distance()
+        self.total_travel_distance = self.total_travel_distance + picking_area.get_travel_distance()
         self.number_of_picking_areas = self.number_of_picking_areas + 1
 
     def update_ems_list(self, x, y, w, h):

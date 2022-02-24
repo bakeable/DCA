@@ -54,19 +54,19 @@ class EmptyMaximalSpace:
         upper_right_x, upper_right_y, upper_right_type = corners[3]  # upper_right
 
         # Left border
-        if upper_left_y >= self.y + self.h and lower_left_y <= self.y and self.x < upper_left_x < self.x + self.w:
+        if upper_left_y >= self.y + self.h and lower_left_y <= self.y and self.x <= upper_left_x <= self.x + self.w:
             overlapping_borders.append((lower_left_x, "left"))
 
         # Right border
-        if upper_right_y >= self.y + self.h and lower_right_y <= self.y and self.x < upper_right_x < self.x + self.w:
+        if upper_right_y >= self.y + self.h and lower_right_y <= self.y and self.x <= upper_right_x <= self.x + self.w:
             overlapping_borders.append((lower_right_x, "right"))
 
         # Top border
-        if upper_left_x <= self.x and upper_right_x >= self.x + self.w  and self.y < upper_left_y < self.y + self.h:
+        if upper_left_x <= self.x and upper_right_x >= self.x + self.w  and self.y <= upper_left_y <= self.y + self.h:
             overlapping_borders.append((upper_left_y, "top"))
 
         # Bottom border
-        if lower_left_x <= self.x and lower_right_x >= self.x + self.w  and self.y < lower_left_y < self.y + self.h:
+        if lower_left_x <= self.x and lower_right_x >= self.x + self.w  and self.y <= lower_left_y <= self.y + self.h:
             overlapping_borders.append((lower_left_y, "bottom"))
 
         # Return
