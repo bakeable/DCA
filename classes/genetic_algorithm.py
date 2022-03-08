@@ -41,6 +41,9 @@ class GeneticAlgorithm:
         self.generation_number = 0
         self.generations = pd.DataFrame(columns=["generation", "mother", "father", "child"])
 
+        # Settings
+        self.enable_diagnostics = True
+
     def instantiate(self, instance):
         # Read variables from instance
         W, H, N, w_i, v_i, S, alpha, u, mean_u = read_instance(instance)
@@ -330,14 +333,19 @@ class GeneticAlgorithm:
             child = [*order, *aisles, *cross_aisles]
 
             # Mutate child
+            pre_mutated_child = [*order, *aisles, *cross_aisles]
             child = self.mutate(child)
 
             # Save generations
             if self.save_generations:
+                # Calculate mutations
+                mutation = np.array(np.array(pre_mutated_child) - np.array(child)).round(2)
+
                 # Save a tuple of fittest chromosomes and corresponding child chromosomes
                 self.generations = self.generations.append(
-                    {'generation': self.generation_number, 'mother': '-'.join(str(x) for x in mother),
-                     'father': '-'.join(str(x) for x in father), 'child': '-'.join(str(x) for x in child), 'child_no': len(children) + 1},
+                    {'generation': self.generation_number, 'mother': '|'.join(str(x) for x in mother),
+                     'father': '|'.join(str(x) for x in father), 'child': '|'.join(str(x) for x in child),
+                     'mutation': '|'.join(str(x) for x in mutation), 'child_no': len(children) + 1},
                     ignore_index=True)
 
             # Append child
@@ -349,15 +357,13 @@ class GeneticAlgorithm:
         # Mutation
         mutation = random()
 
+        mutations = ['001', '003', '010']
+        probabilities = [.3, .4, .3]
+
         # Change a single aisle
         if .4 < mutation < .8:
-            index = randrange(self.N - 1)
-            change = 1 if random() < .5 else -1  # Higher chance of increasing aisles
-            chromosome[self.N + index] = chromosome[self.N + index] + change
-            chromosome[self.N + index] = chromosome[self.N + index] if chromosome[
-                                                                           self.N + index] <= self.n_max else self.n_max
-            chromosome[self.N + index] = chromosome[self.N + index] if chromosome[self.N + index] >= self.n_min[
-                index] else self.n_min[index]
+            from mutations import mutate_001
+            chromosome = mutate_001(self, chromosome)
 
         # Change a single cross-aisle
         if .6 < mutation:

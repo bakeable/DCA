@@ -6,10 +6,11 @@ import imageio
 import os
 from tqdm import tqdm
 from pathlib import Path
+import numpy as np
 
 
 # Definitions
-def create_image(im1, im2, im3=None, generation=0, child_no=1, data={}):
+def create_image(im1, im2, im3=None, generation=0, child_no=1, mutation="", data={}):
     # All images are same sizes
     width = im1.width * 2
     height = im1.height * 2
@@ -23,6 +24,7 @@ def create_image(im1, im2, im3=None, generation=0, child_no=1, data={}):
 
     # Generation number
     draw.text((width - 200, 5), "Generation " + str(generation), (255, 255, 255), font=font)
+    draw.text((width/2, int(im2.height)), mutation, (255, 255, 255), font=font)
 
     # Draw
     if im3 is not None:
@@ -35,8 +37,8 @@ def create_image(im1, im2, im3=None, generation=0, child_no=1, data={}):
         draw.text((0, im1.height), "Father, value: " + str(data["father"][0]), (0, 0, 0), font=font)
 
         # Child
-        dst.paste(im3, (max(im1.width, im2.width), int((im1.height + im2.height) / 2 - im3.height / 2)))
-        draw.text((max(im1.width, im2.width), int((im1.height + im2.height) / 2 - im3.height / 2)),
+        dst.paste(im3, (max(im1.width, im2.width), 0))
+        draw.text((max(im1.width, im2.width), 0),
                   "Child " + str(int(child_no)) + ", value: " + str(data["child"][0]) + ", feasible: " + str(
                       data["child"][1]), (0, 0, 0), font=font)
 
@@ -47,8 +49,8 @@ def create_image(im1, im2, im3=None, generation=0, child_no=1, data={}):
                   font=font)
 
         # Child
-        dst.paste(im2, (im1.width, int(height / 2 - im2.height / 2)))
-        draw.text((im1.width, int(height / 2 - im2.height / 2)),
+        dst.paste(im2, (im1.width, 0))
+        draw.text((im1.width, 0),
                   "Child " + str(int(child_no)) + ", value: " + str(data["child"][0]) + ", feasible: " + str(
                       data["child"][1]), (0, 0, 0), font=font)
 
@@ -99,11 +101,39 @@ def draw_evolution(instances=None, remove_files=True):
                 else:
                     types_to_draw = ["mother", "father", "child"]
 
+                # Dissect mutation
+                description = "Mutations:"
+                child = [float(x) if "." in str(x) else int(x) for x in row["child"].split("|")]
+                mutation = [float(x) if "." in str(x) else int(x) for x in row["mutation"].split("|")]
+                N = round(len(mutation)/3)
+
+                # Order
+                child_order = np.argsort(child[:N])
+                original_child_order = np.argsort(np.array(child[:N]) + np.array(mutation[:N]))
+                if "".join(str(x) for x in child_order) != "".join(str(x) for x in original_child_order):
+                    description = description + "\r\nOrder changed from " + ">".join(str(x) for x in original_child_order) + " to " + ">".join(str(x) for x in child_order)
+
+                # Aisles and cross-aisles
+                aisles = np.array(mutation[N:2*N]).round(0)
+                cross_aisles = np.array(mutation[2*N:3*N]).round(0)
+                for i in range(N):
+                    if int(cross_aisles[i]) > 0 or int(cross_aisles[i]) < 0 or int(aisles[i]) > 0 or int(aisles[i]) < 0:
+                        description = description + "\r\nPA " + str(i)
+                        if int(aisles[i]) < 0:
+                            description = description + ", removed " + str(-1*int(aisles[i])) + " aisle(s)"
+                        elif int(aisles[i]) > 0:
+                            description = description + ", added " + str(int(aisles[i])) + " aisle(s)"
+
+                        if int(cross_aisles[i]) < 0:
+                            description = description + ", removed " + str(-1 * int(cross_aisles[i])) + " cross-aisle(s)"
+                        elif int(cross_aisles[i]) > 0:
+                            description = description + ", added " + str(int(cross_aisles[i])) + " cross-aisle(s)"
+
                 # Draw
                 processed = {"mother": (0, True), "father": (0, True), "child": (0, True)}
                 for type_to_draw in types_to_draw:
                     # Get chromosome
-                    chromosome = [float(x) if "." in str(x) else int(x) for x in row[type_to_draw].split("-")]
+                    chromosome = [float(x) if "." in str(x) else int(x) for x in row[type_to_draw].split("|")]
 
                     # Create image
                     processed[type_to_draw] = warehouse.process(chromosome)
@@ -120,7 +150,7 @@ def draw_evolution(instances=None, remove_files=True):
 
                     # Create combined image
                     create_image(mother_image, child_image, generation=row["generation"], child_no=row["child_no"],
-                                 data=processed).save(
+                                 mutation=description, data=processed).save(
                         filename)
 
                     # Remove
@@ -134,7 +164,7 @@ def draw_evolution(instances=None, remove_files=True):
 
                     # Create combined image
                     create_image(mother_image, father_image, child_image, generation=row["generation"],
-                                 child_no=row["child_no"], data=processed).save(filename)
+                                 child_no=row["child_no"], mutation=description, data=processed).save(filename)
 
                     # Remove
                     if remove_files:
