@@ -2,7 +2,7 @@ from classes import GeneticAlgorithm
 from functions import create_instances
 from pathlib import Path
 
-# reate some random instances
+# Create some random instances
 create_instances(20)
 
 # Get all instances

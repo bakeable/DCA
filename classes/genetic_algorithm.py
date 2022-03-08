@@ -18,7 +18,7 @@ def get_chromosomes_as_string(tup):
 
 
 class GeneticAlgorithm:
-    def __init__(self, population_size=30, iterations=10, fittest_size=.2, children_size=.3, save_generations=False):
+    def __init__(self, population_size=30, iterations=20, fittest_size=.2, children_size=.3, save_generations=False):
         # Instantiate warehouse
         self.warehouse = None
 
@@ -45,7 +45,6 @@ class GeneticAlgorithm:
 
         # Settings
         self.enable_diagnostics = True
-        self.iterTimes = []
 
         # Mutation distribution
         self.mutation_names = ['001', '002', '003', '004', '005', '006']
@@ -63,6 +62,10 @@ class GeneticAlgorithm:
         self.n_min, self.k_min, self.n_max, self.k_max = self.warehouse.n_min, self.warehouse.k_min, self.warehouse.n_max, self.warehouse.k_max
 
     def run(self, instance, log_to_console=False):
+        # Diagnostics
+        global iterStartTime
+        run_diagnostics = []
+
         # Instantiate
         self.instantiate(instance)
 
@@ -70,9 +73,11 @@ class GeneticAlgorithm:
         self.create_initial_population(min_feasible=0)
 
         # # Add one feasible solution
-        # if instance == 2:
-        #     self.population.append(([0.4, 0.8, 0.2, 0.6, 0, 4, 2, 4, 2, 4, 2, 2, 2, 2, 2], 851.4766715860002, True))
-        #     self.population.append(([0.4, 0.8, 0.2, 0.6, 0, 2, 2, 2, 2, 4, 2, 2, 3, 2, 4], 300, True))
+        if instance == 2:
+            self.population.append(([0.4, 0.8, 0.2, 0.6, 0, 4, 2, 4, 2, 4, 2, 2, 2, 2, 2], 851.4766715860002, True))
+            self.warehouse.process([0.4, 0.1, 0.2, 0.6, 0, 4, 2, 4, 2, 4, 2, 2, 2, 2, 2])
+            self.warehouse.draw()
+            # self.population.append(([0.4, 0.8, 0.2, 0.6, 0, 2, 2, 2, 2, 4, 2, 2, 3, 2, 4], 300, True))
 
         # Iterate
         last_improvement = 0
@@ -88,11 +93,11 @@ class GeneticAlgorithm:
             if log_to_console:
                 print("Starting new set of iterations\r\n")
 
-            # Diagnostics
-            if self.enable_diagnostics:
-                iterStartTime = datetime.now()
-
             for i in tqdm(range(self.iterations)):
+                # Get diagnostics
+                if self.enable_diagnostics:
+                    iterStartTime = datetime.now()
+
                 # Create next population
                 self.create_next_population()
 
@@ -104,6 +109,13 @@ class GeneticAlgorithm:
                         total_improved = total_improved + self.obj_value_decrease
                         self.fittest_obj_value = fittest[0][1]
                         last_improvement = 0
+
+                # Diagnostics
+                if self.enable_diagnostics:
+                    run_diagnostics.append({
+                        'time': datetime.now() - iterStartTime,
+                        'feasible_solutions': len(self.get_feasible_solutions())
+                    })
 
             # Log
             if log_to_console:
@@ -118,10 +130,6 @@ class GeneticAlgorithm:
                 else:
                     print("\r\nObjective value did not improve")
 
-            # Diagnostics
-            if self.enable_diagnostics:
-                self.iterTimes.append(datetime.now() - iterStartTime)
-
         # Get final solution, this returns None if there is no feasible solution
         solution = self.get_final_solution()
 
@@ -134,6 +142,11 @@ class GeneticAlgorithm:
                 print("Optimal chromosome:", solution[0])
                 print("Total distance:", solution[1])
                 print("PA layout:", self.warehouse.get_PA_dimensions())
+                print("Total runtime:", sum([int(x['time'].total_seconds() * 1000) for x in run_diagnostics]), "ms")
+                print("Average iteration time:",
+                      np.mean([int(x['time'].total_seconds() * 1000) for x in run_diagnostics]), "ms")
+                print("Average number of feasible solutions every iteration:",
+                      np.mean([x['feasible_solutions'] for x in run_diagnostics]))
 
         else:
             # Log
@@ -370,11 +383,12 @@ class GeneticAlgorithm:
 
     def mutate(self, chromosome):
         # Get which mutation to apply
-        mutation_name = str(np.random.choice(self.mutation_names, 1, self.mutation_probs)[0]) # Chooses a random mutation according to the specified distribution
+        mutation_name = str(np.random.choice(self.mutation_names, 1, self.mutation_probs)[
+                                0])  # Chooses a random mutation according to the specified distribution
         mutation_function = mutations[mutation_name]
 
         # Mutate chromosome
-        chromosome = mutation_function(self, chromosome) # Runs the mutation
+        chromosome = mutation_function(self, chromosome)  # Runs the mutation
 
         # Final check for absolute maximum of aisles and cross-aisles
         aisles = np.array(chromosome[self.N:2 * self.N])

@@ -182,8 +182,8 @@ class EmptyMaximalSpace:
                 # All other properties are the same
                 EMSs.append(EmptyMaximalSpace(border_x, self.y, self.x + self.w - border_x, self.h))
 
-            # Return new EMSs
-            return EMSs
+        # Return new EMSs
+        return EMSs
 
     def get_rectangle(self):
         return Rectangle((self.x, self.y), self.w, self.h, color="black", fill=True, alpha=.1)

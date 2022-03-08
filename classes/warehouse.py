@@ -104,7 +104,7 @@ class Warehouse:
             self.create_animation()
 
         # Return travel distance and feasibility
-        return self.total_travel_distance, self.feasible
+        return round(self.total_travel_distance, 2), self.feasible
 
     def determine_ems(self, picking_area):
         best_EMS = EmptyMaximalSpace(0, 0, math.inf, math.inf, in_warehouse=False)
@@ -112,6 +112,7 @@ class Warehouse:
             # Check if it fits
             width_fits = picking_area.w <= EMS.w
             height_fits = picking_area.h <= EMS.h
+            print(picking_area.name, picking_area.w, picking_area.h, EMS.w, EMS.h)
 
             # Check if it fits
             if width_fits and height_fits and (EMS.y < best_EMS.y or not best_EMS.in_warehouse):
@@ -170,12 +171,14 @@ class Warehouse:
             if len(contained_corners) == 0:
                 # Get overlapping borders
                 overlapping_borders = EMS.get_overlapping_borders(corners)
+                print(overlapping_borders)
                 if len(overlapping_borders) > 0:
                     # Split EMS
                     new_EMSs = EMS.split_by_borders(overlapping_borders)
 
                     # Add to list
                     for new_EMS in new_EMSs:
+                        print("Adding", new_EMS.get_dimensions())
                         new_EMS_list.append(new_EMS)
 
                 # Check if EMS is not equal to PA
@@ -226,11 +229,13 @@ class Warehouse:
                 parent_index = parent_index + 1
 
             if not child_fits:
+                print("Keeping", EMS_child.get_dimensions())
                 reduced_EMS_list.append(EMS_child)
 
             # Increment index
             child_index = child_index + 1
 
+        print(len(reduced_EMS_list), self.W, self.H)
         # Set reduced list
         self.EMS_list = reduced_EMS_list
 

@@ -37,6 +37,10 @@ def lookup_travel_distance(n, k, m):
         order_sizes = np.arange(1, len(m) + 1)
         m = np.array(m)
 
+        # Failsafes
+        if n < 1 or n > 30 or k < 2 or k > 10:
+            return math.inf
+
         # Calculate expected travel distance
         expected_travel_distance = 0
         i = 0
