@@ -5,6 +5,7 @@ from classes import Warehouse
 from functions import read_instance, write_instance
 from tqdm import tqdm
 import pandas as pd
+from mutations import mutations
 
 
 def get_chromosomes(tup):
@@ -43,6 +44,10 @@ class GeneticAlgorithm:
 
         # Settings
         self.enable_diagnostics = True
+
+        # Mutation distribution
+        self.mutation_names = ['001', '002', '003', '004', '005', '006']
+        self.mutation_probs = [.3, .2, .1, .2, .1, .1]
 
     def instantiate(self, instance):
         # Read variables from instance
@@ -354,51 +359,14 @@ class GeneticAlgorithm:
         return children
 
     def mutate(self, chromosome):
-        # Mutation
-        mutation = random()
+        # Get which mutation to apply
+        mutation_name = str(np.random.choice(self.mutation_names, 1, self.mutation_probs)[0]) # Chooses a random mutation according to the specified distribution
+        mutation_function = mutations[mutation_name]
 
-        mutations = ['001', '003', '010']
-        probabilities = [.3, .4, .3]
+        # Mutate chromosome
+        chromosome = mutation_function(self, chromosome) # Runs the mutation
 
-        # Change a single aisle
-        if .4 < mutation < .8:
-            from mutations import mutate_001
-            chromosome = mutate_001(self, chromosome)
-
-        # Change a single cross-aisle
-        if .6 < mutation:
-            index = randrange(self.N - 1)
-            change = 1 if random() < .50 else -1  # Higher chance of reducing cross-aisles
-            chromosome[2 * self.N + index] = chromosome[2 * self.N + index] + change
-            chromosome[2 * self.N + index] = chromosome[2 * self.N + index] if chromosome[
-                                                                                   2 * self.N + index] <= 10 else 10
-            chromosome[2 * self.N + index] = chromosome[2 * self.N + index] if chromosome[
-                                                                                   2 * self.N + index] >= 2 else 2
-
-        # Randomly mutate order
-        if .2 < mutation < .4:
-            order = np.random.random_sample(self.N).round(2)
-            chromosome[:self.N] = order
-
-        # Randomly mutate aisles
-        if .1 < mutation < .2:
-            aisles = chromosome[self.N:2 * self.N]
-            aisles_mutation = np.random.randint(-1, 4, size=self.N)
-            aisles = np.array(aisles)
-            aisles = aisles + aisles_mutation
-            aisles[aisles < self.n_min] = self.n_min[aisles < self.n_min]
-            aisles[aisles > self.n_max] = self.n_max
-            chromosome[self.N:2 * self.N] = aisles
-
-        # Randomly mutate cross-aisles
-        if mutation < .1:
-            cross_aisles = chromosome[2 * self.N:3 * self.N]
-            cross_aisles_mutation = np.random.randint(-1, 2, size=self.N)
-            cross_aisles = np.array(cross_aisles)
-            cross_aisles = cross_aisles + cross_aisles_mutation
-            chromosome[2 * self.N:3 * self.N] = cross_aisles
-
-        # Final check
+        # Final check for absolute maximum of aisles and cross-aisles
         aisles = np.array(chromosome[self.N:2 * self.N])
         aisles[aisles < 1] = 1
         aisles[aisles > 30] = 30
