@@ -6,6 +6,7 @@ from functions import read_instance, write_instance
 from tqdm import tqdm
 import pandas as pd
 from mutations import mutations
+from datetime import datetime
 
 
 def get_chromosomes(tup):
@@ -44,6 +45,7 @@ class GeneticAlgorithm:
 
         # Settings
         self.enable_diagnostics = True
+        self.iterTimes = []
 
         # Mutation distribution
         self.mutation_names = ['001', '002', '003', '004', '005', '006']
@@ -86,6 +88,10 @@ class GeneticAlgorithm:
             if log_to_console:
                 print("Starting new set of iterations\r\n")
 
+            # Diagnostics
+            if self.enable_diagnostics:
+                iterStartTime = datetime.now()
+
             for i in tqdm(range(self.iterations)):
                 # Create next population
                 self.create_next_population()
@@ -111,6 +117,10 @@ class GeneticAlgorithm:
                               "%), now given by", self.fittest_obj_value)
                 else:
                     print("\r\nObjective value did not improve")
+
+            # Diagnostics
+            if self.enable_diagnostics:
+                self.iterTimes.append(datetime.now() - iterStartTime)
 
         # Get final solution, this returns None if there is no feasible solution
         solution = self.get_final_solution()
