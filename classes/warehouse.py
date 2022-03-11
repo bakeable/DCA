@@ -9,10 +9,11 @@ from .empty_maximal_space import EmptyMaximalSpace
 
 class Warehouse:
     def __init__(self, width, height, storage_capacities=[], order_sizes=[], replenishments=[], w_i=1, v_i=1,
-                 animate=False):
+                 animate=False, save_history=True):
         # Set variables
         self.W = width
         self.H = height
+        self.surface = self.W * self.H
 
         # Given storage capacities and order sizes
         self.storage_capacities = storage_capacities
@@ -49,9 +50,14 @@ class Warehouse:
         self.frame = 0
         self.frame_files = []
 
+        # History
+        self.save_history = save_history
+        self.EMS_history = []
+
     def reset(self):
         # Reset lists
         self.EMS_list = [EmptyMaximalSpace(0, 0, self.W, self.H)]
+        self.EMS_history = []
         self.PA_list = []
 
         # Reset metrics
@@ -155,6 +161,33 @@ class Warehouse:
         self.total_travel_distance = self.total_travel_distance + picking_area.get_travel_distance()
         self.number_of_picking_areas = self.number_of_picking_areas + 1
 
+    def remove_last_picking_area(self):
+        # Remove
+        self.PA_list = self.PA_list[:-1]
+
+        # Reset EMS
+        if len(self.EMS_history) > 1:
+            self.EMS_list = []
+            # Create EMS list
+            for tup in self.EMS_history[len(self.PA_list)-1]:
+                self.EMS_list.append(EmptyMaximalSpace(tup[0], tup[1], tup[2], tup[3]))
+
+        else:
+            self.EMS_list = [EmptyMaximalSpace(0, 0, self.W, self.H)]
+
+        # Reset history
+        self.EMS_history = self.EMS_history[len(self.PA_list)-1:]
+
+    def remove_infeasible_picking_areas(self):
+        # Remove infeasible
+        reduced_PA_list = []
+        for PA in self.PA_list:
+            if PA.feasible:
+                reduced_PA_list.append(PA)
+
+        # Set reduced PA list
+        self.PA_list = reduced_PA_list
+
     def update_ems_list(self, x, y, w, h):
         # Calculate corners lower-left, lower-right, upper-left, upper-right
         corners = [(x, y, 'lower-left'), (x + w, y, 'lower-right'), (x, y + h, 'upper-left'),
@@ -234,8 +267,24 @@ class Warehouse:
         # Set reduced list
         self.EMS_list = reduced_EMS_list
 
+        # Save history
+        if self.save_history:
+            self.EMS_history.append([(EMS.x, EMS.y, EMS.w, EMS.h) for EMS in self.EMS_list])
+
         # Return list
         return self.EMS_list
+
+    def get_total_ems(self):
+        # Calculate total surface space left
+        surface_space = 0
+
+        # Iterate through EMSs
+        for EMS in self.EMS_list:
+            # Add to surface space
+            surface_space = surface_space + EMS.w * EMS.h
+
+        # Return
+        return surface_space
 
     def get_PA_dimensions(self):
         # Instantiate dimensions
@@ -258,6 +307,7 @@ class Warehouse:
 
         # Get axis
         ax = plt.gca()
+
 
         # Plot EMSs
         for EMS in self.EMS_list:

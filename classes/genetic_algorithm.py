@@ -47,8 +47,8 @@ class GeneticAlgorithm:
         self.enable_diagnostics = True
 
         # Mutation distribution
-        self.mutation_names = ['001', '002', '003', '004', '005', '006']
-        self.mutation_probs = [.3, .2, .1, .2, .1, .1]
+        self.mutation_names = ['006', '003', '008']
+        self.mutation_probs = [.2, .2, .6]
 
     def instantiate(self, instance):
         # Read variables from instance
@@ -61,7 +61,7 @@ class GeneticAlgorithm:
         self.N = N
         self.n_min, self.k_min, self.n_max, self.k_max = self.warehouse.n_min, self.warehouse.k_min, self.warehouse.n_max, self.warehouse.k_max
 
-    def run(self, instance, log_to_console=False):
+    def run(self, instance, log_to_console=False, allow_infeasible_parents=False):
         # Diagnostics
         global iterStartTime
         run_diagnostics = []
@@ -73,10 +73,8 @@ class GeneticAlgorithm:
         self.create_initial_population(min_feasible=0)
 
         # # Add one feasible solution
-        if instance == 2:
-            self.population.append(([0.4, 0.8, 0.2, 0.6, 0, 4, 2, 4, 2, 4, 2, 2, 2, 2, 2], 851.4766715860002, True))
-            self.warehouse.process([0.4, 0.1, 0.2, 0.6, 0, 4, 2, 4, 2, 4, 2, 2, 2, 2, 2])
-            self.warehouse.draw()
+        #if instance == 2:
+            #self.population.append(([0.4, 0.8, 0.2, 0.6, 0, 4, 2, 4, 2, 4, 2, 2, 2, 2, 2], 851.4766715860002, True))
             # self.population.append(([0.4, 0.8, 0.2, 0.6, 0, 2, 2, 2, 2, 4, 2, 2, 3, 2, 4], 300, True))
 
         # Iterate
@@ -99,7 +97,7 @@ class GeneticAlgorithm:
                     iterStartTime = datetime.now()
 
                 # Create next population
-                self.create_next_population()
+                self.create_next_population(allow_infeasible_parents=allow_infeasible_parents)
 
                 # Set fittest objective value
                 fittest = self.select_fittest(1)
@@ -225,7 +223,7 @@ class GeneticAlgorithm:
                 if item[2]:
                     feasible = feasible + 1
 
-    def create_next_population(self, fittest_size=None, children_size=None):
+    def create_next_population(self, fittest_size=None, children_size=None, allow_infeasible_parents=False):
         # Next generation
         self.generation_number = self.generation_number + 1
 
@@ -234,7 +232,7 @@ class GeneticAlgorithm:
         self.children_size = children_size if children_size is not None else self.children_size
 
         # Select fittest chromosomes
-        fittest = self.select_fittest(int(self.fittest_size * self.population_size))
+        fittest = self.select_fittest(int(self.fittest_size * self.population_size), allow_infeasible=allow_infeasible_parents)
         fittest_chromosomes = list(map(get_chromosomes, fittest))
 
         # Create children from fittest chromosomes

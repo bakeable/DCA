@@ -2,6 +2,8 @@ from functions import lookup_travel_distance
 from matplotlib.patches import Rectangle
 import math
 from random import random
+import numpy as np
+import itertools
 
 class PickingArea:
     def __init__(self, s_i, n, k, m, alpha, w_i, v_i, number, color):
@@ -31,6 +33,7 @@ class PickingArea:
         # Calculate width and height
         self.w = self.w_i * self.n
         self.h = self.s_i / self.n + self.v_i * self.k
+        self.surface = self.w * self.h
 
         # Instantiate metrics
         self.travel_distance = 2 * self.y * (1 + self.alpha) + (1 + self.alpha) * lookup_travel_distance(self.n, self.k, self.m)
@@ -48,6 +51,7 @@ class PickingArea:
         # Calculate width and height
         self.w = self.w_i * self.n
         self.h = self.s_i / self.n + self.v_i * self.k
+        self.surface = self.w * self.h
 
         # Get travel distance from lookup
         self.travel_distance = 2 * self.y * (1 + self.alpha) + (1 + self.alpha) * lookup_travel_distance(self.n, self.k, self.m)
@@ -89,3 +93,28 @@ class PickingArea:
 
         # Create rectangle
         return Rectangle((self.x, self.y), self.w, self.h, color=color, fill=True, alpha=.5)
+
+    def get_ordered_surface_options(self):
+        # Save original
+        og_n, og_k = self.n, self.k
+
+        # All possible options
+        options = list(itertools.product(np.arange(1, 30), np.arange(2, 10)))
+
+        # Surfaces
+        surface_options = []
+        for option in options:
+            # Get parameters
+            n, k = option
+
+            # Set parameters
+            self.set_parameters(n, k)
+
+            # Save surface and parameters
+            surface_options.append((n, k, self.surface))
+
+        # Reset original parameters
+        self.set_parameters(og_n, og_k)
+
+        # Return ordered set
+        return sorted(surface_options, key=lambda tup: tup[2])

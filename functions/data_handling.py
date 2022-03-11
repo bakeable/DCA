@@ -191,3 +191,19 @@ def write_instance(instance, obj_value, coordinates):
 
     # Close CSV file
     f.close()
+
+
+def get_instances():
+    # Get all instances
+    instances = []
+    directory = str(pathlib.Path().resolve())
+    pathlist = pathlib.Path(directory + "/input").glob("*.csv")
+    for path in pathlist:
+        # Convert to string
+        path_in_str = str(path)
+
+        # Get instance
+        instances.append(int(path_in_str.split("inst").pop().split(".csv").pop(0)))
+
+    # Sort instances
+    return sorted(instances)

@@ -23,7 +23,7 @@ def create_image(im1, im2, im3=None, generation=0, child_no=1, mutation="", data
     font = ImageFont.truetype("data/arial.ttf", 30)
 
     # Generation number
-    draw.text((width - 200, 5), "Generation " + str(generation), (255, 255, 255), font=font)
+    draw.text((width/2 + 5, int(im2.height)*2 - 50), "Generation " + str(generation), (255, 255, 255), font=font)
     draw.text((width/2, int(im2.height)), mutation, (255, 255, 255), font=font)
 
     # Draw

@@ -22,9 +22,10 @@ instances = sorted(instances)
 # Run all instances
 for instance in instances:
     # Instantiate genetic algorithm
-    algorithm = GeneticAlgorithm(save_generations=True)
+    algorithm = GeneticAlgorithm()
+
 
     # Run instance
     print("\r\n\r\nRunning instance", instance)
-    algorithm.run(instance, log_to_console=True)
+    algorithm.run(instance)
 
