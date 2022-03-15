@@ -3,7 +3,7 @@ from functions.draw_evolution import draw_evolution
 
 
 # Test specific instance
-instance = 2
+instance = 21
 
 # Instantiate genetic algorithm
 algorithm = GeneticAlgorithm(save_generations=True, iterations=1000)
