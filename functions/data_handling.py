@@ -173,24 +173,43 @@ def read_instance(instance):
 
 
 def write_instance(instance, obj_value, coordinates):
-    # Write lines
-    f = open('output/sol' + str(instance) + '.csv', 'w')
+    # Check if existing solution is better
+    try:
+        path = directory + "/output/sol" + str(instance) + ".csv"
+        with open(path, newline='') as f:
+            reader = csv.reader(f)
 
-    # Write group number
-    f.write("A4\n")
+            # Read lines
+            group_number = next(reader)[0]
+            old_instance = next(reader)[0]
+            old_obj_value = float(next(reader)[0])
+            print(group_number, old_instance, old_obj_value)
+    except:
+        print("Writing new solution to instance" + str(instance))
+        old_obj_value = -1
 
-    # Write instance number
-    f.write(str(instance) + "\n")
+    if old_obj_value > obj_value or old_obj_value == -1:
+        # Write lines
+        f = open('output/sol' + str(instance) + '.csv', 'w')
 
-    # Write objective value
-    f.write(str(round(obj_value, 2)) + "\n")
+        # Write group number
+        f.write("A4\n")
 
-    # Write coordinates
-    for coordinate in coordinates:
-        f.write(",".join(str(x) for x in coordinate) + "\n")
+        # Write instance number
+        f.write(str(instance) + "\n")
 
-    # Close CSV file
-    f.close()
+        # Write objective value
+        f.write(str(round(obj_value, 2)) + "\n")
+
+        # Write coordinates if objective value is greater than or equal to zero
+        if obj_value >= 0:
+            for coordinate in coordinates:
+                f.write(",".join(str(x) for x in coordinate) + "\n")
+
+        # Close CSV file
+        f.close()
+    else:
+        print("A better solution to instance " + str(instance) + " already exists")
 
 
 def get_instances():

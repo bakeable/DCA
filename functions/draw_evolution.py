@@ -188,7 +188,7 @@ def draw_evolution(instances=None, remove_files=True):
             filenames = sorted(filenames, key=lambda x: int(x.split("/").pop().split(".").pop(0)))
 
             # Build gif
-            with imageio.get_writer("animation/finished/inst" + str(instance) + ".gif", mode='I', fps=1) as writer:
+            with imageio.get_writer("animation/finished/inst" + str(instance) + ".gif", mode='I', fps=10) as writer:
                 print("\r\nCreating GIF\r\n")
                 for index in tqdm(range(len(filenames))):
                     # Get filename

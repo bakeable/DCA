@@ -13,6 +13,7 @@ def mutate_008(self, chromosome):
     aisle_options = max_n / np.array(divisible_by)
 
     # Choose one of the preferred aisle options
-    chromosome[1 * self.N:2 * self.N] = [choice(aisle_options) for x in range(self.N)]
+    if len(aisle_options) > 0:
+        chromosome[1 * self.N:2 * self.N] = [choice(aisle_options) for x in range(self.N)]
 
     return chromosome

@@ -7,6 +7,9 @@ from tqdm import tqdm
 import pandas as pd
 from mutations import mutations
 from datetime import datetime
+from generate_feasible_solutions import generate_feasible_solutions
+from matplotlib import pyplot as plt
+import os
 
 
 def get_chromosomes(tup):
@@ -18,7 +21,7 @@ def get_chromosomes_as_string(tup):
 
 
 class GeneticAlgorithm:
-    def __init__(self, population_size=30, iterations=20, fittest_size=.2, children_size=.3, save_generations=False):
+    def __init__(self, population_size=50, iterations=30, fittest_size=.2, children_size=.5, save_generations=False, log_to_console=True):
         # Instantiate warehouse
         self.warehouse = None
 
@@ -44,11 +47,15 @@ class GeneticAlgorithm:
         self.generations = pd.DataFrame(columns=["generation", "mother", "father", "child"])
 
         # Settings
-        self.enable_diagnostics = True
+        self.enable_diagnostics = False
+        self.log_to_console = log_to_console
 
         # Mutation distribution
-        self.mutation_names = ['006', '003', '008']
-        self.mutation_probs = [.2, .2, .6]
+        self.mutation_names = ['001', '002', '003', '004', '005', '006', '008', '009']
+        self.original_mutation_probs = [.05, .05, .2, .15, .15, .1, .1, .2]
+        self.mutation_probs = self.original_mutation_probs
+        self.mutation_points = [20] * len(self.mutation_names)
+        self.mutation_occurences = [0 for x in self.mutation_names]
 
     def instantiate(self, instance):
         # Read variables from instance
@@ -61,21 +68,18 @@ class GeneticAlgorithm:
         self.N = N
         self.n_min, self.k_min, self.n_max, self.k_max = self.warehouse.n_min, self.warehouse.k_min, self.warehouse.n_max, self.warehouse.k_max
 
-    def run(self, instance, log_to_console=False, allow_infeasible_parents=False):
+    def run(self, instance, allow_infeasible_parents=False):
         # Diagnostics
         global iterStartTime
         run_diagnostics = []
 
         # Instantiate
         self.instantiate(instance)
+        if self.log_to_console:
+            print("Instance instantiated")
 
         # Create initial population
-        self.create_initial_population(min_feasible=0)
-
-        # # Add one feasible solution
-        #if instance == 2:
-            #self.population.append(([0.4, 0.8, 0.2, 0.6, 0, 4, 2, 4, 2, 4, 2, 2, 2, 2, 2], 851.4766715860002, True))
-            # self.population.append(([0.4, 0.8, 0.2, 0.6, 0, 2, 2, 2, 2, 4, 2, 2, 3, 2, 4], 300, True))
+        self.create_initial_population(min_feasible=int(self.fittest_size * self.population_size))  # We should at least have a mother and a father
 
         # Iterate
         last_improvement = 0
@@ -88,7 +92,7 @@ class GeneticAlgorithm:
             prev_fittest_obj_value = self.fittest_obj_value
 
             # Log
-            if log_to_console:
+            if self.log_to_console:
                 print("Starting new set of iterations\r\n")
 
             for i in tqdm(range(self.iterations)):
@@ -111,12 +115,14 @@ class GeneticAlgorithm:
                 # Diagnostics
                 if self.enable_diagnostics:
                     run_diagnostics.append({
+                        'generation': self.generation_number,
                         'time': datetime.now() - iterStartTime,
-                        'feasible_solutions': len(self.get_feasible_solutions())
+                        'feasible_solutions': len(self.get_feasible_solutions()),
+                        'obj_value': self.fittest_obj_value
                     })
 
             # Log
-            if log_to_console:
+            if self.log_to_console:
                 if last_improvement == 0:
                     if total_improved == math.inf:
                         print("\r\nAt least one feasible solution was found with objective value",
@@ -135,20 +141,21 @@ class GeneticAlgorithm:
         if solution is not None:
 
             # Log
-            if log_to_console:
+            if self.log_to_console:
                 print("\r\nA feasible solution was found")
                 print("Optimal chromosome:", solution[0])
                 print("Total distance:", solution[1])
                 print("PA layout:", self.warehouse.get_PA_dimensions())
-                print("Total runtime:", sum([int(x['time'].total_seconds() * 1000) for x in run_diagnostics]), "ms")
-                print("Average iteration time:",
-                      np.mean([int(x['time'].total_seconds() * 1000) for x in run_diagnostics]), "ms")
-                print("Average number of feasible solutions every iteration:",
-                      np.mean([x['feasible_solutions'] for x in run_diagnostics]))
+                if self.enable_diagnostics:
+                    print("Total runtime:", sum([int(x['time'].total_seconds() * 1000) for x in run_diagnostics]), "ms")
+                    print("Average iteration time:",
+                          np.mean([int(x['time'].total_seconds() * 1000) for x in run_diagnostics]), "ms")
+                    print("Average number of feasible solutions every iteration:",
+                          np.mean([x['feasible_solutions'] for x in run_diagnostics]))
 
         else:
             # Log
-            if log_to_console:
+            if self.log_to_console:
                 print("\r\nAlgorithm did not find a feasible solution")
 
             # Take best infeasible
@@ -156,22 +163,98 @@ class GeneticAlgorithm:
 
         # Process solution
         self.warehouse.process(solution[0])
+        self.warehouse.draw()
 
         # Draw solution as a PNG
         filename = f'output/sol{instance}.png'
         self.warehouse.draw(save=True, filename=filename)
 
         # Write output
-        write_instance(instance, self.warehouse.total_travel_distance if self.warehouse.feasible else math.inf,
+        write_instance(instance, self.warehouse.total_travel_distance if self.warehouse.feasible else -1,
                        self.warehouse.get_PA_dimensions())
 
         # Log final
-        if log_to_console:
+        if self.log_to_console:
             print("\r\nFinal solution saved as", filename, "\r\n")
 
         # Save generations
         if self.save_generations:
             self.generations.to_csv("data/generations/inst" + str(instance) + ".csv")
+
+        # Diagnostics
+        if self.enable_diagnostics:
+            # Get x and y
+            generations = [x['generation'] for x in run_diagnostics]
+            objective_value = [x['obj_value'] for x in run_diagnostics]
+
+            # Create folder to save diagnostics
+            if not os.path.isdir(f'data/diagnostics/instance{instance}'):
+                os.mkdir(f'data/diagnostics/instance{instance}')
+
+            # Collect diagnostics
+            elite_size = round(self.population_size * self.fittest_size)
+            children_size = round(self.population_size * self.children_size)
+            iteration_time = round(np.mean([int(x['time'].total_seconds() * 1000) for x in run_diagnostics]))
+            total_time = sum([int(x['time'].total_seconds() * 1000) for x in run_diagnostics])
+
+            # Save data
+            try:
+                df = pd.read_csv(f'data/diagnostics/instance{instance}/diagnostics.csv')
+            except:
+                df = pd.DataFrame(
+                    columns=["population_size", "elite_size", "children_size", "iteration_time", "total_time",
+                             "number_of_generations", "objective_value", "chromosome", "mutation_probs",
+                             "mutation_names", "generations_progress", "objective_value_progress"])
+            # Append row
+            df = df.append({
+                "population_size": self.population_size,
+                "elite_size": elite_size,
+                "children_size": children_size,
+                "iteration_time": iteration_time,
+                "iterations_per_set": self.iterations,
+                "total_time": total_time,
+                "number_of_generations": self.generation_number,
+                "objective_value": solution[1],
+                "chromosome": "|".join([str(x) for x in solution[0]]),
+                "mutation_probs": "|".join([str(x) for x in self.original_mutation_probs]),
+                "mutation_occurences": "|".join([str(x) for x in self.mutation_occurences]),
+                "mutation_names": "|".join(self.mutation_names),
+                "generations_progress": "|".join([str(x) for x in generations]),
+                "objective_value_progress": "|".join([str(x) for x in objective_value])
+            }, ignore_index=True)
+
+            # Save diagnostics
+            df.to_csv(f'data/diagnostics/instance{instance}/diagnostics.csv', index=False)
+
+            # Get length of rows
+            diagnostic_entry = len(df)
+
+            # Create figure
+            plt.figure()
+
+            # Get axis
+            plt.plot(generations, objective_value)
+
+            # Add text
+            string = "Objective value: " + str(solution[1]) + "\n" + \
+                     "Population size: " + str(self.population_size) + "\n" + \
+                     "Elite size: " + str(elite_size) + "\n" + \
+                     "Children size: " + str(children_size) + "\n" + \
+                     "Iteration time: " + str(iteration_time) + "ms\n" + \
+                     "Total time: " + str(total_time) + "ms\n" + \
+                     "Number of generations: " + str(self.generation_number) + "\n"
+            plt.text(0.5, .98, string, fontsize=12, horizontalalignment='left', verticalalignment='top',
+                     transform=plt.gca().transAxes)
+
+            # Set title
+            plt.title("Objective value over generations")
+            plt.xlabel("Number of generations")
+            plt.ylabel("Objective value")
+
+            # Save plot
+            filename = f'data/diagnostics/instance{instance}/diagnostic_entry_{str(diagnostic_entry)}.png'
+            plt.savefig(filename)
+            plt.show()
 
     def create_random_chromosome(self):
         # Create random order as done in Goncalves
@@ -199,12 +282,20 @@ class GeneticAlgorithm:
         return chromosomes
 
     def create_initial_population(self, min_feasible=0):
+        # Log to console
+        if self.log_to_console:
+            print("Creating initial population")
+
         # First generation
         self.generation_number = 0
 
         # Create random chromosomes
         feasible = 0
+        total_generated_chromosomes = 0
+        feasible_generator_used = False
         while len(self.population) < self.population_size:
+            total_generated_chromosomes = total_generated_chromosomes + 1
+
             # Create random chromosome
             chromosome = self.create_random_chromosome()
 
@@ -222,6 +313,36 @@ class GeneticAlgorithm:
                 # Number of feasible items
                 if item[2]:
                     feasible = feasible + 1
+            elif total_generated_chromosomes > (self.population_size * 10) and not feasible_generator_used:
+                # Log to console
+                if self.log_to_console:
+                    print("No feasible solutions found as of yet, trying to generate them systematically")
+
+                # Generate feasible chromosomes
+                feasible_solutions = generate_feasible_solutions(algorithm=self, max_solutions=self.population_size, max_run_time=300)
+                feasible_generator_used = True
+
+                # Log to console
+                if self.log_to_console and len(feasible_solutions) == 0:
+                    print("Could not find enough feasible solutions, adding random chromosomes instead")
+
+                # Append to population
+                for solution in feasible_solutions:
+                    if len(self.population) < self.population_size:
+                        # Unpack
+                        chromosome, obj_value, feasibility = solution
+
+                        # Add to population
+                        self.add_to_population(chromosome, obj_value=obj_value, feasibility=feasibility)
+
+                        # Number of feasible items
+                        feasible = feasible + 1
+
+            # Fill with random chromosomes
+            if feasible_generator_used:
+
+                # Add to population
+                self.population.append(item)
 
     def create_next_population(self, fittest_size=None, children_size=None, allow_infeasible_parents=False):
         # Next generation
@@ -232,15 +353,16 @@ class GeneticAlgorithm:
         self.children_size = children_size if children_size is not None else self.children_size
 
         # Select fittest chromosomes
-        fittest = self.select_fittest(int(self.fittest_size * self.population_size), allow_infeasible=allow_infeasible_parents)
+        fittest = self.select_fittest(int(self.fittest_size * self.population_size),
+                                      allow_infeasible=allow_infeasible_parents)
         fittest_chromosomes = list(map(get_chromosomes, fittest))
 
         # Create children from fittest chromosomes
         if len(fittest) > 0:
-            child_chromosomes = self.create_children(fittest_chromosomes,
+            children = self.create_children(fittest_chromosomes,
                                                      int(self.children_size * self.population_size))
         else:
-            child_chromosomes = []
+            children = []
 
         # Create new population
         self.population = []
@@ -250,10 +372,10 @@ class GeneticAlgorithm:
                 self.add_to_population(chromosome, obj_value=obj_value, feasibility=feasibility, process=False)
 
         # Add new child chromosomes to population
-        for chromosome in child_chromosomes:
+        for chromosome, obj_value, feasibility in children:
             if not self.population_contains(chromosome):
                 # Append to population
-                self.add_to_population(chromosome, process=True)
+                self.add_to_population(chromosome, obj_value=obj_value, feasibility=feasibility, process=False)
 
         # Fill population with random chromosomes
         while len(self.population) < self.population_size:
@@ -324,20 +446,19 @@ class GeneticAlgorithm:
         return sorted_population[:min(size, len(sorted_population))]
 
     def create_children(self, chromosomes, size):
-        # Get indexes of which two parents we inherit the order
-        if len(chromosomes) > 1:
-            # Get random indexes
-            indexes = sample(range(len(chromosomes)), 2)
-
-            # Mother is always fittest, father is least fit
-            mother_index = min(indexes)
-            father_index = max(indexes)
-        else:
-            # We only have a single parent
-            mother_index, father_index = 0, 0
-
         children = []
         for i in np.arange(size):
+            # Get indexes of which two parents we inherit the order
+            if len(chromosomes) > 1:
+                # Get random indexes
+                indexes = sample(range(len(chromosomes)), 2)
+
+                # Mother is always fittest, father is least fit
+                mother_index = min(indexes)
+                father_index = max(indexes)
+            else:
+                # We only have a single parent
+                mother_index, father_index = 0, 0
 
             # Decide on mother and father chromosome
             mother, father = chromosomes[mother_index], chromosomes[father_index]
@@ -356,34 +477,50 @@ class GeneticAlgorithm:
                 cross_aisles.append(mother[index] if random() < .5 else father[index])
 
             # Create child
-            child = [*order, *aisles, *cross_aisles]
+            child_chromosome = [*order, *aisles, *cross_aisles]
 
             # Mutate child
             pre_mutated_child = [*order, *aisles, *cross_aisles]
-            child = self.mutate(child)
+            mutated_chromosome, mutation_name = self.mutate(child_chromosome)
+
+            # Evaluate child
+            obj_value, feasibility = self.warehouse.process(mutated_chromosome)
+
+            # Mutation points
+            if self.fittest_obj_value < obj_value and self.mutation_points[self.mutation_names.index(mutation_name)] < 100:
+                self.mutation_points[self.mutation_names.index(mutation_name)] = self.mutation_points[self.mutation_names.index(mutation_name)] + 1
+            elif self.fittest_obj_value > obj_value and self.mutation_points[self.mutation_names.index(mutation_name)] > 0:
+                self.mutation_points[self.mutation_names.index(mutation_name)] = self.mutation_points[self.mutation_names.index(mutation_name)] - 1
 
             # Save generations
             if self.save_generations:
                 # Calculate mutations
-                mutation = np.array(np.array(pre_mutated_child) - np.array(child)).round(2)
+                mutation = np.array(np.array(pre_mutated_child) - np.array(mutated_chromosome)).round(2)
 
                 # Save a tuple of fittest chromosomes and corresponding child chromosomes
                 self.generations = self.generations.append(
                     {'generation': self.generation_number, 'mother': '|'.join(str(x) for x in mother),
-                     'father': '|'.join(str(x) for x in father), 'child': '|'.join(str(x) for x in child),
+                     'father': '|'.join(str(x) for x in father), 'child': '|'.join(str(x) for x in child_chromosome),
+                     'mutation_name': mutation_name, 'obj_value': str(obj_value), 'feasibility': str(feasibility),
                      'mutation': '|'.join(str(x) for x in mutation), 'child_no': len(children) + 1},
                     ignore_index=True)
 
             # Append child
-            children.append(child)
+            children.append((mutated_chromosome, obj_value, feasibility))
 
         return children
 
     def mutate(self, chromosome):
         # Get which mutation to apply
-        mutation_name = str(np.random.choice(self.mutation_names, 1, self.mutation_probs)[
+        total_mutation_points =sum(self.mutation_points)
+        mutation_probs = [x / total_mutation_points for x in self.mutation_points]
+        mutation_name = str(np.random.choice(self.mutation_names, 1, mutation_probs)[
                                 0])  # Chooses a random mutation according to the specified distribution
         mutation_function = mutations[mutation_name]
+
+        # Keep diagnostics
+        if self.enable_diagnostics:
+            self.mutation_occurences[self.mutation_names.index(mutation_name)] = self.mutation_occurences[self.mutation_names.index(mutation_name)] + 1
 
         # Mutate chromosome
         chromosome = mutation_function(self, chromosome)  # Runs the mutation
@@ -399,7 +536,7 @@ class GeneticAlgorithm:
         chromosome[2 * self.N:3 * self.N] = cross_aisles
 
         # Return mutated chromosome
-        return chromosome
+        return (chromosome, mutation_name)
 
     def get_chromosome(self, index):
         # Get chromosome from population

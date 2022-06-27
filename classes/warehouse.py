@@ -5,6 +5,7 @@ import imageio
 from random import random
 from .picking_area import PickingArea
 from .empty_maximal_space import EmptyMaximalSpace
+from matplotlib.patches import Rectangle
 
 
 class Warehouse:
@@ -35,7 +36,7 @@ class Warehouse:
 
         # Keep a list of PA positions
         self.PA_list = []
-        self.PA_colors = [(random()/2, random(), random()) for x in storage_capacities]
+        self.PA_colors = [(random() / 2, random(), random()) for x in storage_capacities]
 
         # Metrics
         self.total_travel_distance = 0
@@ -107,7 +108,7 @@ class Warehouse:
         # If we choose to animate the placement, we set animate to True
         if self.animate:
             # Create animation
-            self.create_animation()
+            self.create_animation(fps=.5)
 
         # Return travel distance and feasibility
         return round(self.total_travel_distance, 2), self.feasible
@@ -169,14 +170,14 @@ class Warehouse:
         if len(self.EMS_history) > 1:
             self.EMS_list = []
             # Create EMS list
-            for tup in self.EMS_history[len(self.PA_list)-1]:
+            for tup in self.EMS_history[len(self.PA_list) - 1]:
                 self.EMS_list.append(EmptyMaximalSpace(tup[0], tup[1], tup[2], tup[3]))
 
         else:
             self.EMS_list = [EmptyMaximalSpace(0, 0, self.W, self.H)]
 
         # Reset history
-        self.EMS_history = self.EMS_history[len(self.PA_list)-1:]
+        self.EMS_history = self.EMS_history[len(self.PA_list) - 1:]
 
     def remove_infeasible_picking_areas(self):
         # Remove infeasible
@@ -292,7 +293,7 @@ class Warehouse:
 
         # Get dimensions
         for PA in self.PA_list:
-            dimensions.append((PA.x, PA.y, PA.n, PA.k))
+            dimensions.append((round(PA.x), round(PA.y, 2), int(PA.n), int(PA.k)))
 
         # Return
         return dimensions
@@ -303,11 +304,14 @@ class Warehouse:
 
         # Set warehouse sizes
         plt.xlim([0, self.W])
-        plt.ylim([0, self.H])
+        plt.ylim([-.1 * self.H, self.H])
 
         # Get axis
         ax = plt.gca()
 
+        # Remove ticks
+        plt.tick_params(axis='both', which='both', bottom=False, top=False, labelbottom=False, right=False, left=False,
+                        labelleft=False)
 
         # Plot EMSs
         for EMS in self.EMS_list:
@@ -326,11 +330,25 @@ class Warehouse:
             cy = ry + rectangle.get_height() / 2
 
             # Content
-            content = PA.name + "\nn_" + str(PA.number) + "=" + str(round(PA.n)) + "\nk_" + str(PA.number) + "=" + str(round(PA.k))
+            content = PA.name + "\nn_" + str(PA.number) + "=" + str(round(PA.n)) + "\nk_" + str(PA.number) + "=" + str(
+                round(PA.k))
 
             # Place annotation
             ax.annotate(content, (cx, cy), color="black", weight="bold", fontsize=10, ha='center', va='center')
 
+        # Plot docking doors
+        docking_doors = Rectangle((0, -.1 * self.H), self.W, .1 * self.H, color="black", fill=True, alpha=1)
+
+        # Annotate
+        ax.add_artist(docking_doors)
+        rx, ry = docking_doors.get_xy()
+        cx = rx + docking_doors.get_width() / 2
+        cy = ry + docking_doors.get_height() / 2
+
+        # Place annotation
+        ax.annotate("Docking doors", (cx, cy), color="white", weight="bold", fontsize=10, ha='center', va='center')
+
+        # Save plot
         if save is False:
             # Show plot
             plt.show()
