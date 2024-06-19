@@ -1,0 +1,43 @@
+/data/f118637/.envs/environment/bin/python3: can't find '__main__' module in './program.zip'
+
+
+###############################################################################
+Peregrine Cluster
+Job 25197650 for user 'f118637'
+Finished at: Fri Jul 15 12:34:40 CEST 2022
+
+Job details:
+============
+
+Job ID              : 25195495_59
+Name                : job_array
+User                : f118637
+Partition           : regular
+Nodes               : pg-node142
+Number of Nodes     : 1
+Cores               : 1
+Number of Tasks     : 1
+State               : FAILED
+Submit              : 2022-07-15T08:56:24
+Start               : 2022-07-15T12:34:32
+End                 : 2022-07-15T12:34:39
+Reserved walltime   : 12:00:00
+Used walltime       : 00:00:07
+Used CPU time       : 00:00:02 (efficiency: 30.20%)
+% User (Computation): 80.04%
+% System (I/O)      : 19.91%
+Mem reserved        : 5000M
+Max Mem (Node/step) : 0.00  (Node unknown, N/A)
+Full Max Mem usage  : 0.00 
+Total Disk Read     : 0.00 
+Total Disk Write    : 0.00 
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

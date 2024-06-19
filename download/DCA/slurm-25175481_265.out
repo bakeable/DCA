@@ -1,0 +1,43 @@
+/var/spool/slurmd/job25186475/slurm_script: regel 15: 25799 Busfout                 python3 ./program.zip ${SLURM_ARRAY_TASK_ID}
+
+
+###############################################################################
+Peregrine Cluster
+Job 25186475 for user 'f118637'
+Finished at: Thu Jul 14 23:07:37 CEST 2022
+
+Job details:
+============
+
+Job ID              : 25175481_265
+Name                : job_array
+User                : f118637
+Partition           : regular
+Nodes               : pg-node179
+Number of Nodes     : 1
+Cores               : 1
+Number of Tasks     : 1
+State               : FAILED
+Submit              : 2022-07-14T11:27:46
+Start               : 2022-07-14T21:00:38
+End                 : 2022-07-14T23:07:37
+Reserved walltime   : 12:00:00
+Used walltime       : 02:06:59
+Used CPU time       : 02:06:31 (efficiency: 99.63%)
+% User (Computation): 100.00%
+% System (I/O)      :  0.01%
+Mem reserved        : 5000M
+Max Mem (Node/step) : 64.64M (pg-node179, per node)
+Full Max Mem usage  : 64.64M
+Total Disk Read     : 13.93M
+Total Disk Write    : 2.95M
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

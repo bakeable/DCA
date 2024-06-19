@@ -9,12 +9,13 @@ from matplotlib.patches import Rectangle
 
 
 class Warehouse:
-    def __init__(self, width, height, storage_capacities=[], order_sizes=[], replenishments=[], w_i=1, v_i=1,
+    def __init__(self, width, height, storage_capacities=[], order_sizes=[], replenishments=[], w_i=1, v_i=1, penalty=10,
                  animate=False, save_history=True):
         # Set variables
         self.W = width
         self.H = height
         self.surface = self.W * self.H
+        self.penalty = penalty
 
         # Given storage capacities and order sizes
         self.storage_capacities = storage_capacities
@@ -95,7 +96,7 @@ class Warehouse:
             color = self.PA_colors[index]
 
             # Create picking area
-            picking_area = PickingArea(s_i, n, k, m, alpha, self.w_i, self.v_i, number, color)
+            picking_area = PickingArea(s_i, n, k, m, s_i, alpha, self.w_i, self.v_i, number, color)
 
             # Insert picking area
             self.insert_picking_area(picking_area)
@@ -156,7 +157,13 @@ class Warehouse:
             picking_area.EMS_options = self.EMS_list
 
             # Set initial penalty
-            picking_area.penalty = self.H
+            picking_area.penalty = self.penalty
+            if picking_area.EMS.w < picking_area.w:
+                picking_area.penalty = picking_area.penalty * (1 + picking_area.w - picking_area.EMS.w)
+
+            if picking_area.EMS.h < picking_area.h:
+                picking_area.penalty = picking_area.penalty * (1 + picking_area.h - picking_area.EMS.h)
+
 
         # Update metrics
         self.total_travel_distance = self.total_travel_distance + picking_area.get_travel_distance()
@@ -287,12 +294,15 @@ class Warehouse:
         # Return
         return surface_space
 
-    def get_PA_dimensions(self):
+    def get_PA_dimensions(self, ordered = False):
         # Instantiate dimensions
         dimensions = []
 
+        # Order list
+        pa_list = sorted(self.PA_list, key=lambda x: x.number) if ordered else self.PA_list
+
         # Get dimensions
-        for PA in self.PA_list:
+        for PA in pa_list:
             dimensions.append((round(PA.x), round(PA.y, 2), int(PA.n), int(PA.k)))
 
         # Return
@@ -301,53 +311,53 @@ class Warehouse:
     def draw(self, save=False, filename=None):
         # Create figure
         plt.figure()
-
+        
         # Set warehouse sizes
         plt.xlim([0, self.W])
         plt.ylim([-.1 * self.H, self.H])
-
+        
         # Get axis
         ax = plt.gca()
-
+        
         # Remove ticks
         plt.tick_params(axis='both', which='both', bottom=False, top=False, labelbottom=False, right=False, left=False,
                         labelleft=False)
-
+        
         # Plot EMSs
         for EMS in self.EMS_list:
             # Draw rectangle
             ax.add_patch(EMS.get_rectangle())
-
+        
         # Plot picking areas
         for PA in self.PA_list:
             # Get rectangle
             rectangle = PA.get_rectangle()
-
+        
             # Annotate
             ax.add_artist(rectangle)
             rx, ry = rectangle.get_xy()
             cx = rx + rectangle.get_width() / 2
             cy = ry + rectangle.get_height() / 2
-
+        
             # Content
             content = PA.name + "\nn_" + str(PA.number) + "=" + str(round(PA.n)) + "\nk_" + str(PA.number) + "=" + str(
                 round(PA.k))
-
+        
             # Place annotation
             ax.annotate(content, (cx, cy), color="black", weight="bold", fontsize=10, ha='center', va='center')
-
+        
         # Plot docking doors
         docking_doors = Rectangle((0, -.1 * self.H), self.W, .1 * self.H, color="black", fill=True, alpha=1)
-
+        
         # Annotate
         ax.add_artist(docking_doors)
         rx, ry = docking_doors.get_xy()
         cx = rx + docking_doors.get_width() / 2
         cy = ry + docking_doors.get_height() / 2
-
+        
         # Place annotation
         ax.annotate("Docking doors", (cx, cy), color="white", weight="bold", fontsize=10, ha='center', va='center')
-
+        
         # Save plot
         if save is False:
             # Show plot
@@ -358,10 +368,10 @@ class Warehouse:
                 # Create frame
                 filename = f'animation/frames/{self.frame}.png'
                 self.frame_files.append(filename)
-
+        
                 # Increment frame
                 self.frame = self.frame + 1
-
+        
             # Save frame
             plt.savefig(filename)
             plt.close()
@@ -372,7 +382,7 @@ class Warehouse:
             for filename in self.frame_files:
                 image = imageio.imread(filename)
                 writer.append_data(image)
-
+        
         # Reset
         self.frame = 0
         self.frame_files = []

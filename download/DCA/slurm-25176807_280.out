@@ -1,0 +1,49 @@
+Error: [Errno 19] No such device: '/data/f118637/.envs/environment/bin/Activate.ps1'
+/var/spool/slurmd/job25188874/slurm_script: regel 15: 11416 Busfout                 python3 ./program.zip ${SLURM_ARRAY_TASK_ID}
+
+
+###############################################################################
+Peregrine Cluster
+Job 25188874 for user 'f118637'
+Finished at: Fri Jul 15 00:23:31 CEST 2022
+
+Job details:
+============
+
+Job ID              : 25176807_280
+Name                : job_array
+User                : f118637
+Partition           : regular
+Nodes               : pg-node147
+Number of Nodes     : 1
+Cores               : 1
+Number of Tasks     : 1
+State               : FAILED
+Submit              : 2022-07-14T12:31:14
+Start               : 2022-07-15T00:10:26
+End                 : 2022-07-15T00:23:31
+Reserved walltime   : 12:00:00
+Used walltime       : 00:13:05
+Used CPU time       : 00:08:42 (efficiency: 66.59%)
+% User (Computation): 99.85%
+% System (I/O)      :  0.15%
+Mem reserved        : 5000M
+Max Mem (Node/step) : 64.66M (pg-node147, per node)
+Full Max Mem usage  : 64.66M
+Total Disk Read     : 13.93M
+Total Disk Write    : 2.94M
+Hints and tips      :
+ 1) The program efficiency is low.
+    Check the file in- and output pattern of your application.
+ *) For more information on these issues see:
+    https://wiki.hpc.rug.nl/peregrine/additional_information/job_hints
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

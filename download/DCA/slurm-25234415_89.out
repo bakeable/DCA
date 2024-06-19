@@ -1,0 +1,2083 @@
+
+
+Running instance 443
+Instance instantiated
+Creating initial population
+No feasible solutions found as of yet, trying to generate them systematically
+Storage sizes: [390, 780, 570, 220, 240, 290, 300, 780, 350, 200, 470, 480, 270, 390, 370, 660, 470, 620, 720, 620, 310, 290, 230, 780, 710, 410, 590, 520, 610, 200, 430, 470, 790, 230, 570, 490, 440, 280, 220, 320, 560, 220, 640, 470, 790, 270, 450, 540, 420, 460]
+Maximum aisles: 44
+Aisle options: [14.0, 7.0, 2.0, 3.0, 21.0]
+Processing 10000 possible chromosomes
+Generating feasible solutions
+Generating solutions aborted since maximum run time was reached
+Found 0 feasible solutions
+Could not find enough feasible solutions, adding random chromosomes instead
+Starting new set of iterations
+
+A4 443 -1.0 => -1
+Written solution
+A4 443 -1.0 => -1
+Written solution
+A4 443 40548.92 => -1
+Written solution
+A4 443 40548.92 => -1
+Written solution
+A4 443 40548.92 => -1
+Written solution
+A4 443 40377.75 => -1
+Written solution
+A4 443 -1.0 => -1
+Written solution
+A4 443 -1.0 => -1
+Written solution
+A4 443 -1.0 => -1
+Written solution
+A4 443 -1.0 => -1
+Written solution
+A4 443 -1.0 => -1
+Written solution
+A4 443 -1.0 => -1
+Written solution
+A4 443 -1.0 => -1
+Written solution
+A4 443 -1.0 => -1
+Written solution
+A4 443 39832.59 => -1
+Written solution
+A4 443 -1.0 => -1
+Written solution
+A4 443 -1.0 => -1
+Written solution
+A4 443 -1.0 => -1
+Written solution
+A4 443 -1.0 => -1
+Written solution
+A4 443 -1.0 => -1
+Written solution
+A4 443 -1.0 => -1
+Written solution
+A4 443 -1.0 => -1
+Written solution
+A4 443 -1.0 => -1
+Written solution
+A4 443 -1.0 => -1
+Written solution
+A4 443 -1.0 => -1
+Written solution
+A4 443 -1.0 => -1
+Written solution
+A4 443 -1.0 => -1
+Written solution
+A4 443 -1.0 => -1
+Written solution
+A4 443 -1.0 => -1
+Written solution
+A4 443 -1.0 => -1
+Written solution
+A4 443 39729.15 => -1
+Written solution
+A4 443 39696.0 => -1
+Written solution
+A4 443 39684.82 => -1
+Written solution
+A4 443 -1.0 => -1
+Written solution
+A4 443 -1.0 => -1
+Written solution
+A4 443 -1.0 => 39626.200000000004
+Written solution
+A4 443 -1.0 => 39626.200000000004
+Written solution
+A4 443 -1.0 => 39626.200000000004
+Written solution
+A4 443 -1.0 => 39626.200000000004
+Written solution
+A4 443 -1.0 => 39626.200000000004
+Written solution
+A4 443 -1.0 => 39619.880000000005
+Written solution
+A4 443 -1.0 => 39569.130000000005
+Written solution
+A4 443 39334.27 => 39569.130000000005
+Written solution
+A4 443 39334.27 => 39569.130000000005
+Written solution
+A4 443 -1.0 => 39569.130000000005
+Written solution
+A4 443 -1.0 => 39569.130000000005
+Written solution
+A4 443 -1.0 => 39569.130000000005
+Written solution
+A4 443 -1.0 => 39569.130000000005
+Written solution
+A4 443 -1.0 => 39548.530000000006
+Written solution
+A4 443 -1.0 => 39548.530000000006
+Written solution
+A4 443 -1.0 => 39538.25
+Written solution
+A4 443 -1.0 => 39538.25
+Written solution
+A4 443 -1.0 => 39538.25
+Written solution
+A4 443 -1.0 => 39538.25
+Written solution
+A4 443 -1.0 => 39538.25
+Written solution
+A4 443 -1.0 => 39538.25
+Written solution
+A4 443 41773.86 => 39538.25
+Written solution
+A4 443 41773.86 => 39538.25
+Written solution
+A4 443 -1.0 => 39538.25
+Written solution
+A4 443 -1.0 => 39538.25
+Written solution
+A4 443 -1.0 => 39538.25
+Written solution
+A4 443 -1.0 => 39538.25
+Written solution
+A4 443 -1.0 => 39538.25
+Written solution
+A4 443 -1.0 => 39538.25
+Written solution
+A4 443 41702.71 => 39538.25
+Written solution
+A4 443 41702.71 => 39538.25
+Written solution
+A4 443 41632.18 => 39515.45
+Written solution
+A4 443 -1.0 => 39502.5
+Written solution
+A4 443 39233.76 => 39499.88
+Written solution
+A4 443 -1.0 => 39499.88
+Written solution
+A4 443 -1.0 => 39450.14
+Written solution
+A4 443 -1.0 => 39422.630000000005
+Written solution
+A4 443 -1.0 => 39420.30000000001
+Written solution
+A4 443 -1.0 => 39420.30000000001
+Written solution
+A4 443 -1.0 => 39375.93000000001
+Written solution
+A4 443 -1.0 => 39375.93000000001
+Written solution
+A4 443 -1.0 => 39375.93000000001
+Written solution
+A4 443 -1.0 => 39375.93000000001
+Written solution
+A4 443 -1.0 => 39375.93000000001
+Written solution
+A4 443 -1.0 => 39375.93000000001
+Written solution
+A4 443 -1.0 => 39375.93000000001
+Written solution
+A4 443 39233.76 => 39375.93000000001
+Written solution
+A4 443 39233.76 => 39375.93000000001
+Written solution
+A4 443 -1.0 => 39375.93000000001
+Written solution
+A4 443 -1.0 => 39375.93000000001
+Written solution
+A4 443 -1.0 => 39303.41000000001
+Written solution
+A4 443 -1.0 => 39300.79000000001
+Written solution
+A4 443 -1.0 => 39300.79000000001
+Written solution
+A4 443 -1.0 => 39300.79000000001
+Written solution
+A4 443 41443.82 => 39300.79000000001
+Written solution
+A4 443 41443.82 => 39270.22000000001
+Written solution
+A4 443 39207.54 => 39258.51
+Written solution
+A4 443 -1.0 => 39258.51
+Written solution
+A4 443 -1.0 => 39258.51
+Written solution
+A4 443 -1.0 => 39204.55
+Written solution
+A4 443 -1.0 => 39204.55
+Written solution
+A4 443 41390.83 => 39204.55
+Written solution
+A4 443 41390.83 => 39204.55
+Written solution
+A4 443 -1.0 => 39204.55
+Written solution
+A4 443 -1.0 => 39204.55
+Written solution
+A4 443 -1.0 => 39204.55
+Written solution
+A4 443 -1.0 => 39204.55
+Written solution
+A4 443 -1.0 => 39204.55
+Written solution
+A4 443 41388.7 => 39204.55
+Written solution
+A4 443 41304.92 => 39204.55
+Written solution
+A4 443 39152.11 => 39204.55
+Written solution
+A4 443 39152.11 => 39129.63
+Written solution
+A4 443 39152.11 => 39129.63
+Written solution
+A4 443 -1.0 => 39071.92
+Written solution
+A4 443 -1.0 => 39071.92
+Written solution
+A4 443 -1.0 => 39071.92
+Written solution
+A4 443 -1.0 => 39071.92
+Written solution
+A4 443 -1.0 => 39071.92
+Written solution
+A4 443 41055.41 => 39071.92
+Written solution
+A4 443 41055.41 => 39022.61000000001
+Written solution
+A4 443 41055.41 => 39022.61000000001
+Written solution
+A4 443 41055.41 => 39007.97000000001
+Written solution
+A4 443 41055.41 => 39007.97000000001
+Written solution
+A4 443 -1.0 => 39007.97000000001
+Written solution
+A4 443 -1.0 => 39007.97000000001
+Written solution
+A4 443 -1.0 => 39007.97000000001
+Written solution
+A4 443 -1.0 => 39007.97000000001
+Written solution
+A4 443 -1.0 => 39007.97000000001
+Written solution
+A4 443 -1.0 => 38929.23
+Written solution
+A4 443 -1.0 => 38862.08
+Written solution
+A4 443 -1.0 => 38862.08
+Written solution
+A4 443 -1.0 => 38862.08
+Written solution
+A4 443 -1.0 => 38862.08
+Written solution
+A4 443 -1.0 => 38862.08
+Written solution
+A4 443 -1.0 => 38862.08
+Written solution
+A4 443 -1.0 => 38862.08
+Written solution
+A4 443 -1.0 => 38862.08
+Written solution
+A4 443 -1.0 => 38739.59
+Written solution
+A4 443 39132.53 => 38726.9
+Written solution
+A4 443 39132.53 => 38726.9
+Written solution
+A4 443 -1.0 => 38700.920000000006
+Written solution
+A4 443 -1.0 => 38699.76000000001
+Written solution
+A4 443 40992.17 => 38692.990000000005
+Written solution
+A4 443 40992.17 => 38692.990000000005
+Written solution
+A4 443 -1.0 => 38692.990000000005
+Written solution
+A4 443 -1.0 => 38692.990000000005
+Written solution
+A4 443 39121.13 => 38675.48
+Written solution
+A4 443 -1.0 => 38675.48
+Written solution
+A4 443 -1.0 => 38675.48
+Written solution
+A4 443 40805.16 => 38675.48
+Written solution
+A4 443 40805.16 => 38675.48
+Written solution
+A4 443 -1.0 => 38675.48
+Written solution
+A4 443 -1.0 => 38675.48
+Written solution
+A4 443 -1.0 => 38656.82
+Written solution
+A4 443 -1.0 => 38656.82
+Written solution
+A4 443 -1.0 => 38656.82
+Written solution
+A4 443 39084.74 => 38655.43
+Written solution
+A4 443 39081.3 => 38655.43
+Written solution
+A4 443 40721.08 => 38655.43
+Written solution
+A4 443 40721.08 => 38655.43
+Written solution
+A4 443 40415.19 => 38655.43
+Written solution
+A4 443 39764.46 => 38655.43
+Written solution
+A4 443 39764.46 => 38655.43
+Written solution
+A4 443 39711.03 => 38655.43
+Written solution
+A4 443 39711.03 => 38635.87
+Written solution
+A4 443 -1.0 => 38635.87
+Written solution
+A4 443 -1.0 => 38635.87
+Written solution
+A4 443 -1.0 => 38635.87
+Written solution
+A4 443 -1.0 => 38635.87
+Written solution
+A4 443 39080.78 => 38635.87
+Written solution
+A4 443 39080.78 => 38635.87
+Written solution
+A4 443 -1.0 => 38635.87
+Written solution
+A4 443 -1.0 => 38635.87
+Written solution
+A4 443 40401.39 => 38635.87
+Written solution
+A4 443 40401.39 => 38635.87
+Written solution
+A4 443 40613.57 => 38635.87
+Written solution
+A4 443 39080.78 => 38635.87
+Written solution
+A4 443 39080.78 => 38635.87
+Written solution
+A4 443 39080.78 => 38635.87
+Written solution
+A4 443 -1.0 => 38635.87
+Written solution
+A4 443 -1.0 => 38635.87
+Written solution
+A4 443 40594.84 => 38635.87
+Written solution
+A4 443 40594.84 => 38635.87
+Written solution
+A4 443 40594.84 => 38635.87
+Written solution
+A4 443 -1.0 => 38635.87
+Written solution
+A4 443 -1.0 => 38635.87
+Written solution
+A4 443 40261.41 => 38635.87
+Written solution
+A4 443 40261.41 => 38635.87
+Written solution
+A4 443 40261.41 => 38635.87
+Written solution
+A4 443 40261.41 => 38541.79
+Written solution
+A4 443 39417.92 => 38541.340000000004
+Written solution
+A4 443 39417.92 => 38541.340000000004
+Written solution
+A4 443 39080.78 => 38541.340000000004
+Written solution
+A4 443 39080.78 => 38541.340000000004
+Written solution
+A4 443 39080.78 => 38541.340000000004
+Written solution
+A4 443 39080.78 => 38541.340000000004
+Written solution
+A4 443 39055.85 => 38541.340000000004
+Written solution
+A4 443 39055.85 => 38541.340000000004
+Written solution
+A4 443 -1.0 => 38541.340000000004
+Written solution
+A4 443 -1.0 => 38541.340000000004
+Written solution
+A4 443 39251.67 => 38541.340000000004
+Written solution
+A4 443 -1.0 => 38541.340000000004
+Written solution
+A4 443 -1.0 => 38541.340000000004
+Written solution
+A4 443 39974.07 => 38541.340000000004
+Written solution
+A4 443 39974.07 => 38537.62000000001
+Written solution
+A4 443 39971.94 => 38537.62000000001
+Written solution
+A4 443 39033.63 => 38537.62000000001
+Written solution
+A4 443 39033.63 => 38537.62000000001
+Written solution
+A4 443 39033.63 => 38537.62000000001
+Written solution
+A4 443 39971.94 => 38537.62000000001
+Written solution
+A4 443 39971.94 => 38537.62000000001
+Written solution
+A4 443 39971.94 => 38537.62000000001
+Written solution
+A4 443 39237.44 => 38537.62000000001
+Written solution
+A4 443 40505.73 => 38537.62000000001
+Written solution
+A4 443 40505.73 => 38537.62000000001
+Written solution
+A4 443 40505.73 => 38537.62000000001
+Written solution
+A4 443 40505.73 => 38537.62000000001
+Written solution
+A4 443 40505.73 => 38430.44
+Written solution
+A4 443 40505.73 => 38315.75000000001
+Written solution
+A4 443 40505.73 => 38315.75000000001
+Written solution
+A4 443 -1.0 => 38309.270000000004
+Written solution
+A4 443 39026.83 => 38309.270000000004
+Written solution
+A4 443 39026.83 => 38309.270000000004
+Written solution
+A4 443 40461.15 => 38309.270000000004
+Written solution
+A4 443 40459.76 => 38301.600000000006
+Written solution
+A4 443 39010.96 => 38301.600000000006
+Written solution
+A4 443 39876.32 => 38301.600000000006
+Written solution
+A4 443 39876.32 => 38301.600000000006
+Written solution
+A4 443 39876.32 => 38301.600000000006
+Written solution
+A4 443 39876.32 => 38265.08
+Written solution
+A4 443 39876.32 => 38265.08
+Written solution
+A4 443 39876.32 => 38265.08
+Written solution
+A4 443 40405.57 => 38257.41
+Written solution
+A4 443 40405.57 => 38257.41
+Written solution
+A4 443 39007.95 => 38257.41
+Written solution
+A4 443 39007.95 => 38257.41
+Written solution
+A4 443 39007.95 => 38257.41
+Written solution
+A4 443 -1.0 => 38257.41
+Written solution
+A4 443 -1.0 => 38257.41
+Written solution
+A4 443 -1.0 => 38257.41
+Written solution
+A4 443 39842.39 => 38257.41
+Written solution
+A4 443 40280.82 => 38257.41
+Written solution
+A4 443 39842.39 => 38257.41
+Written solution
+A4 443 39842.39 => 38257.41
+Written solution
+A4 443 39702.8 => 38257.41
+Written solution
+A4 443 39691.67 => 38257.41
+Written solution
+A4 443 39691.67 => 38257.41
+Written solution
+A4 443 39007.95 => 38257.41
+Written solution
+A4 443 39007.95 => 38257.41
+Written solution
+A4 443 38937.99 => 38238.090000000004
+Written solution
+A4 443 38937.99 => 38238.090000000004
+Written solution
+A4 443 40280.82 => 38238.090000000004
+Written solution
+A4 443 40280.82 => 38238.090000000004
+Written solution
+A4 443 40280.82 => 38238.090000000004
+Written solution
+A4 443 40280.82 => 38238.090000000004
+Written solution
+
+At least one solution was found with objective value 38238.09
+Starting new set of iterations
+
+A4 443 40280.82 => 38238.090000000004
+Written solution
+A4 443 39005.31 => 38238.090000000004
+Written solution
+A4 443 40276.7 => 38238.090000000004
+Written solution
+A4 443 -1.0 => 38238.090000000004
+Written solution
+A4 443 -1.0 => 38238.090000000004
+Written solution
+A4 443 -1.0 => 38237.64000000001
+Written solution
+A4 443 -1.0 => 38237.64000000001
+Written solution
+A4 443 -1.0 => 38237.64000000001
+Written solution
+A4 443 -1.0 => 38237.64000000001
+Written solution
+A4 443 -1.0 => 38235.990000000005
+Written solution
+A4 443 -1.0 => 38235.990000000005
+Written solution
+A4 443 -1.0 => 38235.990000000005
+Written solution
+A4 443 -1.0 => 38233.240000000005
+Written solution
+A4 443 38716.02 => 38231.14000000001
+Written solution
+A4 443 39005.31 => 38231.14000000001
+Written solution
+A4 443 38711.15 => 38231.14000000001
+Written solution
+A4 443 39005.31 => 38231.14000000001
+Written solution
+A4 443 39005.31 => 38231.14000000001
+Written solution
+A4 443 38711.15 => 38231.14000000001
+Written solution
+A4 443 38711.15 => 38231.14000000001
+Written solution
+A4 443 38711.15 => 38229.37
+Written solution
+A4 443 38711.15 => 38227.98
+Written solution
+A4 443 38709.92 => 38227.98
+Written solution
+A4 443 38709.92 => 38227.98
+Written solution
+A4 443 38708.98 => 38227.98
+Written solution
+A4 443 38701.2 => 38227.98
+Written solution
+A4 443 39005.31 => 38227.98
+Written solution
+A4 443 39005.31 => 38227.98
+Written solution
+A4 443 39005.31 => 38227.98
+Written solution
+A4 443 39005.31 => 38227.98
+Written solution
+A4 443 39005.31 => 38227.98
+Written solution
+A4 443 39602.77 => 38227.98
+Written solution
+A4 443 39005.31 => 38227.98
+Written solution
+A4 443 40239.17 => 38227.98
+Written solution
+A4 443 38574.77 => 38227.98
+Written solution
+A4 443 38574.77 => 38227.98
+Written solution
+A4 443 40239.17 => 38227.98
+Written solution
+A4 443 39537.01 => 38227.98
+Written solution
+A4 443 38532.25 => 38227.98
+Written solution
+A4 443 39536.47 => 38227.98
+Written solution
+A4 443 39536.47 => 38227.98
+Written solution
+A4 443 38985.3 => 38227.98
+Written solution
+A4 443 38532.25 => 38227.090000000004
+Written solution
+A4 443 39536.47 => 38227.090000000004
+Written solution
+A4 443 39536.47 => 38227.090000000004
+Written solution
+A4 443 39536.47 => 38225.880000000005
+Written solution
+A4 443 39536.47 => 38225.880000000005
+Written solution
+A4 443 39536.47 => 38225.880000000005
+Written solution
+A4 443 39536.47 => 38225.880000000005
+Written solution
+A4 443 39536.47 => 38225.880000000005
+Written solution
+A4 443 39536.47 => 38225.880000000005
+Written solution
+A4 443 39536.47 => 38225.880000000005
+Written solution
+A4 443 39536.47 => 38225.880000000005
+Written solution
+A4 443 40173.17 => 38225.880000000005
+Written solution
+A4 443 38464.97 => 38221.700000000004
+Written solution
+A4 443 38464.97 => 38220.490000000005
+Written solution
+A4 443 38985.3 => 38215.98
+Written solution
+A4 443 38985.3 => 38215.98
+Written solution
+A4 443 38985.3 => 38214.770000000004
+Written solution
+A4 443 39536.38 => 38184.700000000004
+Written solution
+A4 443 39536.38 => 38184.700000000004
+Written solution
+A4 443 -1.0 => 38178.98
+Written solution
+A4 443 -1.0 => 38178.98
+Written solution
+A4 443 -1.0 => 38178.98
+Written solution
+A4 443 40173.17 => 38178.98
+Written solution
+A4 443 40173.17 => 38178.98
+Written solution
+A4 443 -1.0 => 38178.98
+Written solution
+A4 443 38441.22 => 38178.98
+Written solution
+A4 443 38985.3 => 38178.98
+Written solution
+A4 443 38985.3 => 38178.98
+Written solution
+A4 443 38985.3 => 38178.98
+Written solution
+A4 443 38985.3 => 38178.98
+Written solution
+A4 443 40124.4 => 38178.98
+Written solution
+A4 443 40124.4 => 38178.98
+Written solution
+A4 443 39536.38 => 38178.98
+Written solution
+A4 443 39534.56 => 38178.98
+Written solution
+A4 443 38441.22 => 38178.98
+Written solution
+A4 443 -1.0 => 38178.98
+Written solution
+A4 443 -1.0 => 38178.98
+Written solution
+A4 443 -1.0 => 38178.98
+Written solution
+A4 443 38985.3 => 38178.98
+Written solution
+A4 443 38985.3 => 38178.98
+Written solution
+A4 443 38985.3 => 38178.98
+Written solution
+A4 443 38985.3 => 38178.98
+Written solution
+A4 443 39534.47 => 38178.98
+Written solution
+A4 443 39534.47 => 38178.270000000004
+Written solution
+A4 443 39534.47 => 38178.270000000004
+Written solution
+A4 443 39534.47 => 38178.270000000004
+Written solution
+A4 443 39534.47 => 38178.270000000004
+Written solution
+A4 443 39534.47 => 38178.270000000004
+Written solution
+A4 443 40082.38 => 38178.270000000004
+Written solution
+A4 443 40077.88 => 38178.270000000004
+Written solution
+A4 443 39514.39 => 38178.270000000004
+Written solution
+A4 443 40073.96 => 38178.270000000004
+Written solution
+A4 443 38440.53 => 38178.270000000004
+Written solution
+A4 443 38440.53 => 38178.270000000004
+Written solution
+A4 443 38440.53 => 38178.270000000004
+Written solution
+A4 443 38396.46 => 38178.270000000004
+Written solution
+A4 443 38396.46 => 38178.270000000004
+Written solution
+A4 443 39510.79 => 38178.270000000004
+Written solution
+A4 443 38396.46 => 38178.270000000004
+Written solution
+A4 443 38396.46 => 38178.270000000004
+Written solution
+A4 443 40033.31 => 38178.270000000004
+Written solution
+A4 443 -1.0 => 38178.270000000004
+Written solution
+A4 443 -1.0 => 38178.270000000004
+Written solution
+A4 443 -1.0 => 38178.270000000004
+Written solution
+A4 443 38983.11 => 38178.270000000004
+Written solution
+A4 443 38396.46 => 38178.270000000004
+Written solution
+A4 443 38396.46 => 38178.270000000004
+Written solution
+A4 443 40033.31 => 38178.270000000004
+Written solution
+A4 443 39414.71 => 38178.270000000004
+Written solution
+A4 443 39414.71 => 38178.270000000004
+Written solution
+A4 443 39414.71 => 38178.270000000004
+Written solution
+A4 443 39414.71 => 38178.270000000004
+Written solution
+A4 443 39414.71 => 38178.270000000004
+Written solution
+A4 443 39414.71 => 38178.270000000004
+Written solution
+A4 443 39414.71 => 38132.90000000001
+Written solution
+A4 443 38356.59 => 38132.90000000001
+Written solution
+A4 443 38356.59 => 38132.90000000001
+Written solution
+A4 443 38356.59 => 38132.90000000001
+Written solution
+A4 443 38356.59 => 38132.90000000001
+Written solution
+A4 443 38356.59 => 38132.90000000001
+Written solution
+A4 443 38356.59 => 38132.90000000001
+Written solution
+A4 443 38356.59 => 38132.90000000001
+Written solution
+A4 443 40023.8 => 38132.90000000001
+Written solution
+A4 443 40023.8 => 38132.90000000001
+Written solution
+A4 443 39407.42 => 38131.39000000001
+Written solution
+A4 443 38356.59 => 38131.39000000001
+Written solution
+A4 443 38356.59 => 38130.68000000001
+Written solution
+A4 443 38980.28 => 38130.68000000001
+Written solution
+A4 443 38980.28 => 38130.68000000001
+Written solution
+A4 443 -1.0 => 38130.46000000001
+Written solution
+A4 443 40020.65 => 38130.46000000001
+Written solution
+A4 443 -1.0 => 38130.46000000001
+Written solution
+A4 443 -1.0 => 38130.46000000001
+Written solution
+A4 443 39373.12 => 38130.46000000001
+Written solution
+A4 443 39373.12 => 38130.46000000001
+Written solution
+A4 443 39373.12 => 38130.46000000001
+Written solution
+A4 443 39373.12 => 38130.46000000001
+Written solution
+A4 443 39373.12 => 38130.46000000001
+Written solution
+A4 443 40015.54 => 38130.46000000001
+Written solution
+A4 443 40015.54 => 38130.46000000001
+Written solution
+A4 443 40015.54 => 38130.46000000001
+Written solution
+A4 443 40015.54 => 38130.46000000001
+Written solution
+A4 443 38313.98 => 38130.46000000001
+Written solution
+A4 443 39373.12 => 38130.46000000001
+Written solution
+A4 443 39373.12 => 38130.46000000001
+Written solution
+A4 443 39373.12 => 38130.46000000001
+Written solution
+A4 443 39373.12 => 38130.46000000001
+Written solution
+A4 443 40015.54 => 38130.46000000001
+Written solution
+A4 443 40015.54 => 38130.46000000001
+Written solution
+A4 443 40015.54 => 38130.46000000001
+Written solution
+A4 443 40015.54 => 38130.46000000001
+Written solution
+A4 443 40015.54 => 38130.46000000001
+Written solution
+A4 443 38256.09 => 38130.46000000001
+Written solution
+A4 443 38256.09 => 38130.46000000001
+Written solution
+A4 443 38256.09 => 38130.46000000001
+Written solution
+A4 443 38256.09 => 38130.46000000001
+Written solution
+A4 443 38256.09 => 38130.46000000001
+Written solution
+A4 443 38256.09 => 38130.46000000001
+Written solution
+A4 443 38256.09 => 38130.46000000001
+Written solution
+A4 443 39373.12 => 38130.46000000001
+Written solution
+A4 443 39373.12 => 38130.46000000001
+Written solution
+A4 443 39373.12 => 38130.46000000001
+Written solution
+A4 443 39373.12 => 38130.46000000001
+Written solution
+A4 443 39373.12 => 38130.46000000001
+Written solution
+A4 443 39373.12 => 38130.46000000001
+Written solution
+A4 443 39373.12 => 38112.33
+Written solution
+A4 443 39373.12 => 38112.33
+Written solution
+A4 443 39373.12 => 38112.33
+Written solution
+A4 443 39373.12 => 38112.33
+Written solution
+A4 443 39361.08 => 38112.33
+Written solution
+A4 443 39361.08 => 38112.33
+Written solution
+A4 443 39361.08 => 38112.33
+Written solution
+A4 443 39995.79 => 38112.33
+Written solution
+A4 443 39995.79 => 38112.33
+Written solution
+A4 443 39995.79 => 38112.33
+Written solution
+A4 443 39995.79 => 38112.33
+Written solution
+A4 443 39995.79 => 38112.33
+Written solution
+A4 443 39351.07 => 38112.33
+Written solution
+A4 443 39351.07 => 38112.33
+Written solution
+A4 443 39351.07 => 38112.33
+Written solution
+A4 443 39351.07 => 38112.33
+Written solution
+A4 443 39351.07 => 38112.33
+Written solution
+A4 443 39351.07 => 38112.33
+Written solution
+A4 443 39351.07 => 38112.33
+Written solution
+A4 443 39995.79 => 38112.33
+Written solution
+A4 443 39995.79 => 38112.33
+Written solution
+A4 443 39995.79 => 38112.33
+Written solution
+A4 443 39995.79 => 38112.33
+Written solution
+A4 443 39995.79 => 38112.33
+Written solution
+A4 443 39995.79 => 38112.33
+Written solution
+A4 443 39995.79 => 38112.33
+Written solution
+A4 443 39995.79 => 38112.33
+Written solution
+A4 443 39995.79 => 38095.97
+Written solution
+A4 443 39339.74 => 38095.97
+Written solution
+A4 443 39339.74 => 38090.19
+Written solution
+A4 443 39339.74 => 38090.19
+Written solution
+A4 443 39339.74 => 38090.19
+Written solution
+A4 443 39339.74 => 38090.19
+Written solution
+A4 443 39339.74 => 38090.19
+Written solution
+A4 443 39339.74 => 38090.19
+Written solution
+A4 443 39339.74 => 38090.19
+Written solution
+A4 443 39995.79 => 38090.19
+Written solution
+A4 443 39995.79 => 38090.19
+Written solution
+A4 443 39995.79 => 38090.19
+Written solution
+A4 443 39995.79 => 38090.19
+Written solution
+A4 443 39993.06 => 38090.19
+Written solution
+A4 443 39993.06 => 38090.19
+Written solution
+A4 443 39337.2 => 38090.19
+Written solution
+A4 443 39337.2 => 38090.19
+Written solution
+A4 443 39337.2 => 38090.19
+Written solution
+A4 443 39337.2 => 38090.19
+Written solution
+A4 443 39337.2 => 38090.19
+Written solution
+A4 443 39993.06 => 38090.19
+Written solution
+A4 443 39991.62 => 38090.19
+Written solution
+A4 443 39991.62 => 38090.19
+Written solution
+A4 443 39991.62 => 38090.19
+Written solution
+A4 443 39991.62 => 38090.19
+Written solution
+A4 443 39991.62 => 38090.19
+Written solution
+A4 443 39337.2 => 38090.19
+Written solution
+A4 443 39337.2 => 38090.19
+Written solution
+A4 443 39337.2 => 38090.19
+Written solution
+A4 443 39329.01 => 38090.19
+Written solution
+A4 443 39329.01 => 38090.19
+Written solution
+A4 443 39329.01 => 38090.19
+Written solution
+A4 443 39329.01 => 38090.19
+Written solution
+A4 443 39329.01 => 38090.19
+Written solution
+A4 443 39329.01 => 38090.19
+Written solution
+A4 443 39991.62 => 38090.19
+Written solution
+A4 443 39991.62 => 38090.19
+Written solution
+A4 443 39991.62 => 38090.19
+Written solution
+A4 443 39991.62 => 38090.19
+Written solution
+A4 443 39991.62 => 38090.19
+Written solution
+A4 443 39991.62 => 38090.19
+Written solution
+A4 443 39990.65 => 38090.19
+Written solution
+A4 443 39990.65 => 38090.19
+Written solution
+A4 443 39990.65 => 38090.19
+Written solution
+A4 443 39990.65 => 38090.19
+Written solution
+A4 443 39990.65 => 38090.19
+Written solution
+A4 443 39329.01 => 38090.19
+Written solution
+A4 443 39327.1 => 38090.19
+Written solution
+A4 443 39327.1 => 38090.19
+Written solution
+A4 443 39327.1 => 38090.19
+Written solution
+A4 443 39327.1 => 38090.19
+Written solution
+A4 443 39990.65 => 38090.19
+Written solution
+A4 443 39327.1 => 38090.19
+Written solution
+A4 443 39990.65 => 38090.19
+Written solution
+A4 443 39990.65 => 38090.19
+Written solution
+A4 443 39990.65 => 38090.19
+Written solution
+
+Objective value improved by 147.9 (- 0.39 %), now given by 38090.19
+Starting new set of iterations
+
+A4 443 39990.65 => 38090.19
+Written solution
+A4 443 39990.65 => 38090.19
+Written solution
+A4 443 39990.65 => 38090.19
+Written solution
+A4 443 39990.65 => 38090.19
+Written solution
+A4 443 39990.65 => 38090.19
+Written solution
+A4 443 39990.65 => 38090.19
+Written solution
+A4 443 39990.65 => 38090.19
+Written solution
+A4 443 39990.65 => 38090.19
+Written solution
+A4 443 39327.1 => 38090.19
+Written solution
+A4 443 39327.1 => 38090.19
+Written solution
+A4 443 39327.1 => 38090.19
+Written solution
+A4 443 39327.1 => 38090.19
+Written solution
+A4 443 39327.1 => 38090.19
+Written solution
+A4 443 39327.1 => 38090.19
+Written solution
+A4 443 39327.1 => 38090.19
+Written solution
+A4 443 39327.1 => 38090.19
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39327.1 => 38083.47
+Written solution
+A4 443 39327.1 => 38083.47
+Written solution
+A4 443 39327.1 => 38083.47
+Written solution
+A4 443 39327.1 => 38083.47
+Written solution
+A4 443 39327.1 => 38083.47
+Written solution
+A4 443 39327.1 => 38083.47
+Written solution
+A4 443 39327.1 => 38083.47
+Written solution
+A4 443 39327.1 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39987.0 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38083.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39987.0 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+
+Objective value improved by 77.72 (- 0.2 %), now given by 38012.47
+Starting new set of iterations
+
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39325.43 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39953.79 => 38012.47
+Written solution
+A4 443 39323.67 => 38012.47
+Written solution
+
+Objective value did not improve
+
+A feasible solution was found
+Optimal chromosome: [0.58, 0.64, 0.08, 0.67, 0.35, 0.6, 0.53, 0.23, 0.55, 0.38, 0.47, 0.72, 0.24, 0.62, 0.32, 0.29, 0.72, 0.74, 0.7, 0.19, 0.52, 0.59, 0.56, 0.7, 0.56, 0.25, 0.3, 0.68, 0.68, 0.42, 0.76, 0.72, 0.8, 0.12, 0.4, 0.51, 0.68, 0.29, 0.6, 0.7, 0.44, 0.32, 0.38, 0.21, 0.82, 0.89, 0.34, 0.83, 0.86, 0.52, 3.0, 10.0, 2.0, 2.0, 2.0, 3.0, 5.0, 6.0, 6.0, 15.0, 11.0, 5.0, 15.0, 6.0, 9.0, 3.0, 2.0, 10.0, 10.0, 6.0, 3.0, 10.0, 5.0, 6.0, 3.0, 5.0, 5.0, 4.0, 3.0, 6.0, 7.0, 5.0, 15.0, 5.0, 6.0, 2.0, 2.0, 3.0, 11.0, 2.0, 5.0, 4.0, 2.0, 6.0, 13.0, 8.0, 15.0, 13.0, 5.0, 5.0, 3, 3, 2, 2, 2, 4, 2, 4, 3, 2, 2, 5, 2, 3, 2, 6, 2, 4, 3, 2, 4, 2, 2, 5, 2, 6, 2, 4, 5, 2, 3, 3, 2, 2, 3, 2, 2, 3, 2, 2, 5, 3, 2, 3, 2, 3, 2, 3, 5, 2]
+Total distance: 38012.47
+PA layout: [(0, 0, 2, 2), (10, 0, 5, 2), (35, 0, 6, 2), (65, 0, 6, 3), (95, 0, 6, 4), (125, 0, 15, 2), (200, 0, 5, 6), (125, 26.0, 3, 6), (140, 26.0, 3, 3), (155, 26.0, 5, 2), (180, 26.0, 4, 3), (180, 106.0, 9, 2), (10, 111.33, 15, 2), (85, 90.33, 2, 2), (140, 131.33, 2, 2), (10, 149.33, 15, 2), (95, 146.0, 6, 3), (150, 152.0, 6, 2), (180, 155.11, 5, 5), (10, 170.67, 11, 2), (205, 155.11, 2, 2), (65, 170.67, 3, 4), (150, 193.33, 5, 2), (10, 221.39, 5, 2), (35, 221.39, 6, 3), (80, 218.33, 3, 2), (10, 54.0, 5, 2), (95, 253.0, 3, 3), (10, 291.73, 10, 2), (110, 253.0, 3, 4), (150, 293.33, 11, 2), (150, 321.33, 6, 3), (0, 328.73, 10, 3), (215, 155.11, 2, 2), (60, 291.73, 4, 4), (125, 270.0, 3, 5), (215, 273.11, 2, 2), (180, 321.33, 2, 2), (95, 395.0, 6, 5), (0, 418.73, 10, 3), (150, 398.33, 5, 5), (190, 408.11, 5, 3), (50, 328.73, 2, 2), (0, 502.73, 10, 4), (60, 463.0, 7, 3), (125, 514.33, 15, 2), (60, 545.0, 13, 2), (125, 575.0, 13, 3), (200, 514.11, 5, 5), (0, 580.73, 8, 3)]
+Total runtime: 148745.9843299999 s
+Average iteration time: 148.74598433 s
+Average number of feasible solutions every iteration: 3.509
+A4 443 38012.47 => 38012.47
+Written solution
+Saved diagnostics
+
+
+###############################################################################
+Peregrine Cluster
+Job 25274085 for user 'f118637'
+Finished at: Thu Jul 21 11:54:01 CEST 2022
+
+Job details:
+============
+
+Job ID              : 25234415_89
+Name                : job_array
+User                : f118637
+Partition           : regular
+Nodes               : pg-node027
+Number of Nodes     : 1
+Cores               : 1
+Number of Tasks     : 1
+State               : COMPLETED
+Submit              : 2022-07-18T11:49:18
+Start               : 2022-07-19T15:48:57
+End                 : 2022-07-21T11:54:01
+Reserved walltime   : 2-00:00:00
+Used walltime       : 1-20:05:04
+Used CPU time       : 1-20:03:50 (efficiency: 99.95%)
+% User (Computation): 99.99%
+% System (I/O)      :  0.01%
+Mem reserved        : 2000M
+Max Mem (Node/step) : 63.62M (pg-node027, per node)
+Full Max Mem usage  : 63.62M
+Total Disk Read     : 13.93M
+Total Disk Write    : 2.95M
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

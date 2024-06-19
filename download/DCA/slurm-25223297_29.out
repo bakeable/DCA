@@ -1,0 +1,1596 @@
+
+
+Running instance 29
+Instance instantiated
+Creating initial population
+No feasible solutions found as of yet, trying to generate them systematically
+Storage sizes: [610, 750, 780, 700, 630, 540, 940, 990, 430, 790]
+Maximum aisles: 34
+Aisle options: [3.0, 8.0, 16.0, 11.0, 2.0]
+Processing 10000 possible chromosomes
+Generating feasible solutions
+Found a feasible chromosome
+ [0.2, 0.17, 0.78, 0.42, 0.7, 0.75, 0.32, 0.43, 0.56, 0.93, 11.0, 3.0, 16.0, 11.0, 3.0, 16.0, 8.0, 16.0, 11.0, 8.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 5968.38
+Found a feasible chromosome
+ [0.07, 0.62, 0.92, 0.31, 0.94, 0.62, 0.88, 0.2, 0.15, 0.07, 16.0, 8.0, 8.0, 3.0, 8.0, 11.0, 8.0, 11.0, 8.0, 8.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 6059.02
+Found a feasible chromosome
+ [0.34, 0.95, 0.37, 0.91, 0.3, 0.07, 0.28, 0.57, 0.46, 0.04, 3.0, 8.0, 8.0, 3.0, 8.0, 8.0, 8.0, 11.0, 8.0, 11.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 6052.1
+Found a feasible chromosome
+ [0.96, 0.57, 0.57, 0.77, 0.87, 0.24, 0.56, 0.28, 0.87, 0.13, 16.0, 8.0, 3.0, 3.0, 11.0, 3.0, 16.0, 16.0, 11.0, 16.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 6162.09
+Found a feasible chromosome
+ [0.76, 0.25, 0.63, 0.56, 0.59, 0.38, 0.14, 0.97, 0.73, 0.48, 8.0, 16.0, 8.0, 8.0, 11.0, 3.0, 11.0, 8.0, 2.0, 8.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 5804.63
+Found a feasible chromosome
+ [0.57, 0.64, 0.13, 0.25, 0.99, 0.01, 0.88, 0.47, 0.45, 0.48, 16.0, 16.0, 8.0, 3.0, 16.0, 8.0, 11.0, 11.0, 2.0, 8.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 6002.33
+Generating solutions aborted since we found enough feasible solutions
+Found 6 feasible solutions
+Starting new set of iterations
+
+A4 29 5039.5 => 5743.27
+Written solution
+A4 29 5743.27 => 5743.27
+Written solution
+A4 29 5743.27 => 5743.27
+Written solution
+A4 29 5743.27 => 5743.27
+Written solution
+A4 29 5743.27 => 5743.27
+Written solution
+A4 29 5743.27 => 5743.27
+Written solution
+A4 29 5743.27 => 5322.98
+Written solution
+A4 29 5322.98 => 5322.98
+Written solution
+A4 29 5322.98 => 5322.98
+Written solution
+A4 29 5322.98 => 5322.98
+Written solution
+A4 29 5322.98 => 5322.98
+Written solution
+A4 29 5322.98 => 5322.98
+Written solution
+A4 29 5322.98 => 5322.98
+Written solution
+A4 29 5322.98 => 5079.97
+Written solution
+A4 29 5079.97 => 5079.97
+Written solution
+A4 29 5079.97 => 5079.97
+Written solution
+A4 29 5079.97 => 5079.97
+Written solution
+A4 29 5079.97 => 5079.97
+Written solution
+A4 29 5079.97 => 5079.97
+Written solution
+A4 29 5079.97 => 5027.870000000001
+Written solution
+A4 29 5027.87 => 5027.870000000001
+Written solution
+A4 29 5027.87 => 5027.870000000001
+Written solution
+A4 29 5027.87 => 5024.45
+Written solution
+A4 29 5024.45 => 5024.239999999999
+Written solution
+A4 29 5024.24 => 5001.95
+Written solution
+A4 29 5001.95 => 4916.21
+Written solution
+A4 29 4916.21 => 4846.62
+Written solution
+A4 29 4846.62 => 4846.62
+Written solution
+A4 29 4846.62 => 4820.62
+Written solution
+A4 29 4820.62 => 4820.62
+Written solution
+A4 29 4820.62 => 4773.72
+Written solution
+A4 29 4773.72 => 4773.72
+Written solution
+A4 29 4773.72 => 4698.99
+Written solution
+A4 29 4698.99 => 4690.71
+Written solution
+A4 29 4690.71 => 4690.71
+Written solution
+A4 29 4690.71 => 4633.37
+Written solution
+A4 29 4633.37 => 4633.37
+Written solution
+A4 29 4633.37 => 4633.37
+Written solution
+A4 29 4633.37 => 4633.37
+Written solution
+A4 29 4633.37 => 4620.62
+Written solution
+A4 29 4620.62 => 4620.62
+Written solution
+A4 29 4620.62 => 4620.62
+Written solution
+A4 29 4620.62 => 4620.62
+Written solution
+A4 29 4620.62 => 4620.62
+Written solution
+A4 29 4620.62 => 4620.62
+Written solution
+A4 29 4620.62 => 4620.62
+Written solution
+A4 29 4620.62 => 4570.6900000000005
+Written solution
+A4 29 4570.69 => 4570.6900000000005
+Written solution
+A4 29 4570.69 => 4570.6900000000005
+Written solution
+A4 29 4570.69 => 4570.6900000000005
+Written solution
+A4 29 4570.69 => 4570.6900000000005
+Written solution
+A4 29 4570.69 => 4570.6900000000005
+Written solution
+A4 29 4570.69 => 4570.6900000000005
+Written solution
+A4 29 4570.69 => 4570.6900000000005
+Written solution
+A4 29 4570.69 => 4570.6900000000005
+Written solution
+A4 29 4570.69 => 4570.6900000000005
+Written solution
+A4 29 4570.69 => 4553.15
+Written solution
+A4 29 4553.15 => 4553.15
+Written solution
+A4 29 4553.15 => 4545.99
+Written solution
+A4 29 4545.99 => 4545.99
+Written solution
+A4 29 4545.99 => 4545.99
+Written solution
+A4 29 4545.99 => 4545.99
+Written solution
+A4 29 4545.99 => 4545.99
+Written solution
+A4 29 4545.99 => 4545.99
+Written solution
+A4 29 4545.99 => 4545.99
+Written solution
+A4 29 4545.99 => 4545.99
+Written solution
+A4 29 4545.99 => 4545.99
+Written solution
+A4 29 4545.99 => 4526.679999999999
+Written solution
+A4 29 4526.68 => 4526.679999999999
+Written solution
+A4 29 4526.68 => 4526.679999999999
+Written solution
+A4 29 4526.68 => 4526.5599999999995
+Written solution
+A4 29 4526.56 => 4526.5599999999995
+Written solution
+A4 29 4526.56 => 4526.5599999999995
+Written solution
+A4 29 4526.56 => 4526.5599999999995
+Written solution
+A4 29 4526.56 => 4396.29
+Written solution
+A4 29 4396.29 => 4396.29
+Written solution
+A4 29 4396.29 => 4396.29
+Written solution
+A4 29 4396.29 => 4396.29
+Written solution
+A4 29 4396.29 => 4396.29
+Written solution
+A4 29 4396.29 => 4396.29
+Written solution
+A4 29 4396.29 => 4396.29
+Written solution
+A4 29 4396.29 => 4396.29
+Written solution
+A4 29 4396.29 => 4396.29
+Written solution
+A4 29 4396.29 => 4396.29
+Written solution
+A4 29 4396.29 => 4396.29
+Written solution
+A4 29 4396.29 => 4396.29
+Written solution
+A4 29 4396.29 => 4396.29
+Written solution
+A4 29 4396.29 => 4396.29
+Written solution
+A4 29 4396.29 => 4396.17
+Written solution
+A4 29 4396.17 => 4396.17
+Written solution
+A4 29 4396.17 => 4396.17
+Written solution
+A4 29 4396.17 => 4396.17
+Written solution
+A4 29 4396.17 => 4392.549999999999
+Written solution
+A4 29 4392.55 => 4392.549999999999
+Written solution
+A4 29 4392.55 => 4392.549999999999
+Written solution
+A4 29 4392.55 => 4392.549999999999
+Written solution
+A4 29 4392.55 => 4392.549999999999
+Written solution
+A4 29 4392.55 => 4392.549999999999
+Written solution
+A4 29 4392.55 => 4392.549999999999
+Written solution
+A4 29 4392.55 => 4392.549999999999
+Written solution
+A4 29 4392.55 => 4392.549999999999
+Written solution
+A4 29 4392.55 => 4374.71
+Written solution
+A4 29 4374.71 => 4357.7
+Written solution
+A4 29 4357.7 => 4330.99
+Written solution
+A4 29 4330.99 => 4330.99
+Written solution
+A4 29 4330.99 => 4325.95
+Written solution
+A4 29 4325.95 => 4325.95
+Written solution
+A4 29 4325.95 => 4325.95
+Written solution
+A4 29 4325.95 => 4325.95
+Written solution
+A4 29 4325.95 => 4325.95
+Written solution
+A4 29 4325.95 => 4325.95
+Written solution
+A4 29 4325.95 => 4325.95
+Written solution
+A4 29 4325.95 => 4325.95
+Written solution
+A4 29 4325.95 => 4325.95
+Written solution
+A4 29 4325.95 => 4324.56
+Written solution
+A4 29 4324.56 => 4323.81
+Written solution
+A4 29 4323.81 => 4323.81
+Written solution
+A4 29 4323.81 => 4319.9400000000005
+Written solution
+A4 29 4319.94 => 4315.96
+Written solution
+A4 29 4315.96 => 4315.96
+Written solution
+A4 29 4315.96 => 4315.96
+Written solution
+A4 29 4315.96 => 4315.96
+Written solution
+A4 29 4315.96 => 4315.96
+Written solution
+A4 29 4315.96 => 4313.55
+Written solution
+A4 29 4313.55 => 4313.55
+Written solution
+A4 29 4313.55 => 4313.55
+Written solution
+A4 29 4313.55 => 4313.55
+Written solution
+A4 29 4313.55 => 4313.55
+Written solution
+A4 29 4313.55 => 4313.55
+Written solution
+A4 29 4313.55 => 4311.88
+Written solution
+A4 29 4311.88 => 4311.59
+Written solution
+A4 29 4311.59 => 4311.59
+Written solution
+A4 29 4311.59 => 4311.59
+Written solution
+A4 29 4311.59 => 4311.59
+Written solution
+A4 29 4311.59 => 4311.59
+Written solution
+A4 29 4311.59 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+
+At least one feasible solution was found with objective value 4309.57
+Starting new set of iterations
+
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4309.570000000001
+Written solution
+A4 29 4309.57 => 4306.36
+Written solution
+A4 29 4306.36 => 4306.36
+Written solution
+A4 29 4306.36 => 4306.36
+Written solution
+A4 29 4306.36 => 4306.36
+Written solution
+A4 29 4306.36 => 4306.36
+Written solution
+A4 29 4306.36 => 4306.36
+Written solution
+A4 29 4306.36 => 4306.36
+Written solution
+A4 29 4306.36 => 4306.36
+Written solution
+A4 29 4306.36 => 4306.36
+Written solution
+A4 29 4306.36 => 4306.36
+Written solution
+A4 29 4306.36 => 4306.36
+Written solution
+A4 29 4306.36 => 4306.36
+Written solution
+A4 29 4306.36 => 4306.36
+Written solution
+A4 29 4306.36 => 4305.2
+Written solution
+A4 29 4305.2 => 4304.379999999999
+Written solution
+A4 29 4304.38 => 4304.379999999999
+Written solution
+A4 29 4304.38 => 4304.379999999999
+Written solution
+A4 29 4304.38 => 4303.849999999999
+Written solution
+A4 29 4303.85 => 4303.849999999999
+Written solution
+A4 29 4303.85 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+
+Objective value improved by 7.7 (- 0.18 %), now given by 4301.87
+Starting new set of iterations
+
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+A4 29 4301.87 => 4301.87
+Written solution
+
+Objective value did not improve
+
+A feasible solution was found
+Optimal chromosome: [0.38, 0.74, 0.42, 0.64, 0.59, 0.57, 0.6, 0.73, 0.41, 0.68, 16.0, 16.0, 9.0, 6.0, 10.0, 7.0, 9.0, 7.0, 2.0, 10.0, 3, 4, 5, 7, 4, 7, 6, 10, 7, 4]
+Total distance: 4301.87
+PA layout: [(0, 0, 16, 3), (48, 0, 2, 7), (54, 0, 9, 5), (81, 0, 7, 7), (0, 47.12, 10, 4), (54, 101.67, 9, 6), (30, 47.12, 6, 7), (0, 122.12, 10, 4), (81, 98.14, 7, 10), (0, 213.12, 16, 4)]
+Total runtime: 44318.245406000024 s
+Average iteration time: 59.09099387466666 s
+Average number of feasible solutions every iteration: 11.868
+A4 29 4301.87 => 4301.87
+Written solution
+Saved diagnostics
+
+
+###############################################################################
+Peregrine Cluster
+Job 25229611 for user 'f118637'
+Finished at: Mon Jul 18 15:18:04 CEST 2022
+
+Job details:
+============
+
+Job ID              : 25223297_29
+Name                : job_array
+User                : f118637
+Partition           : regular
+Nodes               : pg-node159
+Number of Nodes     : 1
+Cores               : 1
+Number of Tasks     : 1
+State               : COMPLETED
+Submit              : 2022-07-17T12:14:50
+Start               : 2022-07-18T02:47:44
+End                 : 2022-07-18T15:18:04
+Reserved walltime   : 20:00:00
+Used walltime       : 12:30:20
+Used CPU time       : 12:29:43 (efficiency: 99.92%)
+% User (Computation): 99.98%
+% System (I/O)      :  0.02%
+Mem reserved        : 5000M
+Max Mem (Node/step) : 44.78M (pg-node159, per node)
+Full Max Mem usage  : 44.78M
+Total Disk Read     : 13.93M
+Total Disk Write    : 2.95M
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

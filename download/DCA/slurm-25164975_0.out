@@ -1,0 +1,66 @@
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib64/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "./program.zip/__main__.py", line 29, in <module>
+  File "./program.zip/classes/genetic_algorithm.py", line 114, in run
+IndexError: list index out of range
+
+
+Running instance 450
+Instance instantiated
+Creating initial population
+No feasible solutions found as of yet, trying to generate them systematically
+Storage sizes: [230, 230, 300, 320, 290, 290, 210, 370, 340, 300, 280, 300, 340, 330, 340, 320, 340, 280, 200, 200, 380, 260, 200, 360, 380, 290, 290, 270, 230, 220, 390, 310, 210, 340, 210, 260, 340, 260, 230, 260, 330, 380, 290, 240, 290, 250, 230, 370, 340, 270]
+Maximum aisles: 38
+Aisle options: [4.0, 9.0, 2.0, 18.0, 12.0]
+Processing 10000 possible chromosomes
+Generating feasible solutions
+Generating solutions aborted since maximum run time was reached
+Found 0 feasible solutions
+Could not find enough feasible solutions, adding random chromosomes instead
+Starting new set of iterations
+
+
+
+###############################################################################
+Peregrine Cluster
+Job 25164976 for user 'f118637'
+Finished at: Wed Jul 13 20:02:28 CEST 2022
+
+Job details:
+============
+
+Job ID              : 25164975_0
+Name                : job_array
+User                : f118637
+Partition           : regular
+Nodes               : pg-node182
+Number of Nodes     : 1
+Cores               : 1
+Number of Tasks     : 1
+State               : FAILED
+Submit              : 2022-07-13T17:21:28
+Start               : 2022-07-13T17:53:24
+End                 : 2022-07-13T20:02:28
+Reserved walltime   : 12:00:00
+Used walltime       : 02:09:04
+Used CPU time       : 02:08:19 (efficiency: 99.42%)
+% User (Computation): 99.99%
+% System (I/O)      :  0.02%
+Mem reserved        : 5000M
+Max Mem (Node/step) : 63.59M (pg-node182, per node)
+Full Max Mem usage  : 63.59M
+Total Disk Read     : 13.93M
+Total Disk Write    : 2.95M
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

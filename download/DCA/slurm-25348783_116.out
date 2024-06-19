@@ -1,0 +1,56 @@
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib64/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "./program.zip/__main__.py", line 1, in <module>
+  File "./program.zip/classes/__init__.py", line 2, in <module>
+  File "./program.zip/classes/warehouse.py", line 2, in <module>
+ModuleNotFoundError: No module named 'numpy'
+
+
+###############################################################################
+Peregrine Cluster
+Job 25348920 for user 'f118637'
+Finished at: Wed Jul 20 19:38:53 CEST 2022
+
+Job details:
+============
+
+Job ID              : 25348783_116
+Name                : job_array
+User                : f118637
+Partition           : regular
+Nodes               : pg-node174
+Number of Nodes     : 1
+Cores               : 1
+Number of Tasks     : 1
+State               : FAILED
+Submit              : 2022-07-20T19:29:27
+Start               : 2022-07-20T19:32:08
+End                 : 2022-07-20T19:38:53
+Reserved walltime   : 2-00:00:00
+Used walltime       :   00:06:45
+Used CPU time       :   00:00:02 (efficiency:  0.63%)
+% User (Computation): 75.47%
+% System (I/O)      : 24.49%
+Mem reserved        : 2000M
+Max Mem (Node/step) : 6.98M (pg-node174, per node)
+Full Max Mem usage  : 6.98M
+Total Disk Read     : 13.93M
+Total Disk Write    : 2.95M
+Hints and tips      :
+ 1) The program efficiency is low.
+    Check the file in- and output pattern of your application.
+ *) For more information on these issues see:
+    https://wiki.hpc.rug.nl/peregrine/additional_information/job_hints
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

@@ -1,0 +1,95 @@
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib64/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "./program.zip/__main__.py", line 27, in <module>
+  File "./program.zip/classes/genetic_algorithm.py", line 110, in run
+  File "./program.zip/classes/genetic_algorithm.py", line 440, in create_next_population
+  File "/data/f118637/.envs/environment/lib64/python3.6/site-packages/pandas/core/generic.py", line 3170, in to_csv
+    formatter.save()
+  File "/data/f118637/.envs/environment/lib64/python3.6/site-packages/pandas/io/formats/csvs.py", line 190, in save
+    compression=dict(self.compression_args, method=self.compression),
+  File "/data/f118637/.envs/environment/lib64/python3.6/site-packages/pandas/io/common.py", line 493, in get_handle
+    f = open(path_or_buf, mode, encoding=encoding, errors=errors, newline="")
+BrokenPipeError: [Errno 108] Cannot send after transport endpoint shutdown: 'data/diagnostics/instance8/mutations.csv'
+
+
+Running instance 8
+Instance instantiated
+Creating initial population
+No feasible solutions found as of yet, trying to generate them systematically
+Storage sizes: [510, 590, 300, 450, 780, 550, 210, 760, 610, 670]
+Maximum aisles: 46
+Aisle options: [15.0, 9.0, 5.0, 3.0]
+Processing 10000 possible chromosomes
+Generating feasible solutions
+Found a feasible chromosome
+ [0.88, 0.01, 0.85, 0.3, 0.11, 0.04, 0.68, 1.0, 0.83, 0.53, 9.0, 9.0, 3.0, 9.0, 15.0, 15.0, 15.0, 15.0, 15.0, 5.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 3930.55
+Found a feasible chromosome
+ [0.35, 0.8, 0.13, 0.3, 0.54, 0.96, 0.4, 0.57, 0.77, 0.48, 3.0, 5.0, 3.0, 3.0, 15.0, 9.0, 3.0, 15.0, 9.0, 15.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 3791.8
+Found a feasible chromosome
+ [0.79, 0.9, 0.18, 0.72, 0.57, 0.79, 0.54, 0.05, 0.64, 0.15, 9.0, 5.0, 15.0, 9.0, 5.0, 5.0, 5.0, 5.0, 5.0, 15.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 3696.82
+Found a feasible chromosome
+ [0.94, 0.04, 0.54, 0.03, 0.26, 0.95, 0.65, 0.78, 0.74, 0.22, 9.0, 9.0, 5.0, 3.0, 15.0, 5.0, 9.0, 5.0, 15.0, 5.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 3684.92
+Found a feasible chromosome
+ [0.42, 0.94, 0.59, 0.26, 0.6, 0.59, 0.06, 0.04, 0.37, 0.13, 3.0, 15.0, 15.0, 15.0, 15.0, 3.0, 15.0, 5.0, 15.0, 15.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 3816.49
+Found a feasible chromosome
+ [0.41, 0.34, 0.29, 0.8, 0.45, 0.87, 0.5, 0.32, 0.45, 0.08, 9.0, 15.0, 3.0, 3.0, 9.0, 15.0, 9.0, 9.0, 15.0, 5.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 3784.84
+Generating solutions aborted since we found enough feasible solutions
+Found 6 feasible solutions
+Starting new set of iterations
+
+
+
+###############################################################################
+Peregrine Cluster
+Job 25179900 for user 'f118637'
+Finished at: Thu Jul 14 17:32:19 CEST 2022
+
+Job details:
+============
+
+Job ID              : 25176807_8
+Name                : job_array
+User                : f118637
+Partition           : regular
+Nodes               : pg-node190
+Number of Nodes     : 1
+Cores               : 1
+Number of Tasks     : 1
+State               : FAILED
+Submit              : 2022-07-14T12:31:14
+Start               : 2022-07-14T17:27:51
+End                 : 2022-07-14T17:32:19
+Reserved walltime   : 12:00:00
+Used walltime       : 00:04:28
+Used CPU time       : 00:02:14 (efficiency: 50.22%)
+% User (Computation): 99.31%
+% System (I/O)      :  0.69%
+Mem reserved        : 5000M
+Max Mem (Node/step) : 50.50M (pg-node190, per node)
+Full Max Mem usage  : 50.50M
+Total Disk Read     : 13.93M
+Total Disk Write    : 2.95M
+Hints and tips      :
+ 1) The program efficiency is low.
+    Check the file in- and output pattern of your application.
+ *) For more information on these issues see:
+    https://wiki.hpc.rug.nl/peregrine/additional_information/job_hints
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

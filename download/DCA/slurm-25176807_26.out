@@ -1,0 +1,92 @@
+
+
+Running instance 26
+Instance instantiated
+Creating initial population
+No feasible solutions found as of yet, trying to generate them systematically
+Storage sizes: [270, 280, 300, 220, 210, 370, 210, 320, 280, 230]
+Maximum aisles: 22
+Aisle options: [5.0, 10.0, 3.0, 2.0, 4.0]
+Processing 10000 possible chromosomes
+Generating feasible solutions
+Found a feasible chromosome
+ [0.13, 0.49, 0.59, 0.32, 0.71, 0.17, 0.5, 0.83, 0.8, 0.63, 10.0, 4.0, 10.0, 10.0, 4.0, 10.0, 2.0, 10.0, 3.0, 3.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 3609.5
+Found a feasible chromosome
+ [0.97, 0.64, 0.62, 0.45, 0.5, 0.7, 0.95, 0.46, 0.58, 0.42, 10.0, 4.0, 5.0, 5.0, 2.0, 4.0, 2.0, 2.0, 3.0, 4.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 3297.43
+Found a feasible chromosome
+ [0.68, 0.37, 0.77, 0.75, 0.73, 0.95, 0.51, 0.71, 0.89, 0.29, 3.0, 2.0, 5.0, 2.0, 2.0, 5.0, 2.0, 3.0, 4.0, 4.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 2988.01
+Found a feasible chromosome
+ [0.63, 0.29, 0.91, 0.82, 0.77, 0.07, 0.21, 0.62, 0.33, 0.87, 10.0, 3.0, 5.0, 5.0, 2.0, 4.0, 4.0, 4.0, 2.0, 4.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 3429.82
+Found a feasible chromosome
+ [0.69, 0.71, 0.28, 0.69, 0.36, 0.35, 0.1, 0.07, 0.75, 0.83, 2.0, 3.0, 4.0, 3.0, 10.0, 3.0, 10.0, 3.0, 3.0, 5.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 3314.01
+Found a feasible chromosome
+ [0.66, 0.54, 0.46, 0.3, 0.46, 0.39, 0.37, 0.16, 0.51, 0.51, 5.0, 3.0, 2.0, 2.0, 2.0, 4.0, 3.0, 2.0, 3.0, 2.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 2966.97
+Generating solutions aborted since we found enough feasible solutions
+Found 6 feasible solutions
+Starting new set of iterations
+
+
+At least one feasible solution was found with objective value 2672.88
+Starting new set of iterations
+
+
+Objective value did not improve
+
+A feasible solution was found
+Optimal chromosome: [0.54, 0.48, 0.57, 0.56, 0.5, 0.74, 0.46, 0.5, 0.62, 0.34, 5.0, 2.0, 2.0, 2.0, 2.0, 5.0, 2.0, 3.0, 3.0, 2.0, 3, 2, 2, 2, 2, 5, 3, 3, 4, 2]
+Total distance: 2672.88
+PA layout: [(0, 0, 2, 4), (10, 0, 21, 5), (10, 47.62, 6, 4), (40, 47.62, 4, 4), (60, 47.62, 10, 8), (0, 0, 4, 8), (0, 0, 12, 6), (0, 0, 4, 4), (0, 0, 16, 5), (0, 0, 2, 8)]
+Total runtime: 26325.271907999977 s
+Average iteration time: 52.650543815999995 s
+Average number of feasible solutions every iteration: 44.638
+A4 26 3042.46 => 2672.88
+Written solution
+Saved diagnostics
+
+
+###############################################################################
+Peregrine Cluster
+Job 25187023 for user 'f118637'
+Finished at: Fri Jul 15 05:31:59 CEST 2022
+
+Job details:
+============
+
+Job ID              : 25176807_26
+Name                : job_array
+User                : f118637
+Partition           : regular
+Nodes               : pg-node193
+Number of Nodes     : 1
+Cores               : 1
+Number of Tasks     : 1
+State               : COMPLETED
+Submit              : 2022-07-14T12:31:14
+Start               : 2022-07-14T22:11:53
+End                 : 2022-07-15T05:31:59
+Reserved walltime   : 12:00:00
+Used walltime       : 07:20:06
+Used CPU time       : 07:14:48 (efficiency: 98.80%)
+% User (Computation): 99.95%
+% System (I/O)      :  0.05%
+Mem reserved        : 5000M
+Max Mem (Node/step) : 54.62M (pg-node193, per node)
+Full Max Mem usage  : 54.62M
+Total Disk Read     : 13.93M
+Total Disk Write    : 2.95M
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

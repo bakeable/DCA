@@ -2,6 +2,7 @@ import pandas as pd
 import pathlib
 import csv
 import numpy as np
+import os
 import math
 from random import randrange, random
 
@@ -10,48 +11,66 @@ directory = str(pathlib.Path().resolve())
 
 # Try loading the processed CSV file, otherwise use the standard lookup XLSX
 try:
-    df = pd.read_csv(directory + "/data/processed_lookup.csv", index_col=[0, 1, 2])
-except Exception:
-    # Import Excel file
-    data = pd.read_excel(directory + "/data/lookup.xlsx", header=1, index_col=[0, 1])
+    df_g = pd.read_csv(directory + "/data/processed_lookup_g.csv", index_col=[0, 1, 2])
+    df_h = pd.read_csv(directory + "/data/processed_lookup_h.csv", index_col=[0, 1, 2])
+    df_f = pd.read_csv(directory + "/data/processed_lookup_f.csv", index_col=[0, 1, 2])
+except Exception as e:
+    print(str(e))
+    for sheet in ["g","h","f"]:
+        print(sheet)
+        # Import Excel file
+        data = pd.read_excel(directory + "/data/lookup.xlsx", sheet, header=1, index_col=[0, 1])
 
-    # Create lookup table
-    df = pd.DataFrame(columns=["n", "k", "m", "distance"])
-    for index, row in data.iterrows():
-        # Convert to lookup table
-        m = 1
-        for distance in row:
-            df = df.append({"n": index[0], "k": index[1], "m": m, "distance": distance}, ignore_index=True)
-            m = m + 1
+        # Create lookup table
+        df = pd.DataFrame(columns=["n", "k", "m", "distance"])
+        for index, row in data.iterrows():
+            # Convert to lookup table
+            m = 1
+            for distance in row:
+                df = df.append({"n":int(index[0]), "k": int(index[1]), "m": int(m), "distance": distance}, ignore_index=True)
+                m = m + 1
 
-    # Set index
-    df = df.set_index(["n", "k", "m"])
+        # Set index
+        df = df.set_index(["n", "k", "m"])
 
-    # Save to csv
-    df.to_csv(directory + "/data/processed_lookup.csv")
+        # Save to csv
+        df.to_csv(directory + "/data/processed_lookup_" + sheet + ".csv")
+
+    df_g = pd.read_csv(directory + "/data/processed_lookup_g.csv", index_col=[0, 1, 2])
+    df_h = pd.read_csv(directory + "/data/processed_lookup_h.csv", index_col=[0, 1, 2])
+    df_f = pd.read_csv(directory + "/data/processed_lookup_f.csv", index_col=[0, 1, 2])
 
 
-def lookup_travel_distance(n, k, m):
+def lookup_travel_distance(n, k, m, S=1, w=.2, v=.1):
+    # Failsafes
+    if n < 1 or n > 30 or k < 2 or k > 10:
+        return math.inf
+
     if isinstance(m, list):
         # Calculate average travel distance based on distribution of order sizes
         order_sizes = np.arange(1, len(m) + 1)
         m = np.array(m)
 
-        # Failsafes
-        if n < 1 or n > 30 or k < 2 or k > 10:
-            return math.inf
 
         # Calculate expected travel distance
         expected_travel_distance = 0
         i = 0
-        for size in order_sizes[m > 0]:
-            expected_travel_distance = expected_travel_distance + m[m > 0][i] * df.loc[(n, k, size)]["distance"]
+        for size in order_sizes:
+            g = df_g.loc[(n, k, size)]["distance"]
+            h = df_h.loc[(n, k, size)]["distance"]
+            f = df_f.loc[(n, k, size)]["distance"]
+            T_im = S * (g / n) + w * h + v * f
+            expected_travel_distance = expected_travel_distance + m[i] * T_im
             i = i + 1
 
         # Return expected travel distance
-        return expected_travel_distance
+        return round(expected_travel_distance, 2)
     else:
-        return df.loc[(n, k, m)]["distance"]
+        g = df_g.loc[(n, k, m)]["distance"]
+        h = df_h.loc[(n, k, m)]["distance"]
+        f = df_f.loc[(n, k, m)]["distance"]
+        T_i1 = S * (g / n) + w * h + v * f
+        return round(T_i1, 2)
 
 
 def create_instances(number, max_N=20):
@@ -172,7 +191,10 @@ def read_instance(instance):
     return W, H, N, w_i, v_i, S, alpha, u, mean_u
 
 
-def write_instance(instance, obj_value, coordinates):
+def write_instance(instance, obj_value, coordinates, force=True):
+    if math.isinf(obj_value) or obj_value == 0:
+        obj_value = -1
+
     # Check if existing solution is better
     try:
         path = directory + "/output/sol" + str(instance) + ".csv"
@@ -183,12 +205,12 @@ def write_instance(instance, obj_value, coordinates):
             group_number = next(reader)[0]
             old_instance = next(reader)[0]
             old_obj_value = float(next(reader)[0])
-            print(group_number, old_instance, old_obj_value)
+            print(group_number, old_instance, old_obj_value, "=>", obj_value)
     except:
         print("Writing new solution to instance" + str(instance))
         old_obj_value = -1
 
-    if old_obj_value > obj_value or old_obj_value == -1:
+    if old_obj_value > obj_value or old_obj_value == -1 or force:
         # Write lines
         f = open('output/sol' + str(instance) + '.csv', 'w')
 
@@ -208,6 +230,7 @@ def write_instance(instance, obj_value, coordinates):
 
         # Close CSV file
         f.close()
+        print("Written solution")
     else:
         print("A better solution to instance " + str(instance) + " already exists")
 
@@ -226,3 +249,100 @@ def get_instances():
 
     # Sort instances
     return sorted(instances)
+
+def get_solutions():
+    # Get all solutions
+    solutions = []
+    directory = str(pathlib.Path().resolve())
+    pathlist = pathlib.Path(directory + "/output").glob("*.csv")
+    for path in pathlist:
+        # Convert to string
+        path_in_str = str(path)
+
+        # Get instance
+        solutions.append(int(path_in_str.split("sol").pop().split(".csv").pop(0)))
+
+    # Sort instances
+    return sorted(solutions)
+
+
+def create_null_solutions():
+    for i in range(1, 451):
+        write_instance(i, -1, [])
+
+def import_solutions():
+    # Get all solutions
+    directory = str(pathlib.Path().resolve())
+    pathlist = pathlib.Path(directory + "/output").glob("*.csv")
+    for path in pathlist:
+        # Convert to string
+        path_in_str = str(path)
+
+        # Get instance
+        instance = int(path_in_str.split("sol").pop().split(".csv").pop(0))
+
+        if import_solution(instance):
+            # Import csv
+            from_path = directory + "/download/output/sol" + str(instance) + ".csv"
+            to_path = path
+            os.replace(from_path, to_path)
+            print(from_path, to_path)
+
+
+    # Sort instances
+
+def get_unsolved_instances():
+    # Get all solutions
+    unsolved = []
+    directory = str(pathlib.Path().resolve())
+    pathlist = pathlib.Path(directory + "/output").glob("*.csv")
+    for path in pathlist:
+        # Convert to string
+        path_in_str = str(path)
+
+        # Get instance
+        instance = int(path_in_str.split("sol").pop().split(".csv").pop(0))
+
+        if read_obj_value(instance) < 0:
+            unsolved.append(instance)
+
+    # Sort instances
+    return sorted(unsolved)
+
+def read_obj_value(instance):
+    # Import csv
+    path = directory + "/output/sol" + str(instance) + ".csv"
+    with open(path, newline='') as f:
+        reader = csv.reader(f)
+
+        group = next(reader)[0]
+        i = int(next(reader)[0])
+        obj_value = float(next(reader)[0])
+
+    # Return
+    return obj_value
+
+
+def import_solution(instance):
+    # Current csv
+    path = directory + "/output/sol" + str(instance) + ".csv"
+    with open(path, newline='') as f:
+        reader = csv.reader(f)
+
+        group = next(reader)[0]
+        i = int(next(reader)[0])
+        obj_value_1 = float(next(reader)[0])
+
+    # Import csv
+    path = directory + "/download/output/sol" + str(instance) + ".csv"
+    with open(path, newline='') as f:
+        reader = csv.reader(f)
+
+        group = next(reader)[0]
+        i = int(next(reader)[0])
+        obj_value_2 = float(next(reader)[0])
+
+    # Return true if we need to import value
+    print("new value", obj_value_2, "old value", obj_value_1, obj_value_2 < obj_value_1 and obj_value_2 != -1 or obj_value_1 == -1 and obj_value_2 != -1)
+    return obj_value_2 < obj_value_1 and obj_value_2 != -1 or obj_value_1 == -1 and obj_value_2 != -1
+

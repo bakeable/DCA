@@ -1,0 +1,59 @@
+Error: [Errno 108] Cannot send after transport endpoint shutdown: '/data/f118637/.envs/environment/bin/activate.fish'
+Traceback (most recent call last):
+  File "/software/software/Python/3.9.6-GCCcore-11.2.0/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/software/software/Python/3.9.6-GCCcore-11.2.0/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/f118637/DCA/./program.zip/__main__.py", line 1, in <module>
+  File "<frozen zipimport>", line 259, in load_module
+  File "/home/f118637/DCA/./program.zip/classes/__init__.py", line 2, in <module>
+  File "<frozen zipimport>", line 259, in load_module
+  File "/home/f118637/DCA/./program.zip/classes/warehouse.py", line 2, in <module>
+ModuleNotFoundError: No module named 'numpy'
+
+
+###############################################################################
+Peregrine Cluster
+Job 25272691 for user 'f118637'
+Finished at: Tue Jul 19 15:23:13 CEST 2022
+
+Job details:
+============
+
+Job ID              : 25223297_423
+Name                : job_array
+User                : f118637
+Partition           : regular
+Nodes               : pg-node029
+Number of Nodes     : 1
+Cores               : 1
+Number of Tasks     : 1
+State               : FAILED
+Submit              : 2022-07-17T12:14:50
+Start               : 2022-07-19T15:15:48
+End                 : 2022-07-19T15:23:13
+Reserved walltime   : 20:00:00
+Used walltime       : 00:07:25
+Used CPU time       : 00:00:02 (efficiency:  0.52%)
+% User (Computation): 79.53%
+% System (I/O)      : 20.43%
+Mem reserved        : 5000M
+Max Mem (Node/step) : 6.97M (pg-node029, per node)
+Full Max Mem usage  : 6.97M
+Total Disk Read     : 13.93M
+Total Disk Write    : 2.95M
+Hints and tips      :
+ 1) The program efficiency is low.
+    Check the file in- and output pattern of your application.
+ *) For more information on these issues see:
+    https://wiki.hpc.rug.nl/peregrine/additional_information/job_hints
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

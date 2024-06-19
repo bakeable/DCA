@@ -1,0 +1,86 @@
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib64/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "./program.zip/__main__.py", line 27, in <module>
+  File "./program.zip/classes/genetic_algorithm.py", line 182, in run
+  File "./program.zip/classes/genetic_algorithm.py", line 277, in save_diagnostics
+TypeError: 'NoneType' object is not subscriptable
+
+
+Running instance 49
+Instance instantiated
+Creating initial population
+No feasible solutions found as of yet, trying to generate them systematically
+Storage sizes: [730, 980, 430, 240, 410, 610, 470, 730, 500, 430]
+Maximum aisles: 34
+Aisle options: [11.0, 4.0, 8.0, 2.0, 16.0]
+Processing 10000 possible chromosomes
+Generating feasible solutions
+Could not find enough feasible solutions, adding random chromosomes instead
+Starting new set of iterations
+
+
+At least one feasible solution was found with objective value 14157.87
+Starting new set of iterations
+
+
+Objective value improved by 65.63 (- 0.46 %), now given by 14092.24
+Starting new set of iterations
+
+
+Objective value improved by 91.66 (- 0.65 %), now given by 14000.58
+Starting new set of iterations
+
+
+Objective value did not improve
+
+Algorithm did not find a feasible solution
+
+
+Retrying
+
+
+
+
+###############################################################################
+Peregrine Cluster
+Job 25229631 for user 'f118637'
+Finished at: Mon Jul 18 21:21:36 CEST 2022
+
+Job details:
+============
+
+Job ID              : 25223297_49
+Name                : job_array
+User                : f118637
+Partition           : regular
+Nodes               : pg-node143
+Number of Nodes     : 1
+Cores               : 1
+Number of Tasks     : 1
+State               : FAILED
+Submit              : 2022-07-17T12:14:50
+Start               : 2022-07-18T02:47:45
+End                 : 2022-07-18T21:21:36
+Reserved walltime   : 20:00:00
+Used walltime       : 18:33:51
+Used CPU time       : 18:33:25 (efficiency: 99.96%)
+% User (Computation): 99.99%
+% System (I/O)      :  0.01%
+Mem reserved        : 5000M
+Max Mem (Node/step) : 44.04M (pg-node143, per node)
+Full Max Mem usage  : 44.04M
+Total Disk Read     : 13.93M
+Total Disk Write    : 2.95M
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

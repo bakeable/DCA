@@ -1,0 +1,43 @@
+slurmstepd: error: *** JOB 25186485 ON pg-node190 CANCELLED AT 2022-07-15T09:01:48 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Peregrine Cluster
+Job 25186485 for user 'f118637'
+Finished at: Fri Jul 15 09:01:50 CEST 2022
+
+Job details:
+============
+
+Job ID              : 25175481_267
+Name                : job_array
+User                : f118637
+Partition           : regular
+Nodes               : pg-node190
+Number of Nodes     : 1
+Cores               : 1
+Number of Tasks     : 1
+State               : CANCELLED,TIMEOUT
+Submit              : 2022-07-14T11:27:46
+Start               : 2022-07-14T21:01:38
+End                 : 2022-07-15T09:01:49
+Reserved walltime   : 12:00:00
+Used walltime       : 12:00:11
+Used CPU time       : 11:59:06 (efficiency: 99.85%)
+% User (Computation): 100.00%
+% System (I/O)      :  0.00%
+Mem reserved        : 5000M
+Max Mem (Node/step) : 62.61M (pg-node190, per node)
+Full Max Mem usage  : 62.61M
+Total Disk Read     : 13.93M
+Total Disk Write    : 2.95M
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

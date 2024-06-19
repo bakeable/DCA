@@ -1,0 +1,1092 @@
+
+
+Running instance 1
+Instance instantiated
+Creating initial population
+No feasible solutions found as of yet, trying to generate them systematically
+Storage sizes: [300, 290, 390, 270, 320, 320, 210, 210, 220, 320]
+Maximum aisles: 48
+Aisle options: [5.0, 2.0, 3.0, 23.0, 15.0]
+Processing 10000 possible chromosomes
+Generating feasible solutions
+Found a feasible chromosome
+ [0.88, 0.01, 0.67, 0.62, 0.78, 0.06, 0.79, 0.32, 0.59, 0.6, 23.0, 5.0, 23.0, 23.0, 15.0, 23.0, 5.0, 23.0, 5.0, 5.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 2288.96
+Found a feasible chromosome
+ [0.75, 0.24, 0.73, 0.75, 0.88, 0.7, 0.75, 0.12, 0.29, 0.07, 23.0, 23.0, 23.0, 5.0, 15.0, 5.0, 23.0, 5.0, 3.0, 5.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 2228.83
+Found a feasible chromosome
+ [0.86, 0.32, 0.1, 0.82, 0.92, 0.33, 0.0, 0.01, 0.89, 0.09, 5.0, 15.0, 15.0, 23.0, 15.0, 15.0, 15.0, 23.0, 15.0, 5.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 2201.12
+Found a feasible chromosome
+ [0.17, 0.36, 0.59, 0.93, 0.91, 0.49, 0.36, 0.24, 0.08, 0.39, 15.0, 3.0, 15.0, 5.0, 15.0, 5.0, 23.0, 3.0, 5.0, 5.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 2211.02
+Found a feasible chromosome
+ [0.4, 0.28, 0.05, 0.06, 0.1, 0.87, 0.8, 0.58, 0.81, 0.57, 5.0, 5.0, 5.0, 15.0, 15.0, 23.0, 5.0, 5.0, 15.0, 5.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 2070.12
+Found a feasible chromosome
+ [0.15, 0.36, 0.62, 1.0, 0.72, 0.7, 0.19, 0.01, 0.21, 0.04, 5.0, 15.0, 23.0, 15.0, 23.0, 15.0, 23.0, 3.0, 15.0, 15.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 2241.9
+Generating solutions aborted since we found enough feasible solutions
+Found 6 feasible solutions
+Starting new set of iterations
+
+A4 1 1659.65 => 2070.12
+Written solution
+A4 1 2070.12 => 1934.9
+Written solution
+A4 1 1934.9 => 1934.9
+Written solution
+A4 1 1934.9 => 1934.9
+Written solution
+A4 1 1934.9 => 1934.9
+Written solution
+A4 1 1934.9 => 1917.73
+Written solution
+A4 1 1917.73 => 1875.03
+Written solution
+A4 1 1875.03 => 1765.71
+Written solution
+A4 1 1765.71 => 1757.1499999999999
+Written solution
+A4 1 1757.15 => 1716.31
+Written solution
+A4 1 1716.31 => 1716.31
+Written solution
+A4 1 1716.31 => 1703.28
+Written solution
+A4 1 1703.28 => 1687.6200000000001
+Written solution
+A4 1 1687.62 => 1687.6200000000001
+Written solution
+A4 1 1687.62 => 1683.94
+Written solution
+A4 1 1683.94 => 1683.94
+Written solution
+A4 1 1683.94 => 1683.94
+Written solution
+A4 1 1683.94 => 1680.01
+Written solution
+A4 1 1680.01 => 1673.78
+Written solution
+A4 1 1673.78 => 1667.05
+Written solution
+A4 1 1667.05 => 1655.33
+Written solution
+A4 1 1655.33 => 1655.33
+Written solution
+A4 1 1655.33 => 1648.1200000000001
+Written solution
+A4 1 1648.12 => 1648.1200000000001
+Written solution
+A4 1 1648.12 => 1640.17
+Written solution
+A4 1 1640.17 => 1634.38
+Written solution
+A4 1 1634.38 => 1634.38
+Written solution
+A4 1 1634.38 => 1634.38
+Written solution
+A4 1 1634.38 => 1634.3600000000001
+Written solution
+A4 1 1634.36 => 1628.27
+Written solution
+A4 1 1628.27 => 1627.83
+Written solution
+A4 1 1627.83 => 1627.83
+Written solution
+A4 1 1627.83 => 1627.83
+Written solution
+A4 1 1627.83 => 1625.2
+Written solution
+A4 1 1625.2 => 1624.1599999999999
+Written solution
+A4 1 1624.16 => 1624.1599999999999
+Written solution
+A4 1 1624.16 => 1624.1599999999999
+Written solution
+A4 1 1624.16 => 1624.0899999999997
+Written solution
+A4 1 1624.09 => 1624.0899999999997
+Written solution
+A4 1 1624.09 => 1624.0899999999997
+Written solution
+A4 1 1624.09 => 1624.0899999999997
+Written solution
+A4 1 1624.09 => 1624.0899999999997
+Written solution
+A4 1 1624.09 => 1624.0899999999997
+Written solution
+A4 1 1624.09 => 1622.6599999999999
+Written solution
+A4 1 1622.66 => 1621.62
+Written solution
+A4 1 1621.62 => 1621.62
+Written solution
+A4 1 1621.62 => 1621.62
+Written solution
+A4 1 1621.62 => 1621.62
+Written solution
+A4 1 1621.62 => 1621.62
+Written solution
+A4 1 1621.62 => 1621.62
+Written solution
+A4 1 1621.62 => 1621.0099999999998
+Written solution
+A4 1 1621.01 => 1621.0099999999998
+Written solution
+A4 1 1621.01 => 1621.0099999999998
+Written solution
+A4 1 1621.01 => 1620.32
+Written solution
+A4 1 1620.32 => 1620.32
+Written solution
+A4 1 1620.32 => 1620.32
+Written solution
+A4 1 1620.32 => 1619.7099999999998
+Written solution
+A4 1 1619.71 => 1619.7099999999998
+Written solution
+A4 1 1619.71 => 1619.7099999999998
+Written solution
+A4 1 1619.71 => 1618.5199999999998
+Written solution
+A4 1 1618.52 => 1618.5199999999998
+Written solution
+A4 1 1618.52 => 1618.5199999999998
+Written solution
+A4 1 1618.52 => 1618.5199999999998
+Written solution
+A4 1 1618.52 => 1618.5199999999998
+Written solution
+A4 1 1618.52 => 1618.5199999999998
+Written solution
+A4 1 1618.52 => 1618.5199999999998
+Written solution
+A4 1 1618.52 => 1618.5199999999998
+Written solution
+A4 1 1618.52 => 1614.28
+Written solution
+A4 1 1614.28 => 1614.28
+Written solution
+A4 1 1614.28 => 1614.28
+Written solution
+A4 1 1614.28 => 1614.28
+Written solution
+A4 1 1614.28 => 1613.85
+Written solution
+A4 1 1613.85 => 1613.85
+Written solution
+A4 1 1613.85 => 1613.85
+Written solution
+A4 1 1613.85 => 1613.84
+Written solution
+A4 1 1613.84 => 1613.84
+Written solution
+A4 1 1613.84 => 1613.84
+Written solution
+A4 1 1613.84 => 1613.84
+Written solution
+A4 1 1613.84 => 1613.84
+Written solution
+A4 1 1613.84 => 1613.84
+Written solution
+A4 1 1613.84 => 1613.84
+Written solution
+A4 1 1613.84 => 1613.84
+Written solution
+A4 1 1613.84 => 1613.84
+Written solution
+A4 1 1613.84 => 1613.84
+Written solution
+A4 1 1613.84 => 1613.84
+Written solution
+A4 1 1613.84 => 1613.84
+Written solution
+A4 1 1613.84 => 1613.84
+Written solution
+A4 1 1613.84 => 1609.4599999999998
+Written solution
+A4 1 1609.46 => 1609.4599999999998
+Written solution
+A4 1 1609.46 => 1609.4599999999998
+Written solution
+A4 1 1609.46 => 1609.4599999999998
+Written solution
+A4 1 1609.46 => 1609.4599999999998
+Written solution
+A4 1 1609.46 => 1609.4599999999998
+Written solution
+A4 1 1609.46 => 1609.4599999999998
+Written solution
+A4 1 1609.46 => 1609.4599999999998
+Written solution
+A4 1 1609.46 => 1609.4599999999998
+Written solution
+A4 1 1609.46 => 1609.4599999999998
+Written solution
+A4 1 1609.46 => 1609.4599999999998
+Written solution
+A4 1 1609.46 => 1609.0899999999997
+Written solution
+A4 1 1609.09 => 1609.0899999999997
+Written solution
+A4 1 1609.09 => 1609.0899999999997
+Written solution
+A4 1 1609.09 => 1607.7899999999997
+Written solution
+A4 1 1607.79 => 1607.7899999999997
+Written solution
+A4 1 1607.79 => 1607.7899999999997
+Written solution
+A4 1 1607.79 => 1607.7899999999997
+Written solution
+A4 1 1607.79 => 1607.7899999999997
+Written solution
+A4 1 1607.79 => 1607.7899999999997
+Written solution
+A4 1 1607.79 => 1607.7899999999997
+Written solution
+A4 1 1607.79 => 1607.33
+Written solution
+A4 1 1607.33 => 1607.33
+Written solution
+A4 1 1607.33 => 1607.33
+Written solution
+A4 1 1607.33 => 1607.33
+Written solution
+A4 1 1607.33 => 1607.33
+Written solution
+A4 1 1607.33 => 1607.33
+Written solution
+A4 1 1607.33 => 1607.33
+Written solution
+A4 1 1607.33 => 1607.33
+Written solution
+A4 1 1607.33 => 1607.33
+Written solution
+A4 1 1607.33 => 1607.33
+Written solution
+A4 1 1607.33 => 1606.6399999999996
+Written solution
+A4 1 1606.64 => 1606.6399999999996
+Written solution
+A4 1 1606.64 => 1606.6399999999996
+Written solution
+A4 1 1606.64 => 1606.6399999999996
+Written solution
+A4 1 1606.64 => 1606.6399999999996
+Written solution
+A4 1 1606.64 => 1606.6299999999997
+Written solution
+A4 1 1606.63 => 1606.6299999999997
+Written solution
+A4 1 1606.63 => 1606.6299999999997
+Written solution
+A4 1 1606.63 => 1606.6299999999997
+Written solution
+A4 1 1606.63 => 1606.6299999999997
+Written solution
+A4 1 1606.63 => 1606.6299999999997
+Written solution
+A4 1 1606.63 => 1606.6299999999997
+Written solution
+A4 1 1606.63 => 1606.6299999999997
+Written solution
+A4 1 1606.63 => 1606.6299999999997
+Written solution
+A4 1 1606.63 => 1606.6299999999997
+Written solution
+A4 1 1606.63 => 1606.6299999999997
+Written solution
+A4 1 1606.63 => 1606.6299999999997
+Written solution
+A4 1 1606.63 => 1606.6299999999997
+Written solution
+A4 1 1606.63 => 1606.6299999999997
+Written solution
+A4 1 1606.63 => 1606.6299999999997
+Written solution
+A4 1 1606.63 => 1606.6299999999997
+Written solution
+A4 1 1606.63 => 1606.6299999999997
+Written solution
+A4 1 1606.63 => 1606.6299999999997
+Written solution
+A4 1 1606.63 => 1606.6299999999997
+Written solution
+A4 1 1606.63 => 1606.6299999999997
+Written solution
+A4 1 1606.63 => 1606.6299999999997
+Written solution
+A4 1 1606.63 => 1606.6299999999997
+Written solution
+A4 1 1606.63 => 1606.6299999999997
+Written solution
+A4 1 1606.63 => 1606.6299999999997
+Written solution
+A4 1 1606.63 => 1606.6299999999997
+Written solution
+A4 1 1606.63 => 1606.6299999999997
+Written solution
+A4 1 1606.63 => 1606.6299999999997
+Written solution
+A4 1 1606.63 => 1606.2899999999997
+Written solution
+A4 1 1606.29 => 1606.2899999999997
+Written solution
+A4 1 1606.29 => 1606.2899999999997
+Written solution
+A4 1 1606.29 => 1606.2899999999997
+Written solution
+A4 1 1606.29 => 1606.2899999999997
+Written solution
+A4 1 1606.29 => 1606.2899999999997
+Written solution
+A4 1 1606.29 => 1606.2899999999997
+Written solution
+A4 1 1606.29 => 1606.2899999999997
+Written solution
+A4 1 1606.29 => 1606.2899999999997
+Written solution
+A4 1 1606.29 => 1606.2899999999997
+Written solution
+A4 1 1606.29 => 1606.2899999999997
+Written solution
+A4 1 1606.29 => 1606.2899999999997
+Written solution
+A4 1 1606.29 => 1606.2899999999997
+Written solution
+A4 1 1606.29 => 1606.2899999999997
+Written solution
+A4 1 1606.29 => 1606.2899999999997
+Written solution
+A4 1 1606.29 => 1606.2899999999997
+Written solution
+A4 1 1606.29 => 1606.2899999999997
+Written solution
+A4 1 1606.29 => 1606.2899999999997
+Written solution
+A4 1 1606.29 => 1606.2899999999997
+Written solution
+A4 1 1606.29 => 1606.2899999999997
+Written solution
+A4 1 1606.29 => 1606.2899999999997
+Written solution
+A4 1 1606.29 => 1606.2899999999997
+Written solution
+A4 1 1606.29 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+
+At least one feasible solution was found with objective value 1606.28
+Starting new set of iterations
+
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+
+Objective value did not improve
+
+A feasible solution was found
+Optimal chromosome: [0.5, 0.66, 0.74, 0.58, 0.66, 0.46, 0.49, 0.32, 0.49, 0.46, 6.0, 6.0, 12.0, 6.0, 10.0, 5.0, 4.0, 10.0, 5.0, 6.0, 2, 4, 3, 4, 4, 9, 6, 3, 5, 4]
+Total distance: 1606.28
+PA layout: [(0, 0, 10, 3), (30, 0, 5, 9), (45, 0, 6, 4), (63, 0, 4, 6), (75, 0, 5, 5), (90, 0, 6, 2), (108, 0, 6, 4), (126, 0, 6, 4), (0, 30.0, 10, 4), (90, 57.0, 12, 3)]
+Total runtime: 27426.50557400002 s
+Average iteration time: 54.85301114800001 s
+Average number of feasible solutions every iteration: 27.484
+A4 1 1606.28 => 1606.2799999999997
+Written solution
+Saved diagnostics
+
+
+###############################################################################
+Peregrine Cluster
+Job 25223299 for user 'f118637'
+Finished at: Sun Jul 17 22:57:44 CEST 2022
+
+Job details:
+============
+
+Job ID              : 25223297_1
+Name                : job_array
+User                : f118637
+Partition           : regular
+Nodes               : pg-node174
+Number of Nodes     : 1
+Cores               : 1
+Number of Tasks     : 1
+State               : COMPLETED
+Submit              : 2022-07-17T12:14:50
+Start               : 2022-07-17T15:10:23
+End                 : 2022-07-17T22:57:44
+Reserved walltime   : 20:00:00
+Used walltime       : 07:47:21
+Used CPU time       : 07:47:06 (efficiency: 99.95%)
+% User (Computation): 99.99%
+% System (I/O)      :  0.01%
+Mem reserved        : 5000M
+Max Mem (Node/step) : 47.82M (pg-node174, per node)
+Full Max Mem usage  : 47.82M
+Total Disk Read     : 13.93M
+Total Disk Write    : 2.95M
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

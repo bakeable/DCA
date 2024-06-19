@@ -1,0 +1,73 @@
+
+
+Running instance 45
+Instance instantiated
+Creating initial population
+No feasible solutions found as of yet, trying to generate them systematically
+Storage sizes: [240, 230, 550, 320, 500, 280, 830, 400, 890, 710]
+Maximum aisles: 64
+Aisle options: [21.0, 9.0, 7.0, 3.0]
+Processing 10000 possible chromosomes
+Generating feasible solutions
+Could not find enough feasible solutions, adding random chromosomes instead
+Starting new set of iterations
+
+
+At least one feasible solution was found with objective value 2168.41
+Starting new set of iterations
+
+
+Objective value did not improve
+
+A feasible solution was found
+Optimal chromosome: [0.61, 0.64, 0.48, 0.77, 0.56, 0.57, 0.32, 0.57, 0.75, 0.54, 15.0, 9.0, 7.0, 9.0, 6.0, 4.0, 10.0, 5.0, 15.0, 9.0, 3, 3, 7, 5, 4, 5, 5, 6, 5, 7]
+Total distance: 2168.41
+PA layout: [(0, 0, 27, 3), (54, 0, 12, 2), (78, 0, 18, 6), (0, 14.89, 14, 2), (0, 47.46, 15, 6), (30, 14.89, 9, 6), (0, 0, 16, 8), (0, 0, 14, 7), (114, 0, 6, 9), (0, 0, 28, 6)]
+Total runtime: 26911.020873999987 s
+Average iteration time: 53.822041748000004 s
+Average number of feasible solutions every iteration: 9.272
+A4 45 -1.0 => 2168.41
+Written solution
+Saved diagnostics
+
+
+###############################################################################
+Peregrine Cluster
+Job 25187715 for user 'f118637'
+Finished at: Fri Jul 15 08:44:46 CEST 2022
+
+Job details:
+============
+
+Job ID              : 25176807_45
+Name                : job_array
+User                : f118637
+Partition           : regular
+Nodes               : pg-node192
+Number of Nodes     : 1
+Cores               : 1
+Number of Tasks     : 1
+State               : COMPLETED
+Submit              : 2022-07-14T12:31:14
+Start               : 2022-07-14T23:57:40
+End                 : 2022-07-15T08:44:46
+Reserved walltime   : 12:00:00
+Used walltime       : 08:47:06
+Used CPU time       : 08:43:51 (efficiency: 99.38%)
+% User (Computation): 99.99%
+% System (I/O)      :  0.01%
+Mem reserved        : 5000M
+Max Mem (Node/step) : 54.05M (pg-node192, per node)
+Full Max Mem usage  : 54.05M
+Total Disk Read     : 13.93M
+Total Disk Write    : 2.95M
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

@@ -1,0 +1,4099 @@
+
+
+Running instance 92
+Instance instantiated
+Creating initial population
+No feasible solutions found as of yet, trying to generate them systematically
+Storage sizes: [290, 450, 560, 200, 570, 250, 430, 550, 410, 260, 580, 530, 390, 570, 250]
+Maximum aisles: 34
+Aisle options: [4.0, 3.0, 8.0, 16.0, 2.0]
+Processing 10000 possible chromosomes
+Generating feasible solutions
+Generating solutions aborted since maximum run time was reached
+Found 0 feasible solutions
+Could not find enough feasible solutions, adding random chromosomes instead
+Starting new set of iterations
+
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 5454.03 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 5072.63 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4988.24 => -1
+Written solution
+A4 92 4988.24 => -1
+Written solution
+A4 92 4988.24 => -1
+Written solution
+A4 92 4988.24 => -1
+Written solution
+A4 92 4988.24 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4976.49 => -1
+Written solution
+A4 92 4976.49 => -1
+Written solution
+A4 92 4976.49 => -1
+Written solution
+A4 92 4976.49 => -1
+Written solution
+A4 92 4976.49 => -1
+Written solution
+A4 92 4976.49 => -1
+Written solution
+A4 92 4976.49 => -1
+Written solution
+A4 92 4976.49 => -1
+Written solution
+A4 92 4950.16 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4944.86 => -1
+Written solution
+A4 92 4944.86 => -1
+Written solution
+A4 92 4944.86 => -1
+Written solution
+A4 92 4944.86 => -1
+Written solution
+A4 92 4944.86 => -1
+Written solution
+A4 92 4944.86 => -1
+Written solution
+A4 92 4944.86 => -1
+Written solution
+A4 92 4944.86 => -1
+Written solution
+A4 92 4943.0 => -1
+Written solution
+A4 92 4943.0 => -1
+Written solution
+A4 92 4943.0 => -1
+Written solution
+A4 92 4943.0 => -1
+Written solution
+A4 92 4943.0 => -1
+Written solution
+A4 92 4943.0 => -1
+Written solution
+A4 92 4943.0 => -1
+Written solution
+A4 92 4943.0 => -1
+Written solution
+A4 92 4943.0 => -1
+Written solution
+A4 92 4943.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+
+At least one solution was found with objective value 104586.96
+Starting new set of iterations
+
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 4942.14 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+
+Objective value improved by 11.19 (- 0.01 %), now given by 104575.77
+Starting new set of iterations
+
+A4 92 4903.67 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 4903.67 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+
+Objective value improved by 139.61 (- 0.13 %), now given by 104436.16
+Starting new set of iterations
+
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+
+Objective value improved by 11.68 (- 0.01 %), now given by 104424.48
+Starting new set of iterations
+
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+
+Objective value improved by 5.28 (- 0.01 %), now given by 104419.2
+Starting new set of iterations
+
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+
+Objective value improved by 28.67 (- 0.03 %), now given by 104390.53
+Starting new set of iterations
+
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+
+Objective value improved by 0.07 (- 0.0 %), now given by 104390.46
+Starting new set of iterations
+
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+A4 92 -1.0 => -1
+Written solution
+
+Objective value did not improve
+
+A feasible solution was found
+Optimal chromosome: [0.38, 0.82, 0.42, 0.3, 0.52, 0.44, 0.46, 0.55, 0.48, 0.96, 0.55, 0.44, 0.4, 0.84, 0.42, 3.0, 5.0, 3.0, 2.0, 10.0, 2.0, 15.0, 5.0, 15.0, 3.0, 10.0, 3.0, 2.0, 13.0, 2.0, 4, 4, 5, 3, 4, 2, 2, 5, 3, 4, 2, 2, 2, 4, 2]
+Total distance: 104390.46
+PA layout: [(0, 0, 2, 3), (6, 0, 3, 4), (15, 0, 2, 2), (21, 0, 3, 5), (30, 0, 2, 2), (36, 0, 2, 2), (42, 0, 3, 2), (51, 0, 15, 2), (51, 38.67, 15, 3), (51, 81.0, 10, 4), (81, 81.0, 5, 5), (51, 158.0, 10, 2), (0, 116.67, 5, 4), (0, 0, 13, 4), (96, 0, 3, 4)]
+Total runtime: 87363.98549900003 s
+Average iteration time: 43.681992749500004 s
+Average number of feasible solutions every iteration: 0.0
+A4 92 -1.0 => -1
+Written solution
+Saved diagnostics
+
+
+###############################################################################
+Peregrine Cluster
+Job 25274132 for user 'f118637'
+Finished at: Wed Jul 20 18:47:36 CEST 2022
+
+Job details:
+============
+
+Job ID              : 25234415_113
+Name                : job_array
+User                : f118637
+Partition           : regular
+Nodes               : pg-node099
+Number of Nodes     : 1
+Cores               : 1
+Number of Tasks     : 1
+State               : COMPLETED
+Submit              : 2022-07-18T11:49:18
+Start               : 2022-07-19T15:50:58
+End                 : 2022-07-20T18:47:36
+Reserved walltime   : 2-00:00:00
+Used walltime       : 1-02:56:38
+Used CPU time       : 1-02:37:43 (efficiency: 98.83%)
+% User (Computation): 99.95%
+% System (I/O)      :  0.05%
+Mem reserved        : 2000M
+Max Mem (Node/step) : 49.69M (pg-node099, per node)
+Full Max Mem usage  : 49.69M
+Total Disk Read     : 13.93M
+Total Disk Write    : 2.95M
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

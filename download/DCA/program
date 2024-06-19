@@ -1,0 +1,15 @@
+#!/bin/bash
+
+
+#SBATCH --time=2-00:00:00
+#SBATCH --mem=2000mb
+#SBATCH --partition=regular
+#SBATCH --job-name=job_array
+#SBATCH --array=0-150
+
+module load "Python/3.9.6-GCCcore-11.2.0"
+
+python3 -m venv /data/$USER/.envs/environment
+source /data/$USER/.envs/environment/bin/activate
+
+python3 ./program.zip ${SLURM_ARRAY_TASK_ID}

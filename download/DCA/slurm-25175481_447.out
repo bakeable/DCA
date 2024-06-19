@@ -1,0 +1,56 @@
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib64/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "./program.zip/__main__.py", line 19, in <module>
+  File "/usr/lib64/python3.6/os.py", line 220, in makedirs
+    mkdir(name, mode)
+OSError: [Errno 107] Transport endpoint is not connected: './data/diagnostics/instance447'
+
+
+###############################################################################
+Peregrine Cluster
+Job 25187670 for user 'f118637'
+Finished at: Thu Jul 14 23:08:24 CEST 2022
+
+Job details:
+============
+
+Job ID              : 25175481_447
+Name                : job_array
+User                : f118637
+Partition           : regular
+Nodes               : pg-node028
+Number of Nodes     : 1
+Cores               : 1
+Number of Tasks     : 1
+State               : FAILED
+Submit              : 2022-07-14T11:27:46
+Start               : 2022-07-14T22:58:58
+End                 : 2022-07-14T23:08:24
+Reserved walltime   : 12:00:00
+Used walltime       : 00:09:26
+Used CPU time       : 00:00:03 (efficiency:  0.55%)
+% User (Computation): 74.68%
+% System (I/O)      : 25.32%
+Mem reserved        : 5000M
+Max Mem (Node/step) : 44.73M (pg-node028, per node)
+Full Max Mem usage  : 44.73M
+Total Disk Read     : 13.93M
+Total Disk Write    : 2.95M
+Hints and tips      :
+ 1) The program efficiency is low.
+    Check the file in- and output pattern of your application.
+ *) For more information on these issues see:
+    https://wiki.hpc.rug.nl/peregrine/additional_information/job_hints
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

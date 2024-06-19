@@ -1,0 +1,56 @@
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib64/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "./program.zip/__main__.py", line 19, in <module>
+  File "/usr/lib64/python3.6/os.py", line 220, in makedirs
+    mkdir(name, mode)
+OSError: [Errno 5] Input/output error: './data/diagnostics/instance39'
+
+
+###############################################################################
+Peregrine Cluster
+Job 25175692 for user 'f118637'
+Finished at: Thu Jul 14 11:57:26 CEST 2022
+
+Job details:
+============
+
+Job ID              : 25175481_39
+Name                : job_array
+User                : f118637
+Partition           : regular
+Nodes               : pg-node144
+Number of Nodes     : 1
+Cores               : 1
+Number of Tasks     : 1
+State               : FAILED
+Submit              : 2022-07-14T11:27:46
+Start               : 2022-07-14T11:48:13
+End                 : 2022-07-14T11:57:26
+Reserved walltime   : 12:00:00
+Used walltime       : 00:09:13
+Used CPU time       : 00:00:03 (efficiency:  0.67%)
+% User (Computation): 77.98%
+% System (I/O)      : 21.99%
+Mem reserved        : 5000M
+Max Mem (Node/step) : 36.21M (pg-node144, per node)
+Full Max Mem usage  : 36.21M
+Total Disk Read     : 13.93M
+Total Disk Write    : 2.95M
+Hints and tips      :
+ 1) The program efficiency is low.
+    Check the file in- and output pattern of your application.
+ *) For more information on these issues see:
+    https://wiki.hpc.rug.nl/peregrine/additional_information/job_hints
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

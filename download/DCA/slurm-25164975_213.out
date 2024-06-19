@@ -1,0 +1,49 @@
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib64/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "./program.zip/__main__.py", line 15, in <module>
+TypeError: unsupported operand type(s) for -: 'int' and 'list'
+
+
+###############################################################################
+Peregrine Cluster
+Job 25169378 for user 'f118637'
+Finished at: Wed Jul 13 23:09:44 CEST 2022
+
+Job details:
+============
+
+Job ID              : 25164975_213
+Name                : job_array
+User                : f118637
+Partition           : regular
+Nodes               : pg-node179
+Number of Nodes     : 1
+Cores               : 1
+Number of Tasks     : 1
+State               : FAILED
+Submit              : 2022-07-13T17:21:28
+Start               : 2022-07-13T23:09:36
+End                 : 2022-07-13T23:09:44
+Reserved walltime   : 12:00:00
+Used walltime       : 00:00:08
+Used CPU time       : 00:00:02 (efficiency: 33.89%)
+% User (Computation): 80.30%
+% System (I/O)      : 19.70%
+Mem reserved        : 5000M
+Max Mem (Node/step) : 0.00  (Node unknown, N/A)
+Full Max Mem usage  : 0.00 
+Total Disk Read     : 0.00 
+Total Disk Write    : 0.00 
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

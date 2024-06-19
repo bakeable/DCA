@@ -1,0 +1,75 @@
+
+
+Running instance 37
+Instance instantiated
+Creating initial population
+No feasible solutions found as of yet, trying to generate them systematically
+Storage sizes: [370, 210, 240, 550, 210, 300, 280, 480, 510, 290]
+Maximum aisles: 46
+Aisle options: [15.0, 9.0, 5.0, 3.0]
+Processing 10000 possible chromosomes
+Generating feasible solutions
+Found a feasible chromosome
+ [0.4, 0.5, 0.31, 0.76, 0.29, 0.12, 0.45, 0.92, 0.87, 0.05, 5.0, 3.0, 5.0, 9.0, 9.0, 15.0, 5.0, 9.0, 9.0, 9.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 2672.97
+Starting new set of iterations
+
+
+At least one feasible solution was found with objective value 2243.38
+Starting new set of iterations
+
+
+Objective value did not improve
+
+A feasible solution was found
+Optimal chromosome: [0.36, 0.46, 0.32, 0.7, 0.38, 0.3, 0.5, 0.84, 0.74, 0.12, 5.0, 4.0, 4.0, 10.0, 9.0, 15.0, 5.0, 9.0, 9.0, 9.0, 6, 7, 4, 5, 2, 3, 6, 2, 5, 2]
+Total distance: 2243.38
+PA layout: [(0, 0, 8, 7), (24, 0, 20, 9), (84, 0, 15, 2), (24, 42.0, 29, 5), (0, 60.28, 20, 5), (60, 60.28, 24, 8), (0, 0, 28, 9), (0, 0, 22, 8), (0, 0, 5, 6), (0, 0, 14, 9)]
+Total runtime: 28852.023304000017 s
+Average iteration time: 57.704046608 s
+Average number of feasible solutions every iteration: 7.746
+A4 37 2313.98 => 2243.3799999999997
+Written solution
+Saved diagnostics
+
+
+###############################################################################
+Peregrine Cluster
+Job 25175675 for user 'f118637'
+Finished at: Thu Jul 14 21:46:45 CEST 2022
+
+Job details:
+============
+
+Job ID              : 25175481_37
+Name                : job_array
+User                : f118637
+Partition           : regular
+Nodes               : pg-node144
+Number of Nodes     : 1
+Cores               : 1
+Number of Tasks     : 1
+State               : COMPLETED
+Submit              : 2022-07-14T11:27:46
+Start               : 2022-07-14T11:48:13
+End                 : 2022-07-14T21:46:45
+Reserved walltime   : 12:00:00
+Used walltime       : 09:58:32
+Used CPU time       : 09:19:34 (efficiency: 93.49%)
+% User (Computation): 99.99%
+% System (I/O)      :  0.01%
+Mem reserved        : 5000M
+Max Mem (Node/step) : 45.84M (pg-node144, per node)
+Full Max Mem usage  : 45.84M
+Total Disk Read     : 13.93M
+Total Disk Write    : 2.95M
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

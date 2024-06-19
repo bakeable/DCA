@@ -1,0 +1,55 @@
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib64/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "./program.zip/__main__.py", line 27, in <module>
+  File "./program.zip/classes/genetic_algorithm.py", line 83, in run
+  File "./program.zip/classes/genetic_algorithm.py", line 66, in instantiate
+  File "./program.zip/functions/data_handling.py", line 159, in read_instance
+FileNotFoundError: [Errno 2] No such file or directory: '/home/f118637/DCA/input/inst0.csv'
+
+
+Running instance 0
+
+
+###############################################################################
+Peregrine Cluster
+Job 25179736 for user 'f118637'
+Finished at: Thu Jul 14 14:51:02 CEST 2022
+
+Job details:
+============
+
+Job ID              : 25176807_0
+Name                : job_array
+User                : f118637
+Partition           : regular
+Nodes               : pg-node180
+Number of Nodes     : 1
+Cores               : 1
+Number of Tasks     : 1
+State               : FAILED
+Submit              : 2022-07-14T12:31:14
+Start               : 2022-07-14T14:48:12
+End                 : 2022-07-14T14:51:02
+Reserved walltime   : 12:00:00
+Used walltime       : 00:02:50
+Used CPU time       : 00:00:03 (efficiency:  2.15%)
+% User (Computation): 74.16%
+% System (I/O)      : 25.81%
+Mem reserved        : 5000M
+Max Mem (Node/step) : 43.70M (pg-node180, per node)
+Full Max Mem usage  : 43.70M
+Total Disk Read     : 13.93M
+Total Disk Write    : 2.95M
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

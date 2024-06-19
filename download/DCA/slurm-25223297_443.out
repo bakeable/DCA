@@ -1,0 +1,51 @@
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib64/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "./program.zip/__main__.py", line 9, in <module>
+  File "./program.zip/functions/data_handling.py", line 306, in get_unsolved_instances
+  File "./program.zip/functions/data_handling.py", line 318, in read_obj_value
+StopIteration
+
+
+###############################################################################
+Peregrine Cluster
+Job 25272743 for user 'f118637'
+Finished at: Tue Jul 19 15:23:15 CEST 2022
+
+Job details:
+============
+
+Job ID              : 25223297_443
+Name                : job_array
+User                : f118637
+Partition           : regular
+Nodes               : pg-node024
+Number of Nodes     : 1
+Cores               : 1
+Number of Tasks     : 1
+State               : FAILED
+Submit              : 2022-07-17T12:14:50
+Start               : 2022-07-19T15:20:49
+End                 : 2022-07-19T15:23:15
+Reserved walltime   : 20:00:00
+Used walltime       : 00:02:26
+Used CPU time       : 00:00:02 (efficiency:  1.85%)
+% User (Computation): 80.99%
+% System (I/O)      : 19.01%
+Mem reserved        : 5000M
+Max Mem (Node/step) : 10.95M (pg-node024, per node)
+Full Max Mem usage  : 10.95M
+Total Disk Read     : 1.00M
+Total Disk Write    : 26.89K
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

@@ -1,0 +1,2083 @@
+
+
+Running instance 150
+Instance instantiated
+Creating initial population
+No feasible solutions found as of yet, trying to generate them systematically
+Storage sizes: [940, 800, 740, 550, 520, 240, 800, 670, 850, 200, 840, 890, 910, 810, 450, 360, 910, 520, 800, 650]
+Maximum aisles: 32
+Aisle options: [15.0, 3.0, 2.0, 6.0, 5.0]
+Processing 10000 possible chromosomes
+Generating feasible solutions
+Generating solutions aborted since maximum run time was reached
+Found 0 feasible solutions
+Could not find enough feasible solutions, adding random chromosomes instead
+Starting new set of iterations
+
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+Writing new solution to instance150
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+
+At least one solution was found with objective value 114617.56
+Starting new set of iterations
+
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+
+Objective value improved by 236.34 (- 0.21 %), now given by 114381.22
+Starting new set of iterations
+
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+
+Objective value improved by 25.12 (- 0.02 %), now given by 114356.1
+Starting new set of iterations
+
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+A4 150 -1.0 => -1
+Written solution
+
+Objective value did not improve
+
+A feasible solution was found
+Optimal chromosome: [0.44, 0.46, 0.55, 0.57, 0.76, 0.46, 0.3, 0.52, 0.36, 0.4, 0.42, 0.56, 0.66, 0.48, 0.5, 0.68, 0.38, 0.22, 0.3, 0.4, 3.0, 3.0, 10.0, 6.0, 2.0, 7.0, 8.0, 3.0, 2.0, 7.0, 10.0, 10.0, 17.0, 6.0, 2.0, 12.0, 6.0, 15.0, 2.0, 6.0, 2, 8, 3, 2, 2, 3, 2, 6, 5, 3, 3, 3, 3, 4, 2, 2, 4, 2, 2, 2]
+Total distance: 114356.1
+PA layout: [(0, 0, 15, 2), (75, 0, 2, 2), (85, 0, 8, 2), (125, 0, 2, 5), (135, 0, 6, 4), (0, 48.67, 7, 3), (35, 48.67, 6, 2), (0, 171.0, 10, 3), (85, 114.0, 3, 2), (100, 114.0, 3, 8), (0, 98.24, 7, 3), (135, 179.67, 6, 4), (65, 48.67, 2, 2), (50, 171.0, 3, 6), (0, 276.0, 10, 3), (0, 371.0, 10, 3), (135, 342.67, 6, 2), (0, 0, 17, 3), (50, 441.33, 12, 2), (115, 114.0, 2, 2)]
+Total runtime: 54684.75022400005 s
+Average iteration time: 54.684750224000005 s
+Average number of feasible solutions every iteration: 0.0
+A4 150 -1.0 => -1
+Written solution
+Saved diagnostics
+
+
+###############################################################################
+Peregrine Cluster
+Job 25274120 for user 'f118637'
+Finished at: Wed Jul 20 09:19:53 CEST 2022
+
+Job details:
+============
+
+Job ID              : 25234415_101
+Name                : job_array
+User                : f118637
+Partition           : regular
+Nodes               : pg-node136
+Number of Nodes     : 1
+Cores               : 1
+Number of Tasks     : 1
+State               : COMPLETED
+Submit              : 2022-07-18T11:49:18
+Start               : 2022-07-19T15:50:58
+End                 : 2022-07-20T09:19:53
+Reserved walltime   : 2-00:00:00
+Used walltime       :   17:28:55
+Used CPU time       :   17:27:00 (efficiency: 99.82%)
+% User (Computation): 99.99%
+% System (I/O)      :  0.01%
+Mem reserved        : 2000M
+Max Mem (Node/step) : 50.60M (pg-node136, per node)
+Full Max Mem usage  : 50.60M
+Total Disk Read     : 13.93M
+Total Disk Write    : 2.95M
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

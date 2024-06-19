@@ -1,0 +1,92 @@
+
+
+Running instance 77
+Instance instantiated
+Creating initial population
+No feasible solutions found as of yet, trying to generate them systematically
+Storage sizes: [560, 240, 290, 250, 460, 470, 410, 220, 300, 570, 410, 260, 270, 320, 490]
+Maximum aisles: 26
+Aisle options: [8.0, 6.0, 5.0, 12.0, 4.0]
+Processing 10000 possible chromosomes
+Generating feasible solutions
+Found a feasible chromosome
+ [0.02, 0.51, 0.28, 0.63, 0.56, 0.29, 0.33, 0.25, 0.97, 0.77, 0.17, 0.11, 0.27, 0.59, 0.93, 12.0, 8.0, 6.0, 12.0, 8.0, 4.0, 12.0, 12.0, 6.0, 8.0, 4.0, 4.0, 12.0, 8.0, 6.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 7539.01
+Found a feasible chromosome
+ [0.7, 0.4, 0.36, 0.75, 0.29, 0.65, 0.85, 0.59, 0.68, 0.68, 0.4, 1.0, 0.02, 0.16, 0.95, 4.0, 4.0, 5.0, 5.0, 5.0, 6.0, 4.0, 4.0, 8.0, 8.0, 8.0, 4.0, 12.0, 4.0, 12.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 7246.0
+Found a feasible chromosome
+ [0.92, 0.99, 0.56, 0.91, 0.35, 0.73, 0.51, 0.67, 0.14, 0.7, 0.67, 0.3, 0.53, 0.46, 0.67, 4.0, 5.0, 12.0, 8.0, 5.0, 12.0, 6.0, 6.0, 8.0, 8.0, 5.0, 4.0, 4.0, 8.0, 8.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 7382.69
+Found a feasible chromosome
+ [0.65, 0.32, 0.6, 0.87, 0.34, 0.2, 0.37, 0.63, 0.43, 0.63, 0.64, 0.9, 0.02, 1.0, 0.62, 6.0, 8.0, 8.0, 8.0, 6.0, 4.0, 12.0, 5.0, 8.0, 12.0, 6.0, 5.0, 5.0, 6.0, 12.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 7627.43
+Found a feasible chromosome
+ [0.84, 0.34, 0.82, 0.77, 0.01, 0.02, 0.67, 0.98, 0.81, 0.08, 0.63, 0.08, 1.0, 0.75, 0.26, 8.0, 8.0, 4.0, 8.0, 5.0, 5.0, 6.0, 5.0, 8.0, 8.0, 4.0, 4.0, 6.0, 12.0, 6.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 7935.16
+Found a feasible chromosome
+ [0.5, 0.85, 0.03, 0.47, 0.27, 0.75, 0.41, 0.49, 0.02, 0.08, 0.19, 0.91, 0.92, 0.92, 0.59, 6.0, 6.0, 8.0, 8.0, 8.0, 5.0, 12.0, 8.0, 12.0, 12.0, 5.0, 8.0, 12.0, 4.0, 6.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 7663.34
+Generating solutions aborted since we found enough feasible solutions
+Found 6 feasible solutions
+Starting new set of iterations
+
+
+At least one feasible solution was found with objective value 6155.03
+Starting new set of iterations
+
+
+Objective value did not improve
+
+A feasible solution was found
+Optimal chromosome: [0.58, 0.56, 0.42, 0.7, 0.5, 0.64, 0.57, 0.56, 0.62, 0.42, 0.5, 0.34, 0.48, 0.38, 0.48, 15.0, 2.0, 13.0, 5.0, 13.0, 13.0, 15.0, 2.0, 2.0, 2.0, 3.0, 2.0, 13.0, 13.0, 2.0, 3, 2, 2, 4, 3, 3, 3, 2, 2, 2, 3, 2, 2, 2, 2]
+Total distance: 6156.29
+PA layout: [(0, 0, 16, 5), (0, 53.75, 16, 7), (64, 0, 5, 8), (0, 134.0, 20, 8), (0, 189.0, 20, 7), (0, 237.5, 24, 3), (0, 262.92, 25, 3), (0, 0, 11, 6), (0, 0, 8, 4), (0, 0, 10, 2), (0, 0, 25, 8), (0, 0, 22, 7), (0, 0, 23, 9), (0, 0, 15, 9), (0, 0, 12, 8)]
+Total runtime: 41388.664093000014 s
+Average iteration time: 82.777328186 s
+Average number of feasible solutions every iteration: 6.504
+A4 77 7176.25 => 6156.289999999999
+Written solution
+Saved diagnostics
+
+
+###############################################################################
+Peregrine Cluster
+Job 25188510 for user 'f118637'
+Finished at: Fri Jul 15 11:29:09 CEST 2022
+
+Job details:
+============
+
+Job ID              : 25176807_77
+Name                : job_array
+User                : f118637
+Partition           : regular
+Nodes               : pg-node088
+Number of Nodes     : 1
+Cores               : 1
+Number of Tasks     : 1
+State               : COMPLETED
+Submit              : 2022-07-14T12:31:14
+Start               : 2022-07-14T23:57:41
+End                 : 2022-07-15T11:29:09
+Reserved walltime   : 12:00:00
+Used walltime       : 11:31:28
+Used CPU time       : 11:29:22 (efficiency: 99.70%)
+% User (Computation): 100.00%
+% System (I/O)      :  0.01%
+Mem reserved        : 5000M
+Max Mem (Node/step) : 53.83M (pg-node088, per node)
+Full Max Mem usage  : 53.83M
+Total Disk Read     : 13.93M
+Total Disk Write    : 2.95M
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

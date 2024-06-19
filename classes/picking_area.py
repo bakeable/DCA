@@ -6,7 +6,7 @@ import numpy as np
 import itertools
 
 class PickingArea:
-    def __init__(self, s_i, n, k, m, alpha, w_i, v_i, number, color):
+    def __init__(self, s_i, n, k, m, S, alpha, w_i, v_i, number, color):
         # Set storage capacity
         self.s_i = s_i
 
@@ -17,6 +17,7 @@ class PickingArea:
         self.alpha = alpha
         self.w_i = w_i
         self.v_i = v_i
+        self.S = S
 
         # Set position
         self.x = 0
@@ -36,7 +37,11 @@ class PickingArea:
         self.surface = self.w * self.h
 
         # Instantiate metrics
-        self.travel_distance = 2 * self.y * (1 + self.alpha) + (1 + self.alpha) * lookup_travel_distance(self.n, self.k, self.m)
+        Ui = round(2*self.y * (1 + self.alpha), 2)
+        Ri = round(round(self.alpha,2) * round(lookup_travel_distance(self.n, self.k, 1, S=self.S, w=self.w_i, v=self.v_i),2), 2)
+        Ti = round(lookup_travel_distance(self.n, self.k, self.m, S=self.S, w=self.w_i, v=self.v_i), 2)
+
+        self.travel_distance = Ui + Ri + Ti
         self.EMS = None
         self.EMS_options = []
         self.penalty = 0
@@ -54,7 +59,11 @@ class PickingArea:
         self.surface = self.w * self.h
 
         # Get travel distance from lookup
-        self.travel_distance = 2 * self.y * (1 + self.alpha) + (1 + self.alpha) * lookup_travel_distance(self.n, self.k, self.m)
+        Ui = round(2*self.y * (1 + self.alpha), 2)
+        Ri = round(round(self.alpha,2) * round(lookup_travel_distance(self.n, self.k, 1, S=self.S, w=self.w_i, v=self.v_i),2), 2)
+        Ti = round(lookup_travel_distance(self.n, self.k, self.m, S=self.S, w=self.w_i, v=self.v_i), 2)
+
+        self.travel_distance = Ui + Ri + Ti
 
     def set_position(self, x, y):
         # Set position
@@ -74,15 +83,15 @@ class PickingArea:
         return self.feasible
 
     def get_travel_distance(self, n=None, k=None, m=None):
-        if self.feasible:
-            # Set parameters
-            self.set_parameters(n, k, m)
+        # Set parameters
+        self.set_parameters(n, k, m)
 
+        if self.feasible:
             # Return distance
             return self.travel_distance
         else:
             # Calculate penalty
-
+            self.penalty
 
             # Return penalty plus actual travel distance
             return self.penalty + self.travel_distance

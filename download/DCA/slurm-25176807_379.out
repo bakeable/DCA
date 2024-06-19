@@ -1,0 +1,44 @@
+Error: [Errno 5] Input/output error
+slurmstepd: error: *** JOB 25189058 ON pg-node051 CANCELLED AT 2022-07-15T12:17:19 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Peregrine Cluster
+Job 25189058 for user 'f118637'
+Finished at: Fri Jul 15 12:17:21 CEST 2022
+
+Job details:
+============
+
+Job ID              : 25176807_379
+Name                : job_array
+User                : f118637
+Partition           : regular
+Nodes               : pg-node051
+Number of Nodes     : 1
+Cores               : 1
+Number of Tasks     : 1
+State               : CANCELLED,TIMEOUT
+Submit              : 2022-07-14T12:31:14
+Start               : 2022-07-15T00:17:15
+End                 : 2022-07-15T12:17:21
+Reserved walltime   : 12:00:00
+Used walltime       : 12:00:06
+Used CPU time       : 11:46:53 (efficiency: 98.16%)
+% User (Computation): 100.00%
+% System (I/O)      :  0.00%
+Mem reserved        : 5000M
+Max Mem (Node/step) : 69.53M (pg-node051, per node)
+Full Max Mem usage  : 69.53M
+Total Disk Read     : 13.93M
+Total Disk Write    : 2.95M
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

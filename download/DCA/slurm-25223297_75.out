@@ -1,0 +1,1596 @@
+
+
+Running instance 75
+Instance instantiated
+Creating initial population
+No feasible solutions found as of yet, trying to generate them systematically
+Storage sizes: [520, 560, 850, 830, 370, 1060, 990, 980, 230, 1100, 1060, 210, 1030, 320, 350]
+Maximum aisles: 42
+Aisle options: [2.0, 20.0, 8.0, 10.0, 5.0]
+Processing 10000 possible chromosomes
+Generating feasible solutions
+Found a feasible chromosome
+ [0.11, 0.27, 0.62, 0.01, 0.64, 0.27, 0.03, 0.09, 0.96, 0.34, 0.52, 0.73, 0.52, 0.59, 0.9, 8.0, 5.0, 5.0, 10.0, 5.0, 5.0, 5.0, 20.0, 10.0, 10.0, 8.0, 20.0, 10.0, 8.0, 10.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 11054.37
+Found a feasible chromosome
+ [0.65, 0.71, 0.89, 0.12, 0.64, 0.68, 0.31, 0.31, 0.77, 0.7, 0.86, 0.76, 0.19, 0.87, 0.56, 8.0, 10.0, 5.0, 8.0, 8.0, 5.0, 20.0, 20.0, 8.0, 20.0, 20.0, 10.0, 10.0, 2.0, 2.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 9967.1
+Found a feasible chromosome
+ [0.76, 0.92, 0.96, 0.53, 0.73, 0.17, 0.66, 0.31, 0.24, 0.33, 0.13, 0.75, 0.27, 0.62, 0.76, 2.0, 20.0, 20.0, 10.0, 8.0, 5.0, 10.0, 20.0, 8.0, 5.0, 20.0, 2.0, 5.0, 8.0, 5.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 9935.3
+Found a feasible chromosome
+ [0.72, 0.06, 1.0, 0.93, 0.98, 0.87, 0.72, 0.44, 0.98, 0.76, 0.49, 0.73, 0.49, 0.74, 0.45, 2.0, 20.0, 5.0, 5.0, 5.0, 8.0, 8.0, 8.0, 2.0, 10.0, 8.0, 8.0, 8.0, 5.0, 5.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 9830.4
+Found a feasible chromosome
+ [0.57, 0.07, 0.12, 0.02, 0.11, 0.51, 0.64, 0.34, 0.21, 0.93, 0.6, 0.98, 0.57, 0.2, 0.29, 8.0, 10.0, 10.0, 10.0, 10.0, 5.0, 20.0, 8.0, 8.0, 8.0, 10.0, 8.0, 5.0, 10.0, 2.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 9579.48
+Found a feasible chromosome
+ [0.15, 0.01, 0.9, 0.4, 0.78, 0.23, 0.47, 0.33, 0.27, 0.63, 0.45, 0.41, 0.82, 0.61, 0.2, 8.0, 20.0, 8.0, 10.0, 2.0, 20.0, 8.0, 5.0, 5.0, 8.0, 8.0, 5.0, 5.0, 2.0, 8.0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] 
+with objective value 9282.71
+Generating solutions aborted since we found enough feasible solutions
+Found 6 feasible solutions
+Starting new set of iterations
+
+A4 75 8316.58 => 9282.71
+Written solution
+A4 75 9282.71 => 9208.299999999997
+Written solution
+A4 75 9208.3 => 9208.299999999997
+Written solution
+A4 75 9208.3 => 9208.299999999997
+Written solution
+A4 75 9208.3 => 9208.299999999997
+Written solution
+A4 75 9208.3 => 9185.919999999998
+Written solution
+A4 75 9185.92 => 9185.919999999998
+Written solution
+A4 75 9185.92 => 9185.919999999998
+Written solution
+A4 75 9185.92 => 8683.05
+Written solution
+A4 75 8683.05 => 8683.05
+Written solution
+A4 75 8683.05 => 8647.49
+Written solution
+A4 75 8647.49 => 8617.9
+Written solution
+A4 75 8617.9 => 8540.84
+Written solution
+A4 75 8540.84 => 8540.84
+Written solution
+A4 75 8540.84 => 8530.62
+Written solution
+A4 75 8530.62 => 8436.26
+Written solution
+A4 75 8436.26 => 8425.68
+Written solution
+A4 75 8425.68 => 8356.07
+Written solution
+A4 75 8356.07 => 8339.4
+Written solution
+A4 75 8339.4 => 8324.409999999998
+Written solution
+A4 75 8324.41 => 8324.409999999998
+Written solution
+A4 75 8324.41 => 8301.789999999999
+Written solution
+A4 75 8301.79 => 8282.969999999998
+Written solution
+A4 75 8282.97 => 8282.969999999998
+Written solution
+A4 75 8282.97 => 8282.969999999998
+Written solution
+A4 75 8282.97 => 8282.969999999998
+Written solution
+A4 75 8282.97 => 8282.969999999998
+Written solution
+A4 75 8282.97 => 8282.86
+Written solution
+A4 75 8282.86 => 8252.19
+Written solution
+A4 75 8252.19 => 8218.43
+Written solution
+A4 75 8218.43 => 8217.73
+Written solution
+A4 75 8217.73 => 8202.46
+Written solution
+A4 75 8202.46 => 8188.72
+Written solution
+A4 75 8188.72 => 8188.72
+Written solution
+A4 75 8188.72 => 8188.72
+Written solution
+A4 75 8188.72 => 8169.85
+Written solution
+A4 75 8169.85 => 8169.85
+Written solution
+A4 75 8169.85 => 8169.85
+Written solution
+A4 75 8169.85 => 8169.85
+Written solution
+A4 75 8169.85 => 8169.85
+Written solution
+A4 75 8169.85 => 8169.85
+Written solution
+A4 75 8169.85 => 8144.02
+Written solution
+A4 75 8144.02 => 8144.02
+Written solution
+A4 75 8144.02 => 8144.02
+Written solution
+A4 75 8144.02 => 8135.860000000001
+Written solution
+A4 75 8135.86 => 8116.61
+Written solution
+A4 75 8116.61 => 8116.61
+Written solution
+A4 75 8116.61 => 8116.61
+Written solution
+A4 75 8116.61 => 8116.61
+Written solution
+A4 75 8116.61 => 8116.61
+Written solution
+A4 75 8116.61 => 8116.61
+Written solution
+A4 75 8116.61 => 8116.61
+Written solution
+A4 75 8116.61 => 8116.61
+Written solution
+A4 75 8116.61 => 8116.61
+Written solution
+A4 75 8116.61 => 8115.010000000001
+Written solution
+A4 75 8115.01 => 8102.2300000000005
+Written solution
+A4 75 8102.23 => 8102.2300000000005
+Written solution
+A4 75 8102.23 => 8098.95
+Written solution
+A4 75 8098.95 => 8098.95
+Written solution
+A4 75 8098.95 => 8098.95
+Written solution
+A4 75 8098.95 => 8091.28
+Written solution
+A4 75 8091.28 => 8091.28
+Written solution
+A4 75 8091.28 => 8091.28
+Written solution
+A4 75 8091.28 => 8075.549999999999
+Written solution
+A4 75 8075.55 => 8057.359999999999
+Written solution
+A4 75 8057.36 => 8057.359999999999
+Written solution
+A4 75 8057.36 => 8057.359999999999
+Written solution
+A4 75 8057.36 => 8055.5
+Written solution
+A4 75 8055.5 => 8055.5
+Written solution
+A4 75 8055.5 => 8055.5
+Written solution
+A4 75 8055.5 => 8055.42
+Written solution
+A4 75 8055.42 => 8055.42
+Written solution
+A4 75 8055.42 => 8051.26
+Written solution
+A4 75 8051.26 => 8049.450000000001
+Written solution
+A4 75 8049.45 => 8049.450000000001
+Written solution
+A4 75 8049.45 => 8049.450000000001
+Written solution
+A4 75 8049.45 => 8044.290000000001
+Written solution
+A4 75 8044.29 => 8038.960000000001
+Written solution
+A4 75 8038.96 => 8038.960000000001
+Written solution
+A4 75 8038.96 => 8016.850000000001
+Written solution
+A4 75 8016.85 => 8016.850000000001
+Written solution
+A4 75 8016.85 => 8016.850000000001
+Written solution
+A4 75 8016.85 => 8016.850000000001
+Written solution
+A4 75 8016.85 => 7985.510000000001
+Written solution
+A4 75 7985.51 => 7985.510000000001
+Written solution
+A4 75 7985.51 => 7978.910000000002
+Written solution
+A4 75 7978.91 => 7978.910000000002
+Written solution
+A4 75 7978.91 => 7978.910000000002
+Written solution
+A4 75 7978.91 => 7978.910000000002
+Written solution
+A4 75 7978.91 => 7958.230000000001
+Written solution
+A4 75 7958.23 => 7925.950000000001
+Written solution
+A4 75 7925.95 => 7925.950000000001
+Written solution
+A4 75 7925.95 => 7925.950000000001
+Written solution
+A4 75 7925.95 => 7919.910000000001
+Written solution
+A4 75 7919.91 => 7919.910000000001
+Written solution
+A4 75 7919.91 => 7919.910000000001
+Written solution
+A4 75 7919.91 => 7908.64
+Written solution
+A4 75 7908.64 => 7908.64
+Written solution
+A4 75 7908.64 => 7908.64
+Written solution
+A4 75 7908.64 => 7908.64
+Written solution
+A4 75 7908.64 => 7908.64
+Written solution
+A4 75 7908.64 => 7908.64
+Written solution
+A4 75 7908.64 => 7902.040000000001
+Written solution
+A4 75 7902.04 => 7902.040000000001
+Written solution
+A4 75 7902.04 => 7902.040000000001
+Written solution
+A4 75 7902.04 => 7902.040000000001
+Written solution
+A4 75 7902.04 => 7902.040000000001
+Written solution
+A4 75 7902.04 => 7902.040000000001
+Written solution
+A4 75 7902.04 => 7881.360000000001
+Written solution
+A4 75 7881.36 => 7881.360000000001
+Written solution
+A4 75 7881.36 => 7881.360000000001
+Written solution
+A4 75 7881.36 => 7881.360000000001
+Written solution
+A4 75 7881.36 => 7881.360000000001
+Written solution
+A4 75 7881.36 => 7881.360000000001
+Written solution
+A4 75 7881.36 => 7881.360000000001
+Written solution
+A4 75 7881.36 => 7881.360000000001
+Written solution
+A4 75 7881.36 => 7881.360000000001
+Written solution
+A4 75 7881.36 => 7881.360000000001
+Written solution
+A4 75 7881.36 => 7872.89
+Written solution
+A4 75 7872.89 => 7872.89
+Written solution
+A4 75 7872.89 => 7872.89
+Written solution
+A4 75 7872.89 => 7868.8
+Written solution
+A4 75 7868.8 => 7868.8
+Written solution
+A4 75 7868.8 => 7868.8
+Written solution
+A4 75 7868.8 => 7868.8
+Written solution
+A4 75 7868.8 => 7868.8
+Written solution
+A4 75 7868.8 => 7868.8
+Written solution
+A4 75 7868.8 => 7866.1
+Written solution
+A4 75 7866.1 => 7866.1
+Written solution
+A4 75 7866.1 => 7866.1
+Written solution
+A4 75 7866.1 => 7866.1
+Written solution
+A4 75 7866.1 => 7866.1
+Written solution
+A4 75 7866.1 => 7866.1
+Written solution
+A4 75 7866.1 => 7864.32
+Written solution
+A4 75 7864.32 => 7864.32
+Written solution
+A4 75 7864.32 => 7864.32
+Written solution
+A4 75 7864.32 => 7864.32
+Written solution
+A4 75 7864.32 => 7861.67
+Written solution
+A4 75 7861.67 => 7859.81
+Written solution
+A4 75 7859.81 => 7858.97
+Written solution
+A4 75 7858.97 => 7858.97
+Written solution
+A4 75 7858.97 => 7858.97
+Written solution
+A4 75 7858.97 => 7824.44
+Written solution
+A4 75 7824.44 => 7824.44
+Written solution
+A4 75 7824.44 => 7824.44
+Written solution
+A4 75 7824.44 => 7824.44
+Written solution
+A4 75 7824.44 => 7824.44
+Written solution
+A4 75 7824.44 => 7824.44
+Written solution
+A4 75 7824.44 => 7824.44
+Written solution
+A4 75 7824.44 => 7824.44
+Written solution
+A4 75 7824.44 => 7824.44
+Written solution
+A4 75 7824.44 => 7824.44
+Written solution
+A4 75 7824.44 => 7824.44
+Written solution
+A4 75 7824.44 => 7821.909999999999
+Written solution
+A4 75 7821.91 => 7821.909999999999
+Written solution
+A4 75 7821.91 => 7821.909999999999
+Written solution
+A4 75 7821.91 => 7821.909999999999
+Written solution
+A4 75 7821.91 => 7819.17
+Written solution
+A4 75 7819.17 => 7819.17
+Written solution
+A4 75 7819.17 => 7819.17
+Written solution
+A4 75 7819.17 => 7819.17
+Written solution
+A4 75 7819.17 => 7819.17
+Written solution
+A4 75 7819.17 => 7819.17
+Written solution
+A4 75 7819.17 => 7819.17
+Written solution
+A4 75 7819.17 => 7816.639999999999
+Written solution
+A4 75 7816.64 => 7816.639999999999
+Written solution
+A4 75 7816.64 => 7816.639999999999
+Written solution
+A4 75 7816.64 => 7816.199999999999
+Written solution
+A4 75 7816.2 => 7814.109999999999
+Written solution
+A4 75 7814.11 => 7814.109999999999
+Written solution
+A4 75 7814.11 => 7814.109999999999
+Written solution
+A4 75 7814.11 => 7814.109999999999
+Written solution
+A4 75 7814.11 => 7814.109999999999
+Written solution
+A4 75 7814.11 => 7814.109999999999
+Written solution
+A4 75 7814.11 => 7814.109999999999
+Written solution
+A4 75 7814.11 => 7812.779999999999
+Written solution
+A4 75 7812.78 => 7812.779999999999
+Written solution
+A4 75 7812.78 => 7807.23
+Written solution
+A4 75 7807.23 => 7805.9
+Written solution
+A4 75 7805.9 => 7805.9
+Written solution
+A4 75 7805.9 => 7805.9
+Written solution
+A4 75 7805.9 => 7796.299999999999
+Written solution
+A4 75 7796.3 => 7796.299999999999
+Written solution
+A4 75 7796.3 => 7796.299999999999
+Written solution
+A4 75 7796.3 => 7796.299999999999
+Written solution
+A4 75 7796.3 => 7796.299999999999
+Written solution
+A4 75 7796.3 => 7796.299999999999
+Written solution
+A4 75 7796.3 => 7796.299999999999
+Written solution
+A4 75 7796.3 => 7796.299999999999
+Written solution
+A4 75 7796.3 => 7792.43
+Written solution
+A4 75 7792.43 => 7792.43
+Written solution
+A4 75 7792.43 => 7792.43
+Written solution
+A4 75 7792.43 => 7792.43
+Written solution
+A4 75 7792.43 => 7792.43
+Written solution
+A4 75 7792.43 => 7792.43
+Written solution
+A4 75 7792.43 => 7792.43
+Written solution
+A4 75 7792.43 => 7792.43
+Written solution
+A4 75 7792.43 => 7792.43
+Written solution
+A4 75 7792.43 => 7792.43
+Written solution
+A4 75 7792.43 => 7792.43
+Written solution
+A4 75 7792.43 => 7792.43
+Written solution
+A4 75 7792.43 => 7792.43
+Written solution
+A4 75 7792.43 => 7792.43
+Written solution
+A4 75 7792.43 => 7792.43
+Written solution
+A4 75 7792.43 => 7792.43
+Written solution
+A4 75 7792.43 => 7792.43
+Written solution
+A4 75 7792.43 => 7792.43
+Written solution
+A4 75 7792.43 => 7792.43
+Written solution
+A4 75 7792.43 => 7792.43
+Written solution
+A4 75 7792.43 => 7792.43
+Written solution
+A4 75 7792.43 => 7792.43
+Written solution
+A4 75 7792.43 => 7792.43
+Written solution
+A4 75 7792.43 => 7792.43
+Written solution
+A4 75 7792.43 => 7790.54
+Written solution
+A4 75 7790.54 => 7790.54
+Written solution
+A4 75 7790.54 => 7790.54
+Written solution
+A4 75 7790.54 => 7790.54
+Written solution
+A4 75 7790.54 => 7790.54
+Written solution
+A4 75 7790.54 => 7790.54
+Written solution
+A4 75 7790.54 => 7790.54
+Written solution
+A4 75 7790.54 => 7790.54
+Written solution
+A4 75 7790.54 => 7790.54
+Written solution
+A4 75 7790.54 => 7790.54
+Written solution
+A4 75 7790.54 => 7790.54
+Written solution
+A4 75 7790.54 => 7790.54
+Written solution
+A4 75 7790.54 => 7787.799999999999
+Written solution
+A4 75 7787.8 => 7787.799999999999
+Written solution
+A4 75 7787.8 => 7787.799999999999
+Written solution
+A4 75 7787.8 => 7787.799999999999
+Written solution
+A4 75 7787.8 => 7787.799999999999
+Written solution
+A4 75 7787.8 => 7787.799999999999
+Written solution
+A4 75 7787.8 => 7787.799999999999
+Written solution
+A4 75 7787.8 => 7787.799999999999
+Written solution
+A4 75 7787.8 => 7787.77
+Written solution
+A4 75 7787.77 => 7787.77
+Written solution
+A4 75 7787.77 => 7787.77
+Written solution
+A4 75 7787.77 => 7787.77
+Written solution
+A4 75 7787.77 => 7787.77
+Written solution
+A4 75 7787.77 => 7782.699999999999
+Written solution
+A4 75 7782.7 => 7782.699999999999
+Written solution
+A4 75 7782.7 => 7782.699999999999
+Written solution
+A4 75 7782.7 => 7782.699999999999
+Written solution
+A4 75 7782.7 => 7782.699999999999
+Written solution
+A4 75 7782.7 => 7782.52
+Written solution
+A4 75 7782.52 => 7782.52
+Written solution
+A4 75 7782.52 => 7782.52
+Written solution
+A4 75 7782.52 => 7782.52
+Written solution
+A4 75 7782.52 => 7782.52
+Written solution
+A4 75 7782.52 => 7782.52
+Written solution
+A4 75 7782.52 => 7782.52
+Written solution
+
+At least one feasible solution was found with objective value 7782.52
+Starting new set of iterations
+
+A4 75 7782.52 => 7782.52
+Written solution
+A4 75 7782.52 => 7782.52
+Written solution
+A4 75 7782.52 => 7782.52
+Written solution
+A4 75 7782.52 => 7782.52
+Written solution
+A4 75 7782.52 => 7782.52
+Written solution
+A4 75 7782.52 => 7782.52
+Written solution
+A4 75 7782.52 => 7782.52
+Written solution
+A4 75 7782.52 => 7782.52
+Written solution
+A4 75 7782.52 => 7782.52
+Written solution
+A4 75 7782.52 => 7782.52
+Written solution
+A4 75 7782.52 => 7782.52
+Written solution
+A4 75 7782.52 => 7782.52
+Written solution
+A4 75 7782.52 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.129999999999
+Written solution
+A4 75 7781.13 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7781.0
+Written solution
+A4 75 7781.0 => 7751.919999999999
+Written solution
+A4 75 7751.92 => 7751.919999999999
+Written solution
+A4 75 7751.92 => 7751.919999999999
+Written solution
+A4 75 7751.92 => 7751.919999999999
+Written solution
+A4 75 7751.92 => 7751.919999999999
+Written solution
+A4 75 7751.92 => 7751.919999999999
+Written solution
+A4 75 7751.92 => 7751.719999999999
+Written solution
+A4 75 7751.72 => 7751.719999999999
+Written solution
+A4 75 7751.72 => 7751.719999999999
+Written solution
+A4 75 7751.72 => 7751.719999999999
+Written solution
+A4 75 7751.72 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+
+Objective value improved by 32.11 (- 0.41 %), now given by 7750.41
+Starting new set of iterations
+
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+A4 75 7750.41 => 7750.409999999999
+Written solution
+
+Objective value did not improve
+
+A feasible solution was found
+Optimal chromosome: [0.55, 0.16, 0.16, 0.36, 0.34, 0.55, 0.64, 0.66, 0.28, 0.5, 0.74, 0.7, 0.55, 0.18, 0.5, 10.0, 10.0, 5.0, 10.0, 11.0, 7.0, 20.0, 14.0, 7.0, 8.0, 17.0, 8.0, 5.0, 2.0, 2.0, 3, 3, 4, 2, 3, 9, 3, 5, 3, 6, 4, 3, 2, 3, 5]
+Total distance: 7750.41
+PA layout: [(0, 0, 10, 3), (40, 0, 5, 4), (60, 0, 2, 3), (68, 0, 7, 3), (96, 0, 11, 3), (68, 51.64, 10, 2), (108, 51.64, 8, 6), (140, 0, 2, 5), (0, 74.0, 10, 3), (0, 144.0, 7, 9), (148, 0, 5, 2), (28, 194.0, 20, 3), (108, 225.14, 14, 5), (68, 146.64, 8, 3), (28, 261.5, 17, 4)]
+Total runtime: 62355.58885000001 s
+Average iteration time: 83.14078513333334 s
+Average number of feasible solutions every iteration: 8.781333333333333
+A4 75 7750.41 => 7750.409999999999
+Written solution
+Saved diagnostics
+
+
+###############################################################################
+Peregrine Cluster
+Job 25229657 for user 'f118637'
+Finished at: Mon Jul 18 20:25:59 CEST 2022
+
+Job details:
+============
+
+Job ID              : 25223297_75
+Name                : job_array
+User                : f118637
+Partition           : regular
+Nodes               : pg-node113
+Number of Nodes     : 1
+Cores               : 1
+Number of Tasks     : 1
+State               : COMPLETED
+Submit              : 2022-07-17T12:14:50
+Start               : 2022-07-18T02:47:48
+End                 : 2022-07-18T20:25:59
+Reserved walltime   : 20:00:00
+Used walltime       : 17:38:11
+Used CPU time       : 17:33:22 (efficiency: 99.54%)
+% User (Computation): 99.99%
+% System (I/O)      :  0.01%
+Mem reserved        : 5000M
+Max Mem (Node/step) : 47.43M (pg-node113, per node)
+Full Max Mem usage  : 47.43M
+Total Disk Read     : 13.93M
+Total Disk Write    : 2.95M
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

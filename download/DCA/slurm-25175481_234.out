@@ -1,0 +1,60 @@
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib64/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "./program.zip/__main__.py", line 27, in <module>
+  File "./program.zip/classes/genetic_algorithm.py", line 83, in run
+  File "./program.zip/classes/genetic_algorithm.py", line 66, in instantiate
+  File "./program.zip/functions/data_handling.py", line 159, in read_instance
+OSError: [Errno 5] Input/output error: '/home/f118637/DCA/input/inst234.csv'
+
+
+Running instance 234
+
+
+###############################################################################
+Peregrine Cluster
+Job 25185588 for user 'f118637'
+Finished at: Thu Jul 14 20:59:53 CEST 2022
+
+Job details:
+============
+
+Job ID              : 25175481_234
+Name                : job_array
+User                : f118637
+Partition           : regular
+Nodes               : pg-node179
+Number of Nodes     : 1
+Cores               : 1
+Number of Tasks     : 1
+State               : FAILED
+Submit              : 2022-07-14T11:27:46
+Start               : 2022-07-14T20:50:35
+End                 : 2022-07-14T20:59:53
+Reserved walltime   : 12:00:00
+Used walltime       : 00:09:18
+Used CPU time       : 00:00:03 (efficiency:  0.62%)
+% User (Computation): 75.04%
+% System (I/O)      : 24.96%
+Mem reserved        : 5000M
+Max Mem (Node/step) : 49.66M (pg-node179, per node)
+Full Max Mem usage  : 49.66M
+Total Disk Read     : 13.93M
+Total Disk Write    : 2.95M
+Hints and tips      :
+ 1) The program efficiency is low.
+    Check the file in- and output pattern of your application.
+ *) For more information on these issues see:
+    https://wiki.hpc.rug.nl/peregrine/additional_information/job_hints
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

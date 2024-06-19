@@ -1,0 +1,44 @@
+Error: [Errno 108] Cannot send after transport endpoint shutdown: '/data/f118637/.envs/environment/bin/activate'
+slurmstepd: error: *** JOB 25272721 ON pg-node167 CANCELLED AT 2022-07-20T11:18:51 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Peregrine Cluster
+Job 25272721 for user 'f118637'
+Finished at: Wed Jul 20 11:19:00 CEST 2022
+
+Job details:
+============
+
+Job ID              : 25223297_431
+Name                : job_array
+User                : f118637
+Partition           : regular
+Nodes               : pg-node167
+Number of Nodes     : 1
+Cores               : 1
+Number of Tasks     : 1
+State               : TIMEOUT,CANCELLED
+Submit              : 2022-07-17T12:14:50
+Start               : 2022-07-19T15:18:49
+End                 : 2022-07-20T11:18:59
+Reserved walltime   : 20:00:00
+Used walltime       : 20:00:10
+Used CPU time       : 19:49:19 (efficiency: 99.10%)
+% User (Computation): 99.96%
+% System (I/O)      :  0.04%
+Mem reserved        : 5000M
+Max Mem (Node/step) : 63.59M (pg-node167, per node)
+Full Max Mem usage  : 63.59M
+Total Disk Read     : 13.93M
+Total Disk Write    : 2.94M
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

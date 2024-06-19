@@ -1,0 +1,1 @@
+Error: [Errno 108] Cannot send after transport endpoint shutdown: '/data/f118637/.envs/environment/bin/activate'
